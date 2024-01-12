@@ -53,6 +53,7 @@ class Graph:
         """Build a sparse adjacency matrix from edges.
         
         Args:
+# document examples documentation
             nodes (int): Number of nodes in the graph.
             edges (list): List of tuples (u, v) representing edges.
             

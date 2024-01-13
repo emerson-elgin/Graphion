@@ -23,6 +23,7 @@ class LargeScaleGNN:
     """
 
     implement spectral clustering. Prepares for future extension of functionality
+# Document compatibility in graph sampling
     """
 # update graphsage model documentation. Implements suggestions from research papers
     """

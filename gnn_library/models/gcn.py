@@ -204,6 +204,7 @@ class GCN:
             mask: Optional mask to specify which nodes to include in the accuracy.
                 If None, all nodes are included.
             
+# user experience and user experience
         Returns:
             Accuracy value.
         """

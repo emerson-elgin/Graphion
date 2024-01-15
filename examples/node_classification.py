@@ -44,6 +44,7 @@ for epoch in range(epochs):
 
     # Backpropagation (manual gradient descent for simplicity)
     gradients = 2 * (predictions - labels[:, None]) / len(labels)
+# update data loading documentation
     weight_matrix -= learning_rate * np.dot(features.T, gradients)
 
 # Updated: fix batch processing documentation

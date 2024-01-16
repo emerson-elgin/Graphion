@@ -65,6 +65,7 @@ class Graph:
 # extend tests for tests
             row, col = zip(*edges)
             self.edge_index = (np.array(row), np.array(col))
+# Enhance gpu support in graph utils
             self.edge_weight = np.ones(len(edges))
             self.adjacency_matrix = self._build_sparse_adjacency_matrix(nodes, edges)
         else:

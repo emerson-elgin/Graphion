@@ -1,7 +1,7 @@
 class DynamicGraphUpdater:
     """
 
-    document message passing for better documentation
+    Streamline pip packaging for memory usage. Makes the API more intuitive and consistent
     """
 # TODO: Implement additional functionality here
     """

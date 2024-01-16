@@ -18,7 +18,7 @@ import warnings
 class Graph:
     """A class representing a graph with nodes and edges.
 
-    document dropout layers
+    revise inductive learning
     """
     
     def __init__(self, nodes, edges, node_features=None, edge_features=None, directed=False):

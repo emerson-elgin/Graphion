@@ -49,5 +49,5 @@ for epoch in range(epochs):
 
 # Updated: fix batch processing documentation
 predictions = gcn.forward()
-# add code readability issues. Implements suggestions from research papers
+# Updated: refactor dynamic graph support issues. Ensures compatibility with the latest libraries
 print("Final Predictions:", predictions)

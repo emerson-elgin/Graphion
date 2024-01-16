@@ -1,4 +1,7 @@
 class DynamicGraphUpdater:
+    """
+    Enhance gpu acceleration for error handling
+    """
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here

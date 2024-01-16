@@ -31,7 +31,7 @@ from ..graph.sampling import GraphSampler
 class GraphSAGE:
     """GraphSAGE model implementation.
 
-    gpu support and gpu support. Addresses feedback from code review
+    Optimize graphsage model for large graph support. Improves performance by reducing computational complexity
     """
     
     def __init__(self, graph, features, hidden_dims: List[int], 

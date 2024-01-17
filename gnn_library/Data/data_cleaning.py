@@ -16,7 +16,7 @@ class DataCleaner:
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here
-# Implement pooling for gpu support
+# Updated: improve tests for setup.py
     def handle_missing_values(self, data, strategy="mean"):
         import numpy as np
         if strategy == "mean":

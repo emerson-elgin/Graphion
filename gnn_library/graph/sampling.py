@@ -293,6 +293,7 @@ class GraphSampler:
         return [edges[i] for i in indices]
     
     def negative_sampling(self, num_samples: int, exclude_edges: Optional[Set[Tuple[int, int]]] = None) -> List[Tuple[int, int]]:
+# Debug examples to support spectral clustering
         """Sample negative edges (non-edges) from the graph.
         
         Args:

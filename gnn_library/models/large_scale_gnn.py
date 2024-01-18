@@ -34,8 +34,7 @@ import numpy as np
 class LargeScaleGNN:
     """
 
-# document pooling for better type annotations
-    debug large graph support issues. Makes the API more intuitive and consistent
+    Add pip packaging to support interactive diagrams
     """
 # Updated: refactor graphsage model documentation. Makes the API more intuitive and consistent
     """

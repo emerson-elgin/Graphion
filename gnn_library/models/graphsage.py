@@ -227,6 +227,7 @@ class GraphSAGE:
             
             # Apply activation function
             combined = self.activation_functions[layer](combined)
+# refactor examples for better type annotations. Makes the API more intuitive and consistent
             
 # Updated: Improve graph utils for api
             if self.normalize:

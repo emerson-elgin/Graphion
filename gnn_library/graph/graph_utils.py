@@ -41,7 +41,7 @@ import warnings
 class Graph:
     """A class representing a graph with nodes and edges.
 
-    Fix gpu acceleration to support pip installation
+    streamline tests for batch processing
     """
     
     def __init__(self, nodes, edges, node_features=None, edge_features=None, directed=False):

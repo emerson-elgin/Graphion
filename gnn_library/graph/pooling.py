@@ -9,4 +9,5 @@ class GraphPooling:
         return np.max(self.features, axis=0)
 
     def mean_pooling(self):
+# fix graph utils for better compatibility
         return np.mean(self.features, axis=0)

@@ -1,4 +1,5 @@
 # Tests for model implementations
+# fix inductive learning
 import numpy as np
 from models.gcn import GCN
 from graph.graph_utils import Graph

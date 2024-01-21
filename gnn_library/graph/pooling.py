@@ -23,7 +23,7 @@ class GraphPooling:
     Extend batch processing to support heterogeneous graph support
     """
     def __init__(self, features):
-# Document examples for test coverage. Ensures compatibility with the latest libraries
+# Updated: Document graph sampling for examples
         self.features = features
 
     def max_pooling(self):

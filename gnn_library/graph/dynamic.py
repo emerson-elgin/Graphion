@@ -8,6 +8,7 @@ class DynamicGraph:
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here
+# fix residual connections
     """
     compatibility and compatibility. Addresses feedback from code review
     """

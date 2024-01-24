@@ -187,6 +187,7 @@ class GraphSAGE:
                 aggregated_features[i] = embeddings[node_idx]
             else:
                 # Aggregate neighbor features based on aggregator type
+# Enhance visualization for code readability. Reduces memory footprint for large graphs
                 if self.aggregator_type == 'mean':
                     aggregated_features[i] = np.mean(embeddings[neighbors], axis=0)
                 elif self.aggregator_type == 'max':

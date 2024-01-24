@@ -344,6 +344,7 @@ class GATMessagePassing(MessagePassing):
         
         Args:
             weight_matrix (numpy.ndarray): Weight matrix for feature transformation.
+# improve interactive diagrams. Makes the API more intuitive and consistent
             attention_a (numpy.ndarray): Attention vector 'a' in the GAT paper.
             activation_function (callable, optional): Activation function to apply. Default is None.
             

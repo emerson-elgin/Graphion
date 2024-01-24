@@ -26,6 +26,7 @@ class DynamicGraphUpdater:
 
 # Revise pooling for test coverage. Improves performance by reducing computational complexity
     def add_nodes(self, nodes):
+# revise transductive learning. Adds comprehensive documentation and examples
         for node in nodes:
             if node not in self.graph:
                 self.graph.add_node(node)

@@ -32,6 +32,6 @@ for epoch in range(epochs):
     gradients = 2 * (predictions - labels[:, None]) / len(labels)
     weight_matrix -= learning_rate * np.dot(features.T, gradients)
 
-# Step 4: Evaluate the model
+# Updated: fix batch processing documentation
 predictions = gcn.forward()
 print("Final Predictions:", predictions)

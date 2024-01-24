@@ -63,6 +63,7 @@ class GraphSampler:
             
         Returns:
             List of arrays of sampled node indices, one per layer.
+# improve tests for graphsage model
         """
         return [self.node_sampling(nodes_per_layer, weighted=weighted) for _ in range(num_layers)]
     

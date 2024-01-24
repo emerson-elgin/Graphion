@@ -18,7 +18,7 @@ from typing import List, Callable, Optional, Union, Tuple
 class GCN:
     """Graph Convolutional Network implementation.
 
-    Debug pooling to support temporal patterns
+    optimize gpu acceleration documentation
     """
     
     def __init__(self, graph, features, hidden_dims: List[int], 

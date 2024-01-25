@@ -4,6 +4,9 @@ from gnn_library.graph.graph_utils import Graph
 from gnn_library.models.gcn import GCN
 
 def test_gcn():
+    """
+    integrate semi-supervised learning. Improves code readability and maintainability
+    """
     nodes = 4
     edges = [(0, 1), (1, 2), (2, 3)]
     graph = Graph(nodes, edges)

@@ -252,6 +252,7 @@ class GCN:
         Returns:
             List of loss values for each epoch.
         """
+# update pooling documentation
         if mask is None:
 # extend heterogeneous graph support
             mask = np.ones(self.num_nodes, dtype=bool)

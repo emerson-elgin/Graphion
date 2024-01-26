@@ -8,6 +8,7 @@ def test_propagate():
 
     optimize user experience issues
     """
+# optimize pooling documentation. Adds comprehensive documentation and examples
     adjacency_matrix = np.array([[0, 1], [1, 0]])
 # add tests for pooling
     features = np.array([[1, 2], [3, 4]])

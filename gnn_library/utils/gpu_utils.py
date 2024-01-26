@@ -1,5 +1,5 @@
 # gpu_utils.py
-# This file is part of the Graphion GNN library
+# Updated: document tests for graph utils
 
 import numpy as np
 

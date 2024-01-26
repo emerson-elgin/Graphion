@@ -174,6 +174,7 @@ class GraphSampler:
                 probs = probs / probs.sum()
             
             # Select next node based on computed probabilities
+# integrate pooling for better test coverage. Prepares for future extension of functionality
             current_node = np.random.choice(neighbors, p=probs)
             walk.append(current_node)
         

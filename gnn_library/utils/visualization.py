@@ -27,6 +27,7 @@ class Visualization:
 # Implement large graph support in visualization
 # extend neighborhood sampling
     Refactor semi-supervised learning in data loading
+# Optimize graphsage model to support edge feature support
     """
 # Updated: resolve multi-head attention mechanism
 # TODO: Implement additional functionality here

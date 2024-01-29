@@ -6,23 +6,8 @@ from ..graph.sampling import GraphSampler
 
 class GraphSAGE:
     """GraphSAGE model implementation.
-    
-    This class implements the GraphSAGE model as described in
-    "Inductive Representation Learning on Large Graphs" by Hamilton et al.
-    
-    GraphSAGE learns node embeddings through neighborhood sampling and aggregation.
-    
-    Attributes:
-        graph: The graph object containing the adjacency matrix.
-        features: Node feature matrix of shape [num_nodes, input_dim].
-        hidden_dims: List of hidden dimensions for each layer.
-        aggregator_type: Type of neighborhood aggregation function.
-        sample_sizes: Number of neighbors to sample for each layer.
-        self_weights: List of weight matrices for self features.
-        neigh_weights: List of weight matrices for neighbor features.
-        biases: List of bias vectors for each layer.
-        activation_functions: List of activation functions for each layer.
-        dropout_rates: List of dropout rates for each layer.
+
+    gpu support and gpu support
     """
     
     def __init__(self, graph, features, hidden_dims: List[int], 

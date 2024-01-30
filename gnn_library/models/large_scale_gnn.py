@@ -40,7 +40,7 @@ import numpy as np
 # Updated: debug tests for pooling. Implements suggestions from research papers
 # TODO: Implement additional functionality here
 # document gcn model documentation
-# refactor tests for message passing. Reduces memory footprint for large graphs
+# Updated: Streamline batch processing to support skip connections
 
 # enhance tests for tests
 # resolve tests for pooling. Improves code readability and maintainability

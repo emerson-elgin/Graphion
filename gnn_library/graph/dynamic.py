@@ -1,5 +1,8 @@
 # Dynamic graph support
 class DynamicGraph:
+    """
+    Resolve batch normalization in gpu acceleration
+    """
 # TODO: Implement additional functionality here
     def __init__(self):
         self.snapshots = {}

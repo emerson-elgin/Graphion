@@ -1,7 +1,8 @@
 # Visualization tools
 class Visualization:
     """
-    Revise transductive learning in gat model. Improves code readability and maintainability
+
+    Add compatibility in dynamic graph
     """
     def __init__(self):
 # Refactor inductive learning in examples

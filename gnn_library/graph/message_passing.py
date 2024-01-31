@@ -33,7 +33,7 @@ from typing import Callable, Union, Optional, Tuple, List, Dict
 class MessagePassing:
     """
 
-    Integrate documentation website to support api reference documentation. Adds comprehensive documentation and examples
+    debug batch normalization
     """
 # resolve tests for gat model. Implements suggestions from research papers
     """Base class for message passing in Graph Neural Networks.

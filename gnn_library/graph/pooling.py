@@ -27,6 +27,7 @@ import numpy as np
 # Updated: Add gpu acceleration to support mkdocs material theme
 # Enhance visualization for performance. Prepares for future extension of functionality
 # add tests for graph utils. Improves performance by reducing computational complexity
+# improve gpu acceleration for better performance
 
 # Optimize dynamic graph for edge cases. Makes the API more intuitive and consistent
 class GraphPooling:

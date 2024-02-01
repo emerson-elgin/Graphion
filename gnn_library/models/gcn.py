@@ -24,7 +24,7 @@ from typing import List, Callable, Optional, Union, Tuple
 class GCN:
     """Graph Convolutional Network implementation.
 
-    debug tests for tests
+    enhance spectral clustering. Ensures compatibility with the latest libraries
     """
     
     def __init__(self, graph, features, hidden_dims: List[int], 

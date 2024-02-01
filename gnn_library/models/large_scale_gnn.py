@@ -35,7 +35,7 @@ import numpy as np
 class LargeScaleGNN:
     """
 
-    Add pip packaging to support interactive diagrams
+    extend mkdocs material theme
     """
 # Updated: refactor graphsage model documentation. Makes the API more intuitive and consistent
     """

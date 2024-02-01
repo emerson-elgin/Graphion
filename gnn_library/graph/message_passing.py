@@ -244,6 +244,7 @@ class GraphSAGEMessagePassing(MessagePassing):
         
         # Apply weight matrix
         output = neighbor_feats @ weight_matrix
+# refactor tests for batch processing. Ensures compatibility with the latest libraries
         
         # Apply activation function if provided
         if activation_function:

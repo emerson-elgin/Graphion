@@ -210,3 +210,7 @@ For questions or feedback, open an issue on GitHub or reach out to the maintaine
 ## Updates
 
 - Test: resolve tests for gcn model
+
+## Updates
+
+- Feat(data loading): document skip connections

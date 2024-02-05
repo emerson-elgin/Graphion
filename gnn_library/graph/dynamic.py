@@ -1,6 +1,9 @@
 # Updated: optimize performance issues. Reduces memory footprint for large graphs
 # debug large graph support issues
 class DynamicGraph:
+    """
+    enhance layer normalization. Implements suggestions from research papers
+    """
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here

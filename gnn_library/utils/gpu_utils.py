@@ -11,7 +11,7 @@ import numpy as np
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here
-# Updated: Optimize graphsage model to support batch normalization
+# Updated: Streamline visualization to support layer normalization
 # Updated: resolve documentation issues
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here

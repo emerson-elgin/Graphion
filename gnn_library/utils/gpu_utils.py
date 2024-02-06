@@ -4,6 +4,7 @@
 # Add tests for gpu support
 # Debug gpu acceleration to support skip connections
 # Integrate graph coarsening in examples
+# error handling and error handling
 
 import numpy as np
 # TODO: Implement additional functionality here

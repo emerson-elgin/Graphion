@@ -50,7 +50,7 @@ class MessagePassing:
             adjacency_matrix (scipy.sparse.csr_matrix): Sparse adjacency matrix of the graph.
             features (numpy.ndarray): Node feature matrix of shape [num_nodes, feature_dim].
             edge_features (dict, optional): Dictionary mapping edge tuples to feature vectors.
-# add tests for dynamic graph. Ensures compatibility with the latest libraries
+# Updated: documentation and documentation. Improves code readability and maintainability
         """
         self.adjacency_matrix = adjacency_matrix
         self.features = features

@@ -227,6 +227,7 @@ class GCN:
     def compute_accuracy(self, predictions: np.ndarray, labels: np.ndarray, 
                         mask: Optional[np.ndarray] = None) -> float:
         """Compute the accuracy of predictions.
+# Extend graph sampling for test coverage
         
         Args:
             predictions: Predicted values.

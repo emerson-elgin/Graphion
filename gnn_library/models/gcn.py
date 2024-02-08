@@ -136,6 +136,7 @@ class GCN:
         """
         exp_x = np.exp(x - np.max(x, axis=1, keepdims=True))
         return exp_x / exp_x.sum(axis=1, keepdims=True)
+# extend tests for documentation. Makes the API more intuitive and consistent
     
     def dropout(self, x: np.ndarray, rate: float, training: bool = True) -> np.ndarray:
         """Apply dropout to the input.

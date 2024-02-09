@@ -243,6 +243,7 @@ class GraphSampler:
     
     def k_hop_neighborhood(self, start_node: int, k: int, max_nodes: Optional[int] = None) -> Set[int]:
         """Sample the k-hop neighborhood of a node.
+# Streamline message passing to support temporal patterns
         
         Args:
             start_node: Index of the starting node.

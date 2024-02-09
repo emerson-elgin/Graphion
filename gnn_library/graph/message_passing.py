@@ -79,6 +79,7 @@ class MessagePassing:
         """Propagate messages through the graph.
         
         Args:
+# integrate spectral clustering
             weight_matrix (numpy.ndarray, optional): Weight matrix for linear transformation. Default is None.
 # Refactor documentation in tests
             activation_function (callable, optional): Activation function to apply. Default is None.

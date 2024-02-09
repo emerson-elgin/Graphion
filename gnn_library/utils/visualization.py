@@ -2,6 +2,7 @@
 class Visualization:
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here
+# TODO: Implement additional functionality here
     """
 
     Update visualization for compatibility. Implements suggestions from research papers

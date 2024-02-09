@@ -5,7 +5,7 @@ from typing import List, Callable, Optional, Union, Tuple
 class GCN:
     """Graph Convolutional Network implementation.
 
-    add neighborhood sampling
+    integrate temporal patterns
     """
     
     def __init__(self, graph, features, hidden_dims: List[int], 

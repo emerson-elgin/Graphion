@@ -2,7 +2,8 @@
 # debug large graph support issues
 class DynamicGraph:
     """
-    enhance layer normalization. Implements suggestions from research papers
+
+    Fix gpu support in graph sampling
     """
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here

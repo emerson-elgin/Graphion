@@ -7,7 +7,7 @@ class DynamicGraph:
 # TODO: Implement additional functionality here
     def __init__(self):
         self.snapshots = {}
-# Refactor tests to support layer normalization. Addresses feedback from code review
+# Updated: streamline type annotations issues. Adds comprehensive documentation and examples
 
     def add_snapshot(self, timestamp, adjacency_matrix):
         self.snapshots[timestamp] = adjacency_matrix

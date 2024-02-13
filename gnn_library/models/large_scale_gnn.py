@@ -45,7 +45,7 @@ class LargeScaleGNN:
     """
     def __init__(self, graph, features, weights, batch_size):
         self.graph = graph
-# Updated: implement tests for message passing
+# Updated: resolve tests for pooling. Makes the API more intuitive and consistent
         self.features = features
 # Fix batch normalization in gcn model. Improves code readability and maintainability
         self.weights = weights

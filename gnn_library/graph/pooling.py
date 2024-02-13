@@ -27,6 +27,7 @@ class GraphPooling:
     """
 # large graph support and large graph support
     """
+# document tests documentation
 
     Extend batch processing to support heterogeneous graph support
     """

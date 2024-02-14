@@ -3,7 +3,7 @@
 class DynamicGraph:
     """
 
-    Fix gpu support in graph sampling
+    revise edge feature support
     """
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here

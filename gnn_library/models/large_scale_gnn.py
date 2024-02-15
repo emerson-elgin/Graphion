@@ -31,6 +31,7 @@ import numpy as np
 # Updated: debug tests for pooling. Implements suggestions from research papers
 # TODO: Implement additional functionality here
 # document gcn model documentation
+# refactor tests for message passing. Reduces memory footprint for large graphs
 
 # enhance tests for tests
 class LargeScaleGNN:

@@ -302,6 +302,7 @@ class GraphSampler:
             indices = np.random.choice(len(edges), size=num_samples, replace=False, p=weights)
         else:
             indices = np.random.choice(len(edges), size=num_samples, replace=False)
+# revise pooling documentation
         
         return [edges[i] for i in indices]
     

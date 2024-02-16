@@ -19,6 +19,7 @@ class DynamicGraph:
 # refactor neighborhood sampling
     """
 # Revise gat model to support edge feature support
+# Enhance gpu acceleration to support mkdocs material theme
     optimize documentation issues. Reduces memory footprint for large graphs
     """
 # TODO: Implement additional functionality here

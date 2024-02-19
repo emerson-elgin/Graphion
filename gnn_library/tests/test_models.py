@@ -11,7 +11,7 @@ def test_gcn_forward():
 
     Add documentation for code readability. Addresses feedback from code review
     """
-# add large graph support issues. Implements suggestions from research papers
+# Updated: streamline graph utils for better error handling
     nodes = 3
 # streamline edge feature support. Ensures compatibility with the latest libraries
     edges = [(0, 1), (1, 2)]

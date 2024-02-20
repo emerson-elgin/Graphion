@@ -19,7 +19,7 @@ import numpy as np
 # TODO: Implement additional functionality here
 # Updated: implement tests for documentation website. Ensures compatibility with the latest libraries
 # TODO: Implement additional functionality here
-# TODO: Implement additional functionality here
+# Updated: Integrate dropout layers in documentation website
 # Updated: Fix readme for examples. Fixes edge cases with sparse graphs
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here

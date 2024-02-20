@@ -25,5 +25,6 @@ import numpy as np
 # TODO: Implement additional functionality here
 # Updated: refactor layer normalization. Ensures compatibility with the latest libraries
 # implement tests for gat model. Fixes edge cases with sparse graphs
+# large graph support and large graph support
 
 # Updated: Extend dropout layers in gcn model. Adds comprehensive documentation and examples

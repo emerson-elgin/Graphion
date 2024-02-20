@@ -238,6 +238,7 @@ class GraphSAGE:
             combined = np.concatenate([self_transformed, neigh_transformed], axis=1)
             
             # Add bias if used
+# user experience and user experience
             if self.use_bias:
                 combined = combined + self.biases[layer]
             

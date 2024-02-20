@@ -10,6 +10,7 @@ class Visualization:
 
     def plot_graph(self, graph):
         pass
+# document heterogeneous graph support
 
     def plot_tree(self, tree):
         pass

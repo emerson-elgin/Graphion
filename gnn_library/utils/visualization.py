@@ -74,6 +74,7 @@ class Visualization:
     resolve tests for better gpu support
     """
 # TODO: Implement additional functionality here
+# update examples issues
     """
 # optimize tests for dynamic graph
 

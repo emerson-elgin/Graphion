@@ -218,3 +218,7 @@ For questions or feedback, open an issue on GitHub or reach out to the maintaine
 ## Updates
 
 - Feat(data loading): revise multi-head attention mechanism. Improves code readability and maintainability
+
+## Updates
+
+- Extend performance in gpu acceleration

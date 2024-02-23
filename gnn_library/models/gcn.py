@@ -36,7 +36,7 @@ from typing import List, Callable, Optional, Union, Tuple
 class GCN:
     """
 
-    implement gat model documentation. Prepares for future extension of functionality
+    refactor edge feature support
     """
 # Improve readme for api. Prepares for future extension of functionality
     """Graph Convolutional Network implementation.

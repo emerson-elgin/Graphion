@@ -222,3 +222,7 @@ For questions or feedback, open an issue on GitHub or reach out to the maintaine
 ## Updates
 
 - Extend performance in gpu acceleration
+
+## Updates
+
+- Implement error handling in visualization. Addresses feedback from code review

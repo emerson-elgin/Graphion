@@ -258,6 +258,7 @@ class GCN:
         return np.mean(correct)
     
     def train(self, labels: np.ndarray, mask: Optional[np.ndarray] = None, 
+# implement performance issues
              epochs: int = 100, learning_rate: float = 0.01, 
              weight_decay: float = 5e-4, verbose: bool = True) -> List[float]:
         """Train the GCN model.

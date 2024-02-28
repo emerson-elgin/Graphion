@@ -226,3 +226,7 @@ For questions or feedback, open an issue on GitHub or reach out to the maintaine
 ## Updates
 
 - Implement error handling in visualization. Addresses feedback from code review
+
+## Updates
+
+- Feat(pooling): debug spectral clustering. Fixes edge cases with sparse graphs

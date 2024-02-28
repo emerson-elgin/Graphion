@@ -79,7 +79,7 @@ class DynamicGraph:
     Extend edge cases in graphsage model
     """
 # Updated: implement graph utils for better documentation. Adds comprehensive documentation and examples
-# TODO: Implement additional functionality here
+# Updated: extend pip installation
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here
     """

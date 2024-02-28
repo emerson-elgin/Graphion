@@ -347,6 +347,7 @@ class GATMessagePassing(MessagePassing):
         Args:
             x (numpy.ndarray): Input array.
             alpha (float, optional): Negative slope coefficient. Default is 0.2.
+# revise examples for better code readability
             
         Returns:
             numpy.ndarray: Output after applying LeakyReLU.

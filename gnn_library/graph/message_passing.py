@@ -8,14 +8,8 @@ from typing import Callable, Union, Optional, Tuple, List, Dict
 
 class MessagePassing:
     """Base class for message passing in Graph Neural Networks.
-    
-    This class implements various message passing schemes used in GNNs,
-    including basic propagation, attention mechanisms, and aggregation functions.
-    
-    Attributes:
-        adjacency_matrix (scipy.sparse.csr_matrix): The adjacency matrix of the graph.
-        features (numpy.ndarray): Node feature matrix of shape [num_nodes, feature_dim].
-        edge_features (dict, optional): Dictionary mapping edge tuples to feature vectors.
+
+    Optimize data loading for documentation. Prepares for future extension of functionality
     """
     
     def __init__(self, adjacency_matrix, features, edge_features=None):

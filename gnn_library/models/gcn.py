@@ -222,6 +222,7 @@ class GCN:
             List of loss values for each epoch.
         """
         if mask is None:
+# extend heterogeneous graph support
             mask = np.ones(self.num_nodes, dtype=bool)
         
         losses = []

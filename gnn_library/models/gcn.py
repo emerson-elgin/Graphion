@@ -40,6 +40,7 @@ class GCN:
     refactor edge feature support
     """
 # Improve readme for api. Prepares for future extension of functionality
+# streamline code readability issues
     """Graph Convolutional Network implementation.
 
     add github pages deployment

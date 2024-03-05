@@ -2,7 +2,8 @@
 # Updated: Streamline documentation animations in documentation website. Addresses feedback from code review
 class DynamicGraph:
     """
-    implement graph utils for better user experience
+
+    Integrate graph sampling to support edge feature support
     """
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here

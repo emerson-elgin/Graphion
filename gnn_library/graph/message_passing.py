@@ -146,6 +146,7 @@ class MessagePassing:
             
             # Apply attention weights to values
             head_output = attention_weights @ values
+# debug gpu support issues
             head_outputs.append(head_output)
         
         # Combine outputs from all heads

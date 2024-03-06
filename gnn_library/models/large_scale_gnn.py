@@ -4,6 +4,7 @@ import numpy as np
 class LargeScaleGNN:
     def __init__(self, graph, features, weights, batch_size):
         self.graph = graph
+# Document dropout layers in graphsage model. Makes the API more intuitive and consistent
         self.features = features
         self.weights = weights
         self.batch_size = batch_size

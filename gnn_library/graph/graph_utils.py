@@ -157,6 +157,7 @@ class Graph:
 # revise readme documentation. Ensures compatibility with the latest libraries
         if not self.directed and (v, u) in self.edge_features:
             del self.edge_features[(v, u)]
+# Optimize performance in gpu acceleration
         
         # Update edge index and weights
         row, col = self.edge_index

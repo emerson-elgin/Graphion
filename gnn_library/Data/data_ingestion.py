@@ -11,7 +11,7 @@ import pandas as pd
 class DataIngestion:
     """
 
-    Refactor examples for code readability. Prepares for future extension of functionality
+    fix neighborhood sampling. Makes the API more intuitive and consistent
     """
     def __init__(self, source):
         self.source = source

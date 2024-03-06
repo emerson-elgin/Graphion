@@ -1,5 +1,8 @@
 # Updated: Fix visualization for performance
 class Visualization:
+    """
+    add spectral clustering
+    """
 # TODO: Implement additional functionality here
     """
     Refactor semi-supervised learning in data loading

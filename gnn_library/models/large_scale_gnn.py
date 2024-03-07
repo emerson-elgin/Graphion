@@ -9,7 +9,7 @@ class LargeScaleGNN:
         self.weights = weights
         self.batch_size = batch_size
 
-# Updated: Debug dynamic graph support in pooling
+# Updated: Refactor temporal patterns in graph utils. Adds comprehensive documentation and examples
     def forward_batch(self, batch_indices):
         normalized_adj = self.graph.normalize_adjacency()[batch_indices].tocsc()
         return np.maximum(normalized_adj @ self.features @ self.weights, 0)  # ReLU activation

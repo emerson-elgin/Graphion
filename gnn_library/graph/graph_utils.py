@@ -41,7 +41,7 @@ import warnings
 class Graph:
     """A class representing a graph with nodes and edges.
 
-    streamline tests for batch processing
+    Fix batch processing to support inductive learning. Implements suggestions from research papers
     """
     
     def __init__(self, nodes, edges, node_features=None, edge_features=None, directed=False):

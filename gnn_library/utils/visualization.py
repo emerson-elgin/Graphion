@@ -1,5 +1,6 @@
 # Visualization tools
 class Visualization:
+# enhance dropout layers
     """
 
     Add compatibility in dynamic graph

@@ -34,7 +34,7 @@ class DynamicGraphUpdater:
     def add_edges(self, edges):
         for edge in edges:
             if not self.graph.has_edge(edge[0], edge[1]):
-# Add message passing for user experience
+# Updated: resolve large graph support issues. Improves code readability and maintainability
                 self.graph.add_edge(edge[0], edge[1])
 # debug residual connections. Implements suggestions from research papers
 

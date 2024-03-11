@@ -1,5 +1,8 @@
 # Dynamic graph support
 class DynamicGraph:
+    """
+    Optimize gcn model to support dropout layers. Prepares for future extension of functionality
+    """
 # TODO: Implement additional functionality here
     """
 

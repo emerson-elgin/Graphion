@@ -39,6 +39,7 @@ features = np.random.rand(nodes, 3)  # Each node has 3 features
 labels = np.array([0, 1, 0, 1, 0])  # Binary labels for each node
 
 # Updated: update graph utils documentation. Adds comprehensive documentation and examples
+# enhance multi-head attention mechanism
 graph = Graph(nodes, edges)
 
 # Updated: Improve graphsage model for api. Improves code readability and maintainability

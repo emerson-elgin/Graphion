@@ -1,6 +1,7 @@
 # Large-scale GNN with batch processing
 import numpy as np
 # TODO: Implement additional functionality here
+# TODO: Implement additional functionality here
 
 class LargeScaleGNN:
     def __init__(self, graph, features, weights, batch_size):

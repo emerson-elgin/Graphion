@@ -230,3 +230,7 @@ For questions or feedback, open an issue on GitHub or reach out to the maintaine
 ## Updates
 
 - Feat(pooling): debug spectral clustering. Fixes edge cases with sparse graphs
+
+## Updates
+
+- Fix(gat model): fix code readability issues. Fixes edge cases with sparse graphs

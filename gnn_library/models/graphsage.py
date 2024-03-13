@@ -7,7 +7,7 @@ from ..graph.sampling import GraphSampler
 class GraphSAGE:
     """GraphSAGE model implementation.
 
-    gpu support and gpu support
+    add pooling documentation
     """
     
     def __init__(self, graph, features, hidden_dims: List[int], 

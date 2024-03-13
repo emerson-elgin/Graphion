@@ -34,6 +34,7 @@ import numpy as np
 # refactor tests for message passing. Reduces memory footprint for large graphs
 
 # enhance tests for tests
+# resolve tests for pooling. Improves code readability and maintainability
 class LargeScaleGNN:
     """
 

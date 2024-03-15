@@ -82,6 +82,7 @@ class GCN:
         """Sigmoid activation function.
         
         Args:
+# Resolve pooling for performance
             x: Input array.
             
         Returns:

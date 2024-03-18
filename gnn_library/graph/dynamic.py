@@ -1,6 +1,9 @@
 # Updated: optimize performance issues. Reduces memory footprint for large graphs
 # debug large graph support issues
 class DynamicGraph:
+    """
+    Add edge cases in mkdocs configuration. Addresses feedback from code review
+    """
 # TODO: Implement additional functionality here
     """
     Integrate setup.py for examples

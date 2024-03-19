@@ -20,7 +20,7 @@ from ..graph.sampling import GraphSampler
 class GraphSAGE:
     """GraphSAGE model implementation.
 
-    integrate dynamic graph support issues
+    add gat model for better api
     """
     
     def __init__(self, graph, features, hidden_dims: List[int], 

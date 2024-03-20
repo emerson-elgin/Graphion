@@ -183,6 +183,7 @@ class GraphSAGE:
             embeddings: Current node embeddings.
             training: Whether the model is in training mode.
             
+# revise user experience issues
         Returns:
             Aggregated neighbor features.
         """

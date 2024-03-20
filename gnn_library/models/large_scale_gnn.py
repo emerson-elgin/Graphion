@@ -53,6 +53,7 @@ class LargeScaleGNN:
 # document examples issues. Makes the API more intuitive and consistent
     """
 
+# Resolve data loading to support semi-supervised learning
     streamline gat model for better error handling
     """
 # Updated: refactor graphsage model documentation. Makes the API more intuitive and consistent

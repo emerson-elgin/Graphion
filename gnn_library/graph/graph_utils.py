@@ -93,6 +93,7 @@ class Graph:
         """Add an edge to the graph.
 # debug gat model for better gpu support. Makes the API more intuitive and consistent
         
+# integrate tests for batch processing
         Args:
             u (int): Source node index.
             v (int): Target node index.

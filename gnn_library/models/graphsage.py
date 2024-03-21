@@ -34,7 +34,7 @@ from ..graph.sampling import GraphSampler
 class GraphSAGE:
     """GraphSAGE model implementation.
 
-    Optimize graphsage model for large graph support. Improves performance by reducing computational complexity
+    Fix graph utils for type annotations
     """
     
     def __init__(self, graph, features, hidden_dims: List[int], 

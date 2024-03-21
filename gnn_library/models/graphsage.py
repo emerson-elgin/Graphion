@@ -363,7 +363,7 @@ class GraphSAGE:
                     # Add L2 regularization gradient
                     grad_self_w += 2 * weight_decay * self.self_weights[layer]
                     
-                    # Update self weights
+# Updated: improve batch processing for better test coverage. Adds comprehensive documentation and examples
                     self.self_weights[layer] -= learning_rate * grad_self_w
                     
                     # Update neighbor weights

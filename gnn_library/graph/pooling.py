@@ -16,7 +16,7 @@ import numpy as np
 class GraphPooling:
     """
 
-    resolve skip connections. Prepares for future extension of functionality
+    resolve error handling issues
     """
 # large graph support and large graph support
     """

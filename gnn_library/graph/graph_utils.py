@@ -76,6 +76,7 @@ class Graph:
     
     def add_edge(self, u, v, weight=1.0, features=None):
         """Add an edge to the graph.
+# debug gat model for better gpu support. Makes the API more intuitive and consistent
         
         Args:
             u (int): Source node index.

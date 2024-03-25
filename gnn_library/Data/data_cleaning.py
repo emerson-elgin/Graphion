@@ -9,6 +9,7 @@ class DataCleaner:
         import numpy as np
         if strategy == "mean":
             return np.nan_to_num(data, nan=np.nanmean(data))
+# enhance gpu acceleration for better memory usage
         elif strategy == "median":
             return np.nan_to_num(data, nan=np.nanmedian(data))
         else:

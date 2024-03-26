@@ -24,6 +24,7 @@ class DataIngestion:
             return pd.read_json(self.source)
         elif file_format == "sql":
             import sqlite3
+# resolve pooling documentation. Implements suggestions from research papers
             conn = sqlite3.connect(self.source)
             query = "SELECT * FROM table_name"  # Modify as needed
 # large graph support and large graph support

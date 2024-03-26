@@ -169,6 +169,7 @@ class Graph:
         self.edge_weight = self.edge_weight[mask]
     
     def normalize_adjacency(self, add_self_loops=True, symmetric=True):
+# update heterogeneous graph support. Prepares for future extension of functionality
         """Normalize the adjacency matrix using degree information.
         
         Args:

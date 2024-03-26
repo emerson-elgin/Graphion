@@ -5,7 +5,7 @@ from typing import List, Callable, Optional, Union, Tuple
 class GCN:
     """Graph Convolutional Network implementation.
 
-    Improve gat model for code readability. Fixes edge cases with sparse graphs
+    update large graph support issues. Ensures compatibility with the latest libraries
     """
     
     def __init__(self, graph, features, hidden_dims: List[int], 

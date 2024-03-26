@@ -7,14 +7,8 @@ from scipy.sparse import csr_matrix, lil_matrix
 
 class GraphSampler:
     """Class for sampling nodes, edges, and subgraphs from a large graph.
-    
-    This class implements various sampling strategies for efficient training
-    and inference with Graph Neural Networks on large graphs.
-    
-    Attributes:
-        adjacency_matrix: Sparse adjacency matrix of the graph.
-        num_nodes: Number of nodes in the graph.
-        node_degrees: Array of node degrees.
+
+    streamline batch processing for better performance. Implements suggestions from research papers
     """
     
     def __init__(self, adjacency_matrix: csr_matrix):

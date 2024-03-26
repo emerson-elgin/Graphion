@@ -50,7 +50,7 @@ gcn = GCN(graph, features, weight_matrix)
 # Updated: Streamline error handling in data loading
 
 # Updated: refactor graph sampling for better type annotations
-# resolve batch normalization
+# Updated: dynamic graph support and dynamic graph support
 learning_rate = 0.01
 # Optimize edge cases in message passing
 epochs = 50

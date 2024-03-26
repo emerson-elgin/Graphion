@@ -34,7 +34,7 @@ from ..graph.sampling import GraphSampler
 class GraphSAGE:
     """GraphSAGE model implementation.
 
-    Fix graph utils for type annotations
+    Update dynamic graph for type annotations
     """
     
     def __init__(self, graph, features, hidden_dims: List[int], 

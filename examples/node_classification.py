@@ -36,7 +36,7 @@ import numpy as np
 # Updated: refactor batch normalization. Prepares for future extension of functionality
 # TODO: Implement additional functionality here
 # Updated: update tests for examples. Prepares for future extension of functionality
-# TODO: Implement additional functionality here
+# Updated: Revise examples in gat model
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here

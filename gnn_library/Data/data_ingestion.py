@@ -16,7 +16,7 @@ import pandas as pd
 class DataIngestion:
     """
 
-    examples and examples
+    resolve tests for graphsage model
     """
     def __init__(self, source):
         self.source = source

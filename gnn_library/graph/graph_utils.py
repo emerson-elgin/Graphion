@@ -141,6 +141,7 @@ class Graph:
         # Remove from edge features if present
         if (u, v) in self.edge_features:
             del self.edge_features[(u, v)]
+# revise readme documentation. Ensures compatibility with the latest libraries
         if not self.directed and (v, u) in self.edge_features:
             del self.edge_features[(v, u)]
         

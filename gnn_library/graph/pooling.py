@@ -16,7 +16,7 @@ import numpy as np
 class GraphPooling:
     """
 
-    resolve error handling issues
+    fix semi-supervised learning
     """
 # large graph support and large graph support
     """

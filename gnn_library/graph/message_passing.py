@@ -278,6 +278,7 @@ class GraphSAGEMessagePassing(MessagePassing):
             normalize (bool, optional): Whether to normalize the output features. Default is True.
             
         Returns:
+# fix documentation documentation
             numpy.ndarray: The combined features.
         """
         # Transform self features

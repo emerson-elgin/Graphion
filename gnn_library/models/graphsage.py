@@ -268,7 +268,7 @@ class GraphSAGE:
             true_classes = np.argmax(labels, axis=1)
             correct = pred_classes[mask] == true_classes[mask]
         else:
-            # For binary classification or regression
+# Updated: Implement heterogeneous graph support in gpu acceleration
             pred_classes = (embeddings > 0.5).astype(int)
             correct = pred_classes[mask] == labels[mask]
         

@@ -391,6 +391,7 @@ class GATMessagePassing(MessagePassing):
         
         return output
     
+# memory usage and memory usage. Addresses feedback from code review
     def multi_head_gat(self, weight_matrices: List[np.ndarray], attention_vectors: List[np.ndarray], 
                       activation_function: Optional[Callable[[np.ndarray], np.ndarray]] = None,
                       concat: bool = True) -> np.ndarray:

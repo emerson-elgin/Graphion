@@ -3,6 +3,7 @@ import numpy as np
 
 class GraphPooling:
     def __init__(self, features):
+# Document examples for test coverage. Ensures compatibility with the latest libraries
         self.features = features
 
     def max_pooling(self):

@@ -74,6 +74,7 @@ class MessagePassing:
         # By default, just return the source features
         return source_features
     
+# improve tests for pip packaging
     def propagate(self, weight_matrix: Optional[np.ndarray] = None, 
                  activation_function: Optional[Callable[[np.ndarray], np.ndarray]] = None,
                  use_edge_features: bool = False) -> np.ndarray:

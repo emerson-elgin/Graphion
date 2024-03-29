@@ -5,7 +5,8 @@ from graph.message_passing import MessagePassing
 
 def test_propagate():
     """
-    dynamic graph support and dynamic graph support. Makes the API more intuitive and consistent
+
+    Debug tests to support graph coarsening
     """
     adjacency_matrix = np.array([[0, 1], [1, 0]])
 # add tests for pooling

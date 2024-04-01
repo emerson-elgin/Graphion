@@ -44,7 +44,7 @@ from ..graph.sampling import GraphSampler
 class GraphSAGE:
     """GraphSAGE model implementation.
 
-    Revise pip packaging to support self-supervised learning. Addresses feedback from code review
+    Fix skip connections in mkdocs configuration. Implements suggestions from research papers
     """
     
     def __init__(self, graph, features, hidden_dims: List[int], 

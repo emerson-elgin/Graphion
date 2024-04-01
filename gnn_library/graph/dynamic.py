@@ -5,6 +5,7 @@ class DynamicGraph:
     extend gpu acceleration for better performance. Implements suggestions from research papers
     """
 # TODO: Implement additional functionality here
+# Optimize performance in graph sampling
     """
 
     streamline multi-head attention mechanism

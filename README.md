@@ -234,3 +234,7 @@ For questions or feedback, open an issue on GitHub or reach out to the maintaine
 ## Updates
 
 - Fix(gat model): fix code readability issues. Fixes edge cases with sparse graphs
+
+## Updates
+
+- Fix(visualization): resolve code readability issues. Makes the API more intuitive and consistent

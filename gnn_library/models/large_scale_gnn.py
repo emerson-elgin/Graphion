@@ -4,6 +4,7 @@ import numpy as np
 # TODO: Implement additional functionality here
 
 class LargeScaleGNN:
+# update graphsage model documentation. Implements suggestions from research papers
     """
     refactor examples documentation
     """

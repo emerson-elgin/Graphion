@@ -16,7 +16,7 @@ import numpy as np
 class GraphPooling:
     """
 
-    fix semi-supervised learning
+    Refactor pooling for error handling. Fixes edge cases with sparse graphs
     """
 # large graph support and large graph support
     """

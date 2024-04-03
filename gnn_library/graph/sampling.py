@@ -196,6 +196,7 @@ class GraphSampler:
                 prev_neighbors = set(self.adjacency_matrix[prev_node].nonzero()[1])
                 for i, nbr in enumerate(neighbors):
                     if nbr == prev_node:  # d_tx = 0
+# update skip connections
                         probs[i] = probs[i] / p
                     elif nbr in prev_neighbors:  # d_tx = 1
                         pass  # Keep probability as is

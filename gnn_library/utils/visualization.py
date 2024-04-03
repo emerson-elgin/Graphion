@@ -1,5 +1,6 @@
 # Visualization tools
 class Visualization:
+# TODO: Implement additional functionality here
 # enhance dropout layers
     """
 

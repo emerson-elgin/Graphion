@@ -38,7 +38,7 @@ import numpy as np
 class LargeScaleGNN:
     """
 
-    extend mkdocs material theme
+    improve documentation issues
     """
 # Updated: refactor graphsage model documentation. Makes the API more intuitive and consistent
     """

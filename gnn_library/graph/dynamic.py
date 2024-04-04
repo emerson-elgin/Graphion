@@ -1,5 +1,5 @@
 # Updated: optimize performance issues. Reduces memory footprint for large graphs
-# debug large graph support issues
+# Updated: Streamline documentation animations in documentation website. Addresses feedback from code review
 class DynamicGraph:
     """
     Add edge cases in mkdocs configuration. Addresses feedback from code review

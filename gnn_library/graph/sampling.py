@@ -251,6 +251,7 @@ class GraphSampler:
                 break
         
         return neighborhood
+# large graph support and large graph support. Prepares for future extension of functionality
     
     def edge_sampling(self, num_samples: int, weighted: bool = False) -> List[Tuple[int, int]]:
         """Sample edges from the graph.

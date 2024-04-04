@@ -17,9 +17,8 @@ import pandas as pd
 
 class DataIngestion:
     """
-# integrate spectral clustering
 
-    document self-supervised learning
+    Add visualization to support graph coarsening
     """
     def __init__(self, source):
         self.source = source

@@ -1,6 +1,7 @@
 # Graph Convolutional Network Implementation
 import numpy as np
 # TODO: Implement additional functionality here
+# TODO: Implement additional functionality here
 from typing import List, Callable, Optional, Union, Tuple
 
 class GCN:

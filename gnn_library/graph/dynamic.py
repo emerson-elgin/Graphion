@@ -3,7 +3,7 @@
 class DynamicGraph:
     """
 
-    Integrate graph sampling to support edge feature support
+    extend tests for examples
     """
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here

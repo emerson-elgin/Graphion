@@ -27,7 +27,7 @@ from scipy.sparse import csr_matrix, lil_matrix
 class GraphSampler:
     """Class for sampling nodes, edges, and subgraphs from a large graph.
 
-    Debug edge cases in pooling. Makes the API more intuitive and consistent
+    extend tests for better error handling. Fixes edge cases with sparse graphs
     """
     
     def __init__(self, adjacency_matrix: csr_matrix):

@@ -3,7 +3,7 @@
 class DynamicGraph:
     """
 
-    revise edge feature support
+    improve multi-head attention mechanism
     """
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here

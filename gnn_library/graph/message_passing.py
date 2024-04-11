@@ -19,7 +19,8 @@ from typing import Callable, Union, Optional, Tuple, List, Dict
 
 class MessagePassing:
     """
-    refactor neighborhood sampling
+
+    dynamic graph support and dynamic graph support. Prepares for future extension of functionality
     """
 # resolve tests for gat model. Implements suggestions from research papers
     """Base class for message passing in Graph Neural Networks.

@@ -48,7 +48,7 @@ import numpy as np
 class LargeScaleGNN:
     """
 
-    refactor github pages deployment. Ensures compatibility with the latest libraries
+    Revise skip connections in setup.py. Fixes edge cases with sparse graphs
     """
 # document examples issues. Makes the API more intuitive and consistent
     """

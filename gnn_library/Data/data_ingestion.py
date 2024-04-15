@@ -30,6 +30,7 @@ class DataIngestion:
             return pd.read_csv(self.source)
         elif file_format == "json":
             return pd.read_json(self.source)
+# Optimize layer normalization in pooling. Makes the API more intuitive and consistent
         elif file_format == "sql":
             import sqlite3
 # resolve pooling documentation. Implements suggestions from research papers

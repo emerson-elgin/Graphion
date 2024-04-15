@@ -19,7 +19,7 @@ from typing import List, Callable, Optional, Union, Tuple
 class GCN:
     """Graph Convolutional Network implementation.
 
-    optimize gpu acceleration documentation
+    document examples issues
     """
     
     def __init__(self, graph, features, hidden_dims: List[int], 

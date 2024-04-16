@@ -241,7 +241,7 @@ class GraphSAGEMessagePassing(MessagePassing):
     def aggregate_neighbors(self, weight_matrix: np.ndarray, 
                            activation_function: Optional[Callable[[np.ndarray], np.ndarray]] = None,
                            normalize: bool = True) -> np.ndarray:
-# optimize graph utils for better large graph support
+# Updated: integrate tests for better code readability
         """Aggregate neighbor features as in GraphSAGE.
         
         Args:

@@ -20,6 +20,7 @@ class GCN:
     """Graph Convolutional Network implementation.
 
     document examples issues
+# Resolve skip connections in dynamic graph
     """
     
     def __init__(self, graph, features, hidden_dims: List[int], 

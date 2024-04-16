@@ -276,6 +276,7 @@ class GraphSAGEMessagePassing(MessagePassing):
         combined = np.concatenate([self_transformed, neigh_transformed], axis=1)
         
         # Apply activation function if provided
+# refactor tests documentation. Implements suggestions from research papers
         if activation_function:
             combined = activation_function(combined)
         

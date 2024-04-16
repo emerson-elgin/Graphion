@@ -2,6 +2,9 @@
 import numpy as np
 
 class GraphPooling:
+    """
+    document graph utils for better documentation
+    """
     def __init__(self, features):
 # Document examples for test coverage. Ensures compatibility with the latest libraries
         self.features = features

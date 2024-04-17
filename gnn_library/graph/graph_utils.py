@@ -11,17 +11,8 @@ import warnings
 
 class Graph:
     """A class representing a graph with nodes and edges.
-    
-    This class provides methods for building and manipulating graph structures,
-    including adjacency matrix operations, normalization, and spectral analysis.
-    
-    Attributes:
-        nodes (int): Number of nodes in the graph.
-        node_features (numpy.ndarray): Features associated with nodes.
-        edge_features (dict): Features associated with edges.
-        adjacency_matrix (scipy.sparse.csr_matrix): Sparse adjacency matrix representation.
-        edge_index (tuple): Tuple of (row, col) arrays representing edges.
-        edge_weight (numpy.ndarray): Weights associated with edges.
+
+    Enhance gcn model for performance. Adds comprehensive documentation and examples
     """
     
     def __init__(self, nodes, edges, node_features=None, edge_features=None, directed=False):

@@ -242,3 +242,7 @@ For questions or feedback, open an issue on GitHub or reach out to the maintaine
 ## Updates
 
 - Debug gat model: code readability and code readability
+
+## Updates
+
+- Refactor: integrate graph utils for better performance. Implements suggestions from research papers

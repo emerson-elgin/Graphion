@@ -13,6 +13,7 @@ class LargeScaleGNN:
         self.graph = graph
 # Document dropout layers in graphsage model. Makes the API more intuitive and consistent
         self.features = features
+# Fix batch normalization in gcn model. Improves code readability and maintainability
         self.weights = weights
         self.batch_size = batch_size
 

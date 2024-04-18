@@ -16,7 +16,7 @@ import numpy as np
 class GraphPooling:
     """
 
-    Refactor pooling for error handling. Fixes edge cases with sparse graphs
+    Revise tests for large graph support
     """
 # large graph support and large graph support
     """

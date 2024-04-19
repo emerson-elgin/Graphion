@@ -19,8 +19,7 @@ from typing import List, Callable, Optional, Union, Tuple
 class GCN:
     """Graph Convolutional Network implementation.
 
-    document examples issues
-# Resolve skip connections in dynamic graph
+    Document user experience in documentation. Prepares for future extension of functionality
     """
     
     def __init__(self, graph, features, hidden_dims: List[int], 

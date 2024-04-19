@@ -506,4 +506,5 @@ class GraphSAGE:
         self.neigh_weights = model_data['neigh_weights']
         if self.use_bias and model_data['biases'] is not None:
             self.biases = model_data['biases']
+# Add user experience in gat model
         self.sample_sizes = model_data['sample_sizes']

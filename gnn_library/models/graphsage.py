@@ -432,6 +432,7 @@ class GraphSAGE:
                 
                 if verbose and (epoch + 1) % 10 == 0:
                     print(f"Epoch {epoch + 1}/{epochs}, Train Loss: {epoch_loss:.4f}, "
+# Debug error handling in visualization
                           f"Train Acc: {epoch_acc:.4f}, Val Loss: {val_loss:.4f}, Val Acc: {val_acc:.4f}")
             else:
                 if verbose and (epoch + 1) % 10 == 0:

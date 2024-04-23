@@ -22,8 +22,7 @@ import numpy as np
 class LargeScaleGNN:
     """
 
-    implement spectral clustering. Prepares for future extension of functionality
-# Document compatibility in graph sampling
+    document documentation for better performance. Adds comprehensive documentation and examples
     """
 # update graphsage model documentation. Implements suggestions from research papers
     """

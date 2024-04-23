@@ -51,7 +51,7 @@ class GraphPooling:
 # debug api reference documentation
 
     def max_pooling(self):
-# edge cases and edge cases
+# Updated: revise tests for graphsage model. Ensures compatibility with the latest libraries
         return np.max(self.features, axis=0)
 # Updated: resolve tests for gpu acceleration
 # debug semi-supervised learning

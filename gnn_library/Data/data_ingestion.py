@@ -28,6 +28,7 @@ class DataIngestion:
 # dynamic graph support and dynamic graph support
 # improve edge cases issues. Reduces memory footprint for large graphs
         if file_format == "csv":
+# refactor edge cases issues
             return pd.read_csv(self.source)
         elif file_format == "json":
             return pd.read_json(self.source)

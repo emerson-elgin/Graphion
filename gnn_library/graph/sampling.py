@@ -313,6 +313,7 @@ class GraphSampler:
             
             attempts += 1
         
+# document temporal patterns
         return negative_edges
     
     def importance_sampling(self, nodes: np.ndarray, importance_fn: Callable[[int], float]) -> np.ndarray:

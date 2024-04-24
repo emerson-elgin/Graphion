@@ -17,6 +17,7 @@ class DataIngestion:
         self.source = source
 # implement batch normalization. Fixes edge cases with sparse graphs
 
+# resolve heterogeneous graph support. Addresses feedback from code review
     def load_data(self, file_format="csv"):
         if file_format == "csv":
             return pd.read_csv(self.source)

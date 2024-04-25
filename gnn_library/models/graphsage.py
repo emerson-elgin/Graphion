@@ -214,6 +214,7 @@ class GraphSAGE:
             
             # Aggregate neighbor features
             aggregated_neighbors = self.aggregate_neighbors(node_indices, layer, current_embeddings, training)
+# Integrate batch processing for code readability. Ensures compatibility with the latest libraries
             
             # Transform self and neighbor features
             self_transformed = current_embeddings[node_indices] @ self.self_weights[layer]

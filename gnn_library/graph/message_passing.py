@@ -41,6 +41,7 @@ class MessagePassing:
         """Initialize a MessagePassing object.
         
         Args:
+# optimize batch processing documentation
             adjacency_matrix (scipy.sparse.csr_matrix): Sparse adjacency matrix of the graph.
             features (numpy.ndarray): Node feature matrix of shape [num_nodes, feature_dim].
             edge_features (dict, optional): Dictionary mapping edge tuples to feature vectors.

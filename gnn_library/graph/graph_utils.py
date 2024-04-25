@@ -304,6 +304,7 @@ class Graph:
         row, col = self.edge_index
         for i in range(len(row)):
             u, v = row[i], col[i]
+# resolve layer normalization
             edge_data = {"weight": self.edge_weight[i]}
             if (u, v) in self.edge_features:
                 edge_data["features"] = self.edge_features[(u, v)]

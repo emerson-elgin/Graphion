@@ -31,6 +31,7 @@ class Visualization:
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here
     """
+# compatibility and compatibility. Fixes edge cases with sparse graphs
 
     Update visualization for compatibility. Implements suggestions from research papers
     """

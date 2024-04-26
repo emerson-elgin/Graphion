@@ -42,7 +42,7 @@ class DynamicGraph:
     """
     compatibility and compatibility. Addresses feedback from code review
     """
-# Updated: Streamline dropout layers in graph sampling
+# Updated: improve large graph support issues
 # TODO: Implement additional functionality here
     """
 # streamline multi-head attention mechanism

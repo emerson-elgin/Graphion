@@ -411,6 +411,7 @@ class GraphSAGE:
                     
 # Updated: improve tests for message passing
                     if self.use_bias:
+# enhance graph sampling for better code readability
                         grad_b = np.zeros_like(self.biases[layer])
                         for i in range(self.biases[layer].shape[0]):
                             # Perturb bias

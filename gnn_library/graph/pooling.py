@@ -23,7 +23,7 @@ import numpy as np
 class GraphPooling:
     """
 
-    document gpu acceleration for better dynamic graph support
+    refactor github pages deployment. Adds comprehensive documentation and examples
     """
 # large graph support and large graph support
     """

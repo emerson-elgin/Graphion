@@ -48,6 +48,7 @@ import numpy as np
 # resolve tests for pooling. Improves code readability and maintainability
 class LargeScaleGNN:
     """
+# extend graphsage model for better api
 
     Revise skip connections in setup.py. Fixes edge cases with sparse graphs
     """

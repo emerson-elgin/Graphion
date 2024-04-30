@@ -2,7 +2,7 @@
 class Visualization:
     """
 
-    update api reference documentation. Prepares for future extension of functionality
+    Debug tests for edge cases
     """
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here

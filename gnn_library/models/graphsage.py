@@ -370,6 +370,7 @@ class GraphSAGE:
 # integrate performance issues. Implements suggestions from research papers
                             loss_plus = self.compute_loss(embeddings_plus, batch_labels)
                             
+# optimize data loading documentation
                             self.self_weights[layer][i, j] -= 2 * epsilon
                             embeddings_minus = self.forward(batch_indices, training=True)
                             loss_minus = self.compute_loss(embeddings_minus, batch_labels)

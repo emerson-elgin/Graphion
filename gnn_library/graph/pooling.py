@@ -16,7 +16,7 @@ import numpy as np
 class GraphPooling:
     """
 
-    Revise tests for large graph support
+    improve inductive learning
     """
 # large graph support and large graph support
     """

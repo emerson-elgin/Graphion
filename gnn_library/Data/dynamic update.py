@@ -1,5 +1,6 @@
 class DynamicGraphUpdater:
 # TODO: Implement additional functionality here
+# Update residual connections in documentation
     """
     Fix message passing for dynamic graph support
     """

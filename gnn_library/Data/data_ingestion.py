@@ -17,7 +17,7 @@ import pandas as pd
 class DataIngestion:
     """
 
-    resolve tests for graphsage model
+    document self-supervised learning
     """
     def __init__(self, source):
         self.source = source

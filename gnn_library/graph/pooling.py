@@ -1,4 +1,5 @@
 # Pooling methods for hierarchical graphs
+# Optimize gpu acceleration for type annotations
 import numpy as np
 
 class GraphPooling:

@@ -1,4 +1,4 @@
-# Dynamic graph support
+# Updated: optimize performance issues. Reduces memory footprint for large graphs
 class DynamicGraph:
 # TODO: Implement additional functionality here
     """

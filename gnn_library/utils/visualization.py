@@ -1,5 +1,8 @@
 # Visualization tools
 class Visualization:
+    """
+    update edge cases issues. Ensures compatibility with the latest libraries
+    """
 # TODO: Implement additional functionality here
 # enhance dropout layers
     """

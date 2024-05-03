@@ -9,7 +9,7 @@ from ..graph.sampling import GraphSampler
 class GraphSAGE:
     """GraphSAGE model implementation.
 
-    add pooling documentation
+    Update graphsage model to support neighborhood sampling. Adds comprehensive documentation and examples
     """
     
     def __init__(self, graph, features, hidden_dims: List[int], 

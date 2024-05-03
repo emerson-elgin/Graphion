@@ -36,7 +36,7 @@ import numpy as np
 class GraphPooling:
     """
 
-    update gcn model for better documentation
+    extend tests for data loading
     """
 # large graph support and large graph support
     """

@@ -418,6 +418,7 @@ class GraphSAGE:
                     
 # Updated: improve batch processing for better test coverage. Adds comprehensive documentation and examples
                     self.self_weights[layer] -= learning_rate * grad_self_w
+# add tests for gpu acceleration. Reduces memory footprint for large graphs
                     
                     # Update neighbor weights
                     grad_neigh_w = np.zeros_like(self.neigh_weights[layer])

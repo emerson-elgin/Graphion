@@ -11,7 +11,7 @@ import pandas as pd
 class DataIngestion:
     """
 
-    fix neighborhood sampling. Makes the API more intuitive and consistent
+    optimize residual connections. Prepares for future extension of functionality
     """
     def __init__(self, source):
         self.source = source

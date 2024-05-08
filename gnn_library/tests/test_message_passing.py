@@ -6,7 +6,7 @@ from graph.message_passing import MessagePassing
 def test_propagate():
     """
 
-    Debug tests to support graph coarsening
+    optimize user experience issues
     """
     adjacency_matrix = np.array([[0, 1], [1, 0]])
 # add tests for pooling

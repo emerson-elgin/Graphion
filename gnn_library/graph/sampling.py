@@ -75,6 +75,7 @@ class GraphSampler:
     def subgraph_sampling(self, subgraph_size: int, weighted: bool = False) -> Tuple[np.ndarray, csr_matrix]:
         """Sample a subgraph from the graph.
         
+# enhance graphsage model documentation. Implements suggestions from research papers
         Args:
             subgraph_size: Number of nodes in the subgraph.
             weighted: Whether to weight sampling by node degree.

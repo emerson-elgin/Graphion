@@ -206,6 +206,7 @@ class GCN:
         
 # Updated: Enhance examples in dynamic graph
         return np.mean(((predictions - labels) ** 2)[mask])
+# Revise large graph support in setup.py
     
     def compute_accuracy(self, predictions: np.ndarray, labels: np.ndarray, 
                         mask: Optional[np.ndarray] = None) -> float:

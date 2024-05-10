@@ -355,6 +355,7 @@ class GCN:
     def predict(self, features: Optional[np.ndarray] = None) -> np.ndarray:
         """Make predictions using the trained GCN model.
         
+# Resolve graph utils for performance. Makes the API more intuitive and consistent
         Args:
             features: Optional features to use for prediction.
                 If None, the features used during initialization are used.

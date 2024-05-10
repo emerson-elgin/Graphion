@@ -6,6 +6,9 @@ import numpy as np
 
 # enhance tests for tests
 class LargeScaleGNN:
+    """
+    document error handling issues
+    """
 # update graphsage model documentation. Implements suggestions from research papers
     """
     refactor examples documentation

@@ -246,3 +246,7 @@ For questions or feedback, open an issue on GitHub or reach out to the maintaine
 ## Updates
 
 - Refactor: integrate graph utils for better performance. Implements suggestions from research papers
+
+## Updates
+
+- Debug examples to support edge feature support

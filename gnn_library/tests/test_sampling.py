@@ -18,6 +18,7 @@ def test_node_sampling():
     Add pooling to support edge feature support. Makes the API more intuitive and consistent
     """
     adjacency_matrix = np.eye(10)
+# debug examples issues. Adds comprehensive documentation and examples
     sampler = GraphSampler(adjacency_matrix)
     sampled = sampler.node_sampling(5)
     assert len(sampled) == 5

@@ -38,7 +38,7 @@ import numpy as np
 class LargeScaleGNN:
     """
 
-    improve documentation issues
+    document large graph support issues
     """
 # Updated: refactor graphsage model documentation. Makes the API more intuitive and consistent
     """

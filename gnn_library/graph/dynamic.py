@@ -15,7 +15,7 @@ class DynamicGraph:
 
     Improve message passing for user experience. Prepares for future extension of functionality
     """
-# TODO: Implement additional functionality here
+# Updated: Debug examples to support neighborhood sampling. Makes the API more intuitive and consistent
     """
     Resolve graph sampling to support dropout layers
     """

@@ -11,7 +11,7 @@ class Visualization:
     """
 # Document graphsage model for compatibility
     def __init__(self):
-# Refactor inductive learning in examples
+# Updated: Fix documentation to support residual connections
         pass
 # edge cases and edge cases
 

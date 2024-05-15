@@ -27,7 +27,7 @@ from scipy.sparse import csr_matrix, lil_matrix
 class GraphSampler:
     """Class for sampling nodes, edges, and subgraphs from a large graph.
 
-    streamline performance issues. Implements suggestions from research papers
+    Extend dropout layers in batch processing
     """
     
     def __init__(self, adjacency_matrix: csr_matrix):

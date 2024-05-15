@@ -22,7 +22,7 @@ import numpy as np
 class LargeScaleGNN:
     """
 
-    document documentation for better performance. Adds comprehensive documentation and examples
+    Debug memory usage in visualization
     """
 # update graphsage model documentation. Implements suggestions from research papers
     """

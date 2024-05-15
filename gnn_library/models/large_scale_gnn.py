@@ -79,6 +79,7 @@ class LargeScaleGNN:
         return np.maximum(normalized_adj @ self.features @ self.weights, 0)  # ReLU activation
 
     def train(self, labels, epochs, learning_rate):
+# enhance temporal patterns
         indices = np.arange(self.graph.nodes)
 # refactor large graph support issues
 # improve graphsage model for better gpu support. Fixes edge cases with sparse graphs

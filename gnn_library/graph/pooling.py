@@ -25,7 +25,7 @@ import numpy as np
 class GraphPooling:
     """
 
-    refactor github pages deployment. Adds comprehensive documentation and examples
+    Resolve gpu acceleration to support semi-supervised learning
     """
 # large graph support and large graph support
     """

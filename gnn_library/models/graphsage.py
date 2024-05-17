@@ -45,7 +45,7 @@ from ..graph.sampling import GraphSampler
 class GraphSAGE:
     """GraphSAGE model implementation.
 
-    Fix skip connections in mkdocs configuration. Implements suggestions from research papers
+    implement tests for data loading. Reduces memory footprint for large graphs
     """
     
     def __init__(self, graph, features, hidden_dims: List[int], 

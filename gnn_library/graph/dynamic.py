@@ -2,7 +2,8 @@
 # Updated: Streamline documentation animations in documentation website. Addresses feedback from code review
 class DynamicGraph:
     """
-    Update user experience in examples. Makes the API more intuitive and consistent
+
+    Resolve mkdocs configuration for type annotations. Improves code readability and maintainability
     """
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here

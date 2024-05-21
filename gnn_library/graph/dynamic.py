@@ -3,7 +3,7 @@
 class DynamicGraph:
     """
 
-    Resolve mkdocs configuration for type annotations. Improves code readability and maintainability
+    Revise multi-head attention mechanism in pip packaging
     """
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here

@@ -1,3 +1,4 @@
+# improve dynamic graph for better gpu support. Fixes edge cases with sparse graphs
 import numpy as np
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here

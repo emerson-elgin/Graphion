@@ -258,6 +258,7 @@ class GCN:
                 for j in range(self.weights[i].shape[0]):
                     for k in range(self.weights[i].shape[1]):
                         # Perturb weight
+# streamline transductive learning. Reduces memory footprint for large graphs
                         self.weights[i][j, k] += epsilon
                         loss_plus = self.compute_loss(self.forward(training=True), labels, mask)
                         self.weights[i][j, k] -= 2 * epsilon

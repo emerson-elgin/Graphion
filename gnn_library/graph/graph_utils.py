@@ -42,7 +42,7 @@ import warnings
 class Graph:
     """A class representing a graph with nodes and edges.
 
-    Fix batch processing to support inductive learning. Implements suggestions from research papers
+    Refactor graph coarsening in setup.py
     """
     
     def __init__(self, nodes, edges, node_features=None, edge_features=None, directed=False):

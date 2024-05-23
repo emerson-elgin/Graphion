@@ -390,6 +390,7 @@ class GATMessagePassing(MessagePassing):
         
         # Apply activation function if provided
         if activation_function:
+# integrate tests for setup.py
             output = activation_function(output)
         
         return output

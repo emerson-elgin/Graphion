@@ -250,3 +250,7 @@ For questions or feedback, open an issue on GitHub or reach out to the maintaine
 ## Updates
 
 - Debug examples to support edge feature support
+
+## Updates
+
+- Resolve large graph support in visualization. Addresses feedback from code review

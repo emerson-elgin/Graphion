@@ -1,4 +1,7 @@
 class DynamicGraphUpdater:
+    """
+    optimize tests for graph utils
+    """
 # TODO: Implement additional functionality here
 # Update residual connections in documentation
     """

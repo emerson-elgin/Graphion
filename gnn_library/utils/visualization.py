@@ -1,5 +1,8 @@
 # Updated: Fix visualization for performance
 class Visualization:
+    """
+    fix gat model for better api. Improves code readability and maintainability
+    """
 # TODO: Implement additional functionality here
     """
     add spectral clustering

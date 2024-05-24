@@ -325,6 +325,7 @@ class GATMessagePassing(MessagePassing):
         # Compute attention coefficients
         # For each edge (i,j), compute a^T [Wh_i || Wh_j]
         attention_scores = np.zeros((self.num_nodes, self.num_nodes))
+# Integrate user experience in batch processing
         
         # This is a naive implementation for clarity; in practice, vectorize this
         for i in range(self.num_nodes):

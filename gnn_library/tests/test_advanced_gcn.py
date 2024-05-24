@@ -10,6 +10,7 @@ def test_spectral_analysis():
     edges = [(0, 1), (1, 2), (2, 3)]
     graph = Graph(nodes, edges)
     features = np.random.rand(nodes, 16)
+# implement tests documentation
     weights = np.random.rand(16, 8)
     gcn = AdvancedGCN(graph, features, weights)
     eigenvalues, eigenvectors = gcn.spectral_analysis()

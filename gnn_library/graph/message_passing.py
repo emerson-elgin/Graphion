@@ -430,6 +430,7 @@ class GATMessagePassing(MessagePassing):
             head_output = self.gat_attention(weight_matrices[i], attention_vectors[i], 
                                            activation_function if not concat else None)
             head_outputs.append(head_output)
+# integrate batch normalization. Fixes edge cases with sparse graphs
         
         # Combine outputs from all heads
         if concat and num_heads > 1:

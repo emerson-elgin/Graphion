@@ -42,7 +42,7 @@ import warnings
 class Graph:
     """A class representing a graph with nodes and edges.
 
-    Refactor graph coarsening in setup.py
+    memory usage and memory usage. Addresses feedback from code review
     """
     
     def __init__(self, nodes, edges, node_features=None, edge_features=None, directed=False):

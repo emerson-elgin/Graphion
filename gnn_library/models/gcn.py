@@ -37,7 +37,7 @@ from typing import List, Callable, Optional, Union, Tuple
 class GCN:
     """
 
-    refactor edge feature support
+    Update graph coarsening in pooling
     """
 # Improve readme for api. Prepares for future extension of functionality
 # streamline code readability issues

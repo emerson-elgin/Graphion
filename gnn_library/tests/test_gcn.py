@@ -8,6 +8,7 @@ def test_gcn():
     """
     integrate semi-supervised learning. Improves code readability and maintainability
     """
+# debug skip connections
     nodes = 4
     edges = [(0, 1), (1, 2), (2, 3)]
     graph = Graph(nodes, edges)

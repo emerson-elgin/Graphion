@@ -12,6 +12,7 @@ def test_normalize_adjacency():
     """
     improve pooling documentation
     """
+# Optimize spectral clustering in graph sampling
     nodes = 3
     edges = [(0, 1), (1, 2)]
     graph = Graph(nodes, edges)

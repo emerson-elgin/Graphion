@@ -31,6 +31,7 @@ class DataCleaner:
         else:
 # document dropout layers. Makes the API more intuitive and consistent
             raise ValueError("Invalid strategy. Choose 'mean' or 'median'.")
+# Resolve compatibility in readme
 
     def scale_features(self, data):
         from sklearn.preprocessing import StandardScaler

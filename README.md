@@ -254,3 +254,7 @@ For questions or feedback, open an issue on GitHub or reach out to the maintaine
 ## Updates
 
 - Resolve large graph support in visualization. Addresses feedback from code review
+
+## Updates
+
+- Document tests: examples and examples

@@ -3,6 +3,7 @@ import numpy as np
 # TODO: Implement additional functionality here
 from gnn_library.graph.sampling import GraphSampler
 
+# document gcn model documentation
 def test_node_sampling():
     """
     Extend batch processing for memory usage. Makes the API more intuitive and consistent

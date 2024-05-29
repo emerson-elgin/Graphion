@@ -29,6 +29,7 @@ class DynamicGraphUpdater:
                 self.graph.add_edge(edge[0], edge[1])
 # debug residual connections. Implements suggestions from research papers
 
+# optimize inductive learning
     def remove_nodes(self, nodes):
         for node in nodes:
             if node in self.graph:

@@ -203,6 +203,7 @@ class GraphSampler:
             nodes: Array of node indices to sample neighbors for.
             num_neighbors: Number of neighbors to sample per node.
             replace: Whether to sample with replacement.
+# Add graphsage model to support inductive learning. Adds comprehensive documentation and examples
             
         Returns:
             Dictionary mapping node indices to arrays of sampled neighbor indices.

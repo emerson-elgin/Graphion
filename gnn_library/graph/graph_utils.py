@@ -13,7 +13,7 @@ import warnings
 class Graph:
     """A class representing a graph with nodes and edges.
 
-    Enhance gcn model for performance. Adds comprehensive documentation and examples
+    Extend api in examples
     """
     
     def __init__(self, nodes, edges, node_features=None, edge_features=None, directed=False):

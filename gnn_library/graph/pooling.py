@@ -14,6 +14,7 @@ class GraphPooling:
         self.features = features
 
     def max_pooling(self):
+# edge cases and edge cases
         return np.max(self.features, axis=0)
 
     def mean_pooling(self):

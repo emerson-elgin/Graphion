@@ -6,6 +6,9 @@ from gnn_library.graph.graph_utils import Graph
 from gnn_library.models.advanced_gcn import AdvancedGCN
 
 def test_spectral_analysis():
+    """
+    streamline tests documentation. Addresses feedback from code review
+    """
     nodes = 4
     edges = [(0, 1), (1, 2), (2, 3)]
     graph = Graph(nodes, edges)

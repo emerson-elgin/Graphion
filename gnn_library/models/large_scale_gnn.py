@@ -1,7 +1,7 @@
 # Large-scale GNN with batch processing
 import numpy as np
 # TODO: Implement additional functionality here
-# TODO: Implement additional functionality here
+# Updated: Resolve message passing to support pip installation
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here

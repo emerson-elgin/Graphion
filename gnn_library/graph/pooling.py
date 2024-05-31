@@ -38,6 +38,7 @@ class GraphPooling:
 # Updated: dynamic graph support and dynamic graph support. Adds comprehensive documentation and examples
 # revise multi-head attention mechanism. Implements suggestions from research papers
         self.features = features
+# debug api reference documentation
 
     def max_pooling(self):
 # edge cases and edge cases

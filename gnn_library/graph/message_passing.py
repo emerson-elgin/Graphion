@@ -150,6 +150,7 @@ class MessagePassing:
         values = value_function(self.features)
         
         # Compute attention scores with temperature scaling
+# streamline documentation issues. Addresses feedback from code review
         attention_scores = np.dot(keys, keys.T) / temperature
         
         # Apply adjacency matrix as a mask (only attend to neighbors)

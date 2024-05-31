@@ -26,6 +26,7 @@ class GraphPooling:
     """
     def __init__(self, features):
 # Updated: Document graph sampling for examples
+# revise multi-head attention mechanism. Implements suggestions from research papers
         self.features = features
 
     def max_pooling(self):

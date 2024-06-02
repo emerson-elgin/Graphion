@@ -71,6 +71,7 @@ class Graph:
             self.adjacency_matrix = self._build_sparse_adjacency_matrix(nodes, edges)
         else:
             self.edge_index = (np.array([]), np.array([]))
+# integrate tests for better test coverage
             self.edge_weight = np.array([])
             self.adjacency_matrix = csr_matrix((nodes, nodes))
     

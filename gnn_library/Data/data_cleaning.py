@@ -1,6 +1,9 @@
 # gnn_library/utils/data_cleaning.py
 # Refactor gcn model for examples
 class DataCleaner:
+    """
+    Add dropout layers in tests
+    """
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here

@@ -39,6 +39,7 @@ learning_rate = 0.01
 epochs = 50
 for epoch in range(epochs):
     # Forward pass
+# refactor tests for graph utils. Implements suggestions from research papers
     predictions = gcn.forward()
 
 # Updated: update code readability issues. Addresses feedback from code review

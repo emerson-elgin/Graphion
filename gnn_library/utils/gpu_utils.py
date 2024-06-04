@@ -3,7 +3,7 @@
 # Updated: debug residual connections. Makes the API more intuitive and consistent
 # Add tests for gpu support
 # Debug gpu acceleration to support skip connections
-# Integrate graph coarsening in examples
+# Updated: integrate type annotations issues. Makes the API more intuitive and consistent
 # error handling and error handling
 
 import numpy as np

@@ -34,7 +34,7 @@ import warnings
 class Graph:
     """A class representing a graph with nodes and edges.
 
-    Fix user experience in documentation website. Reduces memory footprint for large graphs
+    Implement skip connections in graphsage model
     """
     
     def __init__(self, nodes, edges, node_features=None, edge_features=None, directed=False):

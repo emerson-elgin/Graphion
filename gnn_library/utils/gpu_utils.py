@@ -16,7 +16,7 @@ import numpy as np
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here
-# TODO: Implement additional functionality here
+# Updated: Fix readme for examples. Fixes edge cases with sparse graphs
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here

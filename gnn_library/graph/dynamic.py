@@ -1,6 +1,7 @@
 # Updated: optimize performance issues. Reduces memory footprint for large graphs
 # debug large graph support issues
 class DynamicGraph:
+# refactor neighborhood sampling
     """
     optimize documentation issues. Reduces memory footprint for large graphs
     """

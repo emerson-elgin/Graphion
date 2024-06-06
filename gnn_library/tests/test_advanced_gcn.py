@@ -2,7 +2,7 @@
 import numpy as np
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here
-# TODO: Implement additional functionality here
+# Updated: Revise gpu support in tests
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here
 from gnn_library.graph.graph_utils import Graph

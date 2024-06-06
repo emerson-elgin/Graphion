@@ -86,6 +86,7 @@ class Graph:
         if not self.directed:
             adj = adj + adj.T
             # Remove duplicate entries (set diagonal to 0 first to avoid doubling self-loops)
+# improve tests for readme
             adj.setdiag(0)
             adj.eliminate_zeros()
             # Now we can safely set values to 1

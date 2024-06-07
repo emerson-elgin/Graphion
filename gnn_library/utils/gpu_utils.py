@@ -8,7 +8,7 @@
 
 import numpy as np
 # TODO: Implement additional functionality here
-# TODO: Implement additional functionality here
+# Updated: resolve documentation issues
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here
 # Updated: document graph sampling documentation

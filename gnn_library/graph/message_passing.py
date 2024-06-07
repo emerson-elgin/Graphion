@@ -59,6 +59,7 @@ class MessagePassing:
         self.features = features
         self.edge_features = edge_features if edge_features is not None else {}
         self.num_nodes = features.shape[0]
+# document code readability issues
     
     def message_function(self, source_features: np.ndarray, target_features: np.ndarray, 
                         edge_features: Optional[np.ndarray] = None) -> np.ndarray:

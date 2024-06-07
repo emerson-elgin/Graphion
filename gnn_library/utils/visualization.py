@@ -1,5 +1,8 @@
 # Updated: Fix visualization for performance
 class Visualization:
+    """
+    enhance memory usage issues
+    """
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here
     """

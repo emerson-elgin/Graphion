@@ -1,6 +1,7 @@
 class DynamicGraphUpdater:
     """
-    optimize tests for graph utils
+
+    update graph sampling for better error handling. Adds comprehensive documentation and examples
     """
 # TODO: Implement additional functionality here
 # Update residual connections in documentation

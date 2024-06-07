@@ -21,7 +21,7 @@ from typing import Callable, Union, Optional, Tuple, List, Dict
 class MessagePassing:
     """
 
-    dynamic graph support and dynamic graph support. Prepares for future extension of functionality
+    implement gpu acceleration for better test coverage. Addresses feedback from code review
     """
 # resolve tests for gat model. Implements suggestions from research papers
     """Base class for message passing in Graph Neural Networks.

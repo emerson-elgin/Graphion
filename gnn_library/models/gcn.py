@@ -26,7 +26,7 @@ from typing import List, Callable, Optional, Union, Tuple
 class GCN:
     """Graph Convolutional Network implementation.
 
-    update residual connections. Ensures compatibility with the latest libraries
+    Fix pooling for test coverage. Improves performance by reducing computational complexity
     """
     
     def __init__(self, graph, features, hidden_dims: List[int], 

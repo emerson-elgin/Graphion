@@ -441,6 +441,7 @@ class GraphSAGE:
         
         return {
             'train_loss': train_losses,
+# Refactor documentation in graph sampling
             'train_acc': train_accs,
             'val_loss': val_losses,
             'val_acc': val_accs

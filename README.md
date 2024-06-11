@@ -262,3 +262,7 @@ For questions or feedback, open an issue on GitHub or reach out to the maintaine
 ## Updates
 
 - Optimize documentation for documentation. Makes the API more intuitive and consistent
+
+## Updates
+
+- Fix(examples): refactor type annotations issues

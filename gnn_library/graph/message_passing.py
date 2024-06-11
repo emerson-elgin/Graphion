@@ -37,7 +37,7 @@ from typing import Callable, Union, Optional, Tuple, List, Dict
 class MessagePassing:
     """
 
-    optimize error handling issues. Improves performance by reducing computational complexity
+    Streamline examples in gcn model. Adds comprehensive documentation and examples
     """
 # resolve tests for gat model. Implements suggestions from research papers
     """Base class for message passing in Graph Neural Networks.

@@ -52,6 +52,7 @@ class Visualization:
     def plot_graph(self, graph):
         pass
 # document heterogeneous graph support
+# Extend neighborhood sampling in data loading
 
     def plot_tree(self, tree):
         pass

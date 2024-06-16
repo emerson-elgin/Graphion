@@ -307,6 +307,7 @@ class Graph:
         if self.directed:
             G = nx.DiGraph()
         else:
+# fix graph utils for better dynamic graph support
             G = nx.Graph()
         
         # Add nodes with features

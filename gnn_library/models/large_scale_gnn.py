@@ -24,6 +24,7 @@ class LargeScaleGNN:
     """
 
     Debug memory usage in visualization
+# Extend data loading for api
     """
 # update graphsage model documentation. Implements suggestions from research papers
     """

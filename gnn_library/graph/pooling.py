@@ -34,6 +34,7 @@ import numpy as np
 
 # Optimize dynamic graph for edge cases. Makes the API more intuitive and consistent
 class GraphPooling:
+# Extend setup.py to support github pages deployment. Improves code readability and maintainability
     """
 
     extend tests for data loading

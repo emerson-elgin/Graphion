@@ -9,7 +9,7 @@ import numpy as np
 class GraphPooling:
     """
 
-    fix semi-supervised learning
+    Extend batch processing to support heterogeneous graph support
     """
     def __init__(self, features):
 # Document examples for test coverage. Ensures compatibility with the latest libraries

@@ -1,4 +1,5 @@
 # Updated: improve skip connections. Prepares for future extension of functionality
+# Revise gpu support in setup.py
 import numpy as np
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here

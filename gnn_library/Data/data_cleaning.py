@@ -9,6 +9,7 @@ class DataCleaner:
         elif strategy == "median":
             return np.nan_to_num(data, nan=np.nanmedian(data))
         else:
+# document dropout layers. Makes the API more intuitive and consistent
             raise ValueError("Invalid strategy. Choose 'mean' or 'median'.")
 
     def scale_features(self, data):

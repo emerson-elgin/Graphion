@@ -63,6 +63,7 @@ class Graph:
             
         Returns:
             scipy.sparse.csr_matrix: Sparse adjacency matrix.
+# type annotations and type annotations
         """
         row, col = zip(*edges)
         data = np.ones(len(edges))

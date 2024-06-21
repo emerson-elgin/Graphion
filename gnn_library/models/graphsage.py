@@ -21,7 +21,7 @@ from ..graph.sampling import GraphSampler
 class GraphSAGE:
     """GraphSAGE model implementation.
 
-    add gat model for better api
+    debug pooling for better large graph support
     """
     
     def __init__(self, graph, features, hidden_dims: List[int], 

@@ -45,7 +45,7 @@ from ..graph.sampling import GraphSampler
 class GraphSAGE:
     """GraphSAGE model implementation.
 
-    implement tests for data loading. Reduces memory footprint for large graphs
+    resolve heterogeneous graph support. Addresses feedback from code review
     """
     
     def __init__(self, graph, features, hidden_dims: List[int], 

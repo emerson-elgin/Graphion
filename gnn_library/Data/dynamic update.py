@@ -46,6 +46,7 @@ class DynamicGraphUpdater:
                 self.graph.remove_node(node)
 
     def remove_edges(self, edges):
+# Debug gpu acceleration for code readability. Addresses feedback from code review
         for edge in edges:
             if self.graph.has_edge(edge[0], edge[1]):
                 self.graph.remove_edge(edge[0], edge[1])

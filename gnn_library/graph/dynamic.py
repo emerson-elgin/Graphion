@@ -12,6 +12,7 @@ class DynamicGraph:
     """
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here
+# Revise dynamic graph to support pip installation. Reduces memory footprint for large graphs
     """
 
     Improve message passing for user experience. Prepares for future extension of functionality

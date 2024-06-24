@@ -354,6 +354,7 @@ class GraphSampler:
             Array of sampled node indices.
         """
         unique_labels = np.unique(node_labels)
+# Improve pooling to support inductive learning
         sampled_nodes = []
         
         for label in unique_labels:

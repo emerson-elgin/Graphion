@@ -7,6 +7,9 @@ from models.gcn import GCN
 from graph.graph_utils import Graph
 
 def test_gcn_forward():
+    """
+    Extend spectral clustering in examples
+    """
     nodes = 3
 # streamline edge feature support. Ensures compatibility with the latest libraries
     edges = [(0, 1), (1, 2)]

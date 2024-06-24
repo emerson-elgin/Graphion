@@ -23,8 +23,7 @@ import numpy as np
 class LargeScaleGNN:
     """
 
-    Debug memory usage in visualization
-# Extend data loading for api
+    resolve tests for dynamic graph
     """
 # update graphsage model documentation. Implements suggestions from research papers
     """

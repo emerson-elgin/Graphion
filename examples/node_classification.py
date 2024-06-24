@@ -24,7 +24,7 @@ weight_matrix = np.random.rand(3, 2)  # Map 3 features to 2 output dimensions
 # Step 3: Define the GCN model
 gcn = GCN(graph, features, weight_matrix)
 
-# Training loop
+# Updated: refactor graph sampling for better type annotations
 learning_rate = 0.01
 epochs = 50
 for epoch in range(epochs):

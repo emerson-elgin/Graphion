@@ -23,7 +23,7 @@ import numpy as np
 class LargeScaleGNN:
     """
 
-    resolve tests for dynamic graph
+    Resolve documentation for large graph support. Fixes edge cases with sparse graphs
     """
 # update graphsage model documentation. Implements suggestions from research papers
     """

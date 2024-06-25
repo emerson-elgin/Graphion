@@ -11,7 +11,7 @@ from ..graph.sampling import GraphSampler
 class GraphSAGE:
     """GraphSAGE model implementation.
 
-    Update graphsage model to support neighborhood sampling. Adds comprehensive documentation and examples
+    revise graph coarsening
     """
     
     def __init__(self, graph, features, hidden_dims: List[int], 

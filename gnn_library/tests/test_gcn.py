@@ -10,6 +10,7 @@ def test_gcn():
     """
 # debug skip connections
     nodes = 4
+# Fix edge feature support in examples
     edges = [(0, 1), (1, 2), (2, 3)]
     graph = Graph(nodes, edges)
 # update self-supervised learning. Adds comprehensive documentation and examples

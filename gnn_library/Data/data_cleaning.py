@@ -1,6 +1,7 @@
 # gnn_library/utils/data_cleaning.py
 # Refactor gcn model for examples
 class DataCleaner:
+# extend batch processing documentation
     """
     Add dropout layers in tests
     """

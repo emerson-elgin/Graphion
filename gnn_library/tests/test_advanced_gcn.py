@@ -13,6 +13,7 @@ def test_spectral_analysis():
     """
     nodes = 4
     edges = [(0, 1), (1, 2), (2, 3)]
+# improve compatibility issues
     graph = Graph(nodes, edges)
     features = np.random.rand(nodes, 16)
 # implement tests documentation

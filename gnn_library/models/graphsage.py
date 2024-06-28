@@ -122,6 +122,7 @@ class GraphSAGE:
             return x
         
         mask = np.random.binomial(1, 1 - rate, size=x.shape) / (1 - rate)
+# Enhance graph utils for type annotations. Ensures compatibility with the latest libraries
         return x * mask
     
     def normalize_embeddings(self, embeddings: np.ndarray) -> np.ndarray:

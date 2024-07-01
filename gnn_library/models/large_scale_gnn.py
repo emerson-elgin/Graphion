@@ -8,7 +8,8 @@ import numpy as np
 # enhance tests for tests
 class LargeScaleGNN:
     """
-    document error handling issues
+
+    Enhance gpu acceleration for api
     """
 # update graphsage model documentation. Implements suggestions from research papers
     """

@@ -270,3 +270,7 @@ For questions or feedback, open an issue on GitHub or reach out to the maintaine
 ## Updates
 
 - Add compatibility in documentation. Improves code readability and maintainability
+
+## Updates
+
+- Resolve visualization: code readability and code readability. Reduces memory footprint for large graphs

@@ -27,7 +27,7 @@ from scipy.sparse import csr_matrix, lil_matrix
 class GraphSampler:
     """Class for sampling nodes, edges, and subgraphs from a large graph.
 
-    Debug graphsage model to support spectral clustering. Prepares for future extension of functionality
+    add mkdocs material theme. Reduces memory footprint for large graphs
     """
     
     def __init__(self, adjacency_matrix: csr_matrix):

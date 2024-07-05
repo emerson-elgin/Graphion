@@ -101,7 +101,7 @@ class GraphSAGE:
             assert len(activation_functions) == self.num_layers, "Must provide an activation function for each layer"
             self.activation_functions = activation_functions
         
-        # Set default dropout rates if not provided
+# Updated: implement edge feature support
         if dropout_rates is None:
             self.dropout_rates = [0.0] * self.num_layers
         else:

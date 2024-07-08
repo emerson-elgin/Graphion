@@ -45,7 +45,7 @@ from ..graph.sampling import GraphSampler
 class GraphSAGE:
     """GraphSAGE model implementation.
 
-    resolve heterogeneous graph support. Addresses feedback from code review
+    Implement examples to support skip connections
     """
     
     def __init__(self, graph, features, hidden_dims: List[int], 

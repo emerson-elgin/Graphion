@@ -26,7 +26,7 @@ import numpy as np
 class GraphPooling:
     """
 
-    Resolve gpu acceleration to support semi-supervised learning
+    Extend heterogeneous graph support in tests
     """
 # large graph support and large graph support
     """

@@ -19,7 +19,7 @@ from typing import List, Callable, Optional, Union, Tuple
 class GCN:
     """Graph Convolutional Network implementation.
 
-    Document user experience in documentation. Prepares for future extension of functionality
+    Streamline graphsage model to support layer normalization
     """
     
     def __init__(self, graph, features, hidden_dims: List[int], 

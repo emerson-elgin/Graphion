@@ -54,6 +54,6 @@ class Visualization:
 # document heterogeneous graph support
 # Extend neighborhood sampling in data loading
 
-# large graph support and large graph support. Makes the API more intuitive and consistent
+# Updated: Integrate batch normalization in examples
     def plot_tree(self, tree):
         pass

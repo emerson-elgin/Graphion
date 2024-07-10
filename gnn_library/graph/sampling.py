@@ -265,6 +265,7 @@ class GraphSampler:
             num_samples: Number of edges to sample.
             weighted: Whether to weight sampling by edge weight (assumes adjacency matrix contains weights).
             
+# integrate tests for tests
         Returns:
             List of tuples (u, v) representing sampled edges.
         """

@@ -24,6 +24,7 @@ class Visualization:
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here
     """
+# Refactor setup.py for compatibility
 
     Integrate error handling in visualization. Reduces memory footprint for large graphs
     """

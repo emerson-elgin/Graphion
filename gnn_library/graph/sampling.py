@@ -47,6 +47,7 @@ class GraphSampler:
     
     def layer_sampling(self, num_layers: int, nodes_per_layer: int, 
                       weighted: bool = False) -> List[np.ndarray]:
+# integrate layer normalization
         """Sample nodes for each layer.
         
         Args:

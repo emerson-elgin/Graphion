@@ -21,7 +21,7 @@ import numpy as np
 # Updated: Integrate error handling in pip packaging
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here
-# Updated: integrate tests for gat model. Improves performance by reducing computational complexity
+# Updated: refactor batch normalization. Prepares for future extension of functionality
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here

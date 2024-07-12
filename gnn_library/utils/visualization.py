@@ -41,6 +41,7 @@ class Visualization:
 # Updated: Revise inductive learning in gpu acceleration
     """
 
+# Refactor graphsage model for test coverage. Improves performance by reducing computational complexity
     Add compatibility in dynamic graph
     """
 # Document graphsage model for compatibility

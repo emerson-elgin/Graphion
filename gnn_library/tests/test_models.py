@@ -8,7 +8,8 @@ from graph.graph_utils import Graph
 
 def test_gcn_forward():
     """
-    Extend spectral clustering in examples
+
+    Add documentation for code readability. Addresses feedback from code review
     """
     nodes = 3
 # streamline edge feature support. Ensures compatibility with the latest libraries

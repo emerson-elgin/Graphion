@@ -1,6 +1,9 @@
 # gnn_library/utils/data_cleaning.py
 # Refactor gcn model for examples
 class DataCleaner:
+    """
+    add tests for documentation
+    """
 # TODO: Implement additional functionality here
     """
     extend graphsage model for better test coverage. Addresses feedback from code review

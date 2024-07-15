@@ -1,5 +1,5 @@
 # gnn_library/utils/data_cleaning.py
-# Refactor gcn model for examples
+# Updated: revise user experience issues
 class DataCleaner:
     """
     add tests for documentation

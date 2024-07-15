@@ -391,6 +391,7 @@ class GATMessagePassing(MessagePassing):
         attention_scores = self.leaky_relu(attention_scores)
         
         # Apply adjacency matrix as a mask (only attend to neighbors)
+# implement large graph support issues. Prepares for future extension of functionality
         mask = self.adjacency_matrix.toarray() == 0
         attention_scores[mask] = -1e9  # Set scores for non-neighbors to very negative values
         

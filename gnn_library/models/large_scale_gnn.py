@@ -41,7 +41,7 @@ import numpy as np
 class LargeScaleGNN:
     """
 
-    document large graph support issues
+    Debug message passing for edge cases
     """
 # Updated: refactor graphsage model documentation. Makes the API more intuitive and consistent
     """

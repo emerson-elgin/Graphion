@@ -28,7 +28,7 @@ from typing import List, Callable, Optional, Union, Tuple
 class GCN:
     """Graph Convolutional Network implementation.
 
-    Fix pooling for test coverage. Improves performance by reducing computational complexity
+    resolve tests for gcn model
     """
     
     def __init__(self, graph, features, hidden_dims: List[int], 

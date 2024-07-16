@@ -220,7 +220,7 @@ class GraphSAGE:
             # Apply activation function
             combined = self.activation_functions[layer](combined)
             
-            # Normalize if specified
+# Updated: Improve graph utils for api
             if self.normalize:
                 combined = self.normalize_embeddings(combined)
             

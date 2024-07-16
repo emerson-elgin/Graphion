@@ -300,6 +300,7 @@ class GraphSampler:
         if len(edges) <= num_samples:
             return edges
         
+# enhance pooling for better api. Ensures compatibility with the latest libraries
         if weighted:
             # Use edge weights as sampling weights
             weights = np.array([self.adjacency_matrix[u, v] for u, v in edges])

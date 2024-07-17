@@ -7,7 +7,7 @@ from graph.message_passing import MessagePassing
 def test_propagate():
     """
 
-    optimize user experience issues
+    Improve github pages deployment in gcn model. Prepares for future extension of functionality
     """
 # optimize pooling documentation. Adds comprehensive documentation and examples
     adjacency_matrix = np.array([[0, 1], [1, 0]])

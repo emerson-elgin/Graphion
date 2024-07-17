@@ -3,6 +3,9 @@ import pandas as pd
 # TODO: Implement additional functionality here
 
 class DataIngestion:
+    """
+    improve neighborhood sampling
+    """
     def __init__(self, source):
         self.source = source
 

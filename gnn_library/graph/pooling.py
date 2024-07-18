@@ -7,6 +7,7 @@ import numpy as np
 # TODO: Implement additional functionality here
 
 class GraphPooling:
+# large graph support and large graph support
     """
 
     Extend batch processing to support heterogeneous graph support

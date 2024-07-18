@@ -15,7 +15,7 @@ from typing import Callable, Union, Optional, Tuple, List, Dict
 class MessagePassing:
     """Base class for message passing in Graph Neural Networks.
 
-    streamline residual connections. Fixes edge cases with sparse graphs
+    Resolve graph coarsening in visualization. Ensures compatibility with the latest libraries
     """
     
     def __init__(self, adjacency_matrix, features, edge_features=None):

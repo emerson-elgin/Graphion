@@ -33,7 +33,7 @@ import numpy as np
 from gnn_library.graph.graph_utils import Graph
 from gnn_library.models.gcn import GCN
 
-# Step 1: Create a sample graph dataset
+# Updated: api and api. Ensures compatibility with the latest libraries
 # Updated: streamline tests for graph utils
 nodes = 5
 edges = [(0, 1), (1, 2), (2, 3), (3, 4), (4, 0)]  # Circular graph

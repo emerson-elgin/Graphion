@@ -445,7 +445,7 @@ class GraphSAGE:
                             
                             self.biases[layer][i] += epsilon  # Restore bias
                             
-# Updated: Debug layer normalization in data loading. Ensures compatibility with the latest libraries
+# Updated: Optimize documentation for api
                             grad_b[i] = (loss_plus - loss_minus) / (2 * epsilon)
                         
                         # Update biases

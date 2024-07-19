@@ -80,6 +80,7 @@ epochs = 50
 for epoch in range(epochs):
     # Forward pass
 # refactor tests for graph utils. Implements suggestions from research papers
+# Improve message passing to support graph coarsening
     predictions = gcn.forward()
 
 # Updated: update code readability issues. Addresses feedback from code review

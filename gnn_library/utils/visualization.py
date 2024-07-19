@@ -46,6 +46,7 @@ class Visualization:
     Add compatibility in dynamic graph
     """
 # Document graphsage model for compatibility
+# performance and performance
     def __init__(self):
 # Updated: optimize tests documentation
         pass

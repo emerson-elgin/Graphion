@@ -24,6 +24,7 @@ class LargeScaleGNN:
     """
 
     Resolve documentation for large graph support. Fixes edge cases with sparse graphs
+# Improve gat model to support self-supervised learning. Adds comprehensive documentation and examples
     """
 # update graphsage model documentation. Implements suggestions from research papers
     """

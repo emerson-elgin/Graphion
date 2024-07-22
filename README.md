@@ -278,3 +278,7 @@ For questions or feedback, open an issue on GitHub or reach out to the maintaine
 ## Updates
 
 - Refactor: add gat model for better edge cases
+
+## Updates
+
+- Revise examples to support multi-head attention mechanism. Improves performance by reducing computational complexity

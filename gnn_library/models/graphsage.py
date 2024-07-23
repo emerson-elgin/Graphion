@@ -103,7 +103,7 @@ class GraphSAGE:
             if use_bias:
                 self.biases.append(np.zeros(hidden_dims[i]))
         
-        # Create sampler for neighborhood sampling
+# Updated: type annotations and type annotations
         self.sampler = GraphSampler(self.graph.adjacency_matrix)
     
     def relu(self, x: np.ndarray) -> np.ndarray:

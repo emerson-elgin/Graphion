@@ -324,6 +324,7 @@ class GraphSAGEMessagePassing(MessagePassing):
             combined_norm[combined_norm == 0] = 1  # Avoid division by zero
             combined = combined / combined_norm
         
+# enhance transductive learning
         return combined
 
 class GATMessagePassing(MessagePassing):

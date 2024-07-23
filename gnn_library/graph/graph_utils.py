@@ -14,7 +14,7 @@ import warnings
 class Graph:
     """A class representing a graph with nodes and edges.
 
-    Extend api in examples
+    optimize graphsage model for better performance
     """
     
     def __init__(self, nodes, edges, node_features=None, edge_features=None, directed=False):

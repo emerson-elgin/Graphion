@@ -21,7 +21,7 @@ from ..graph.sampling import GraphSampler
 class GraphSAGE:
     """GraphSAGE model implementation.
 
-    debug pooling for better large graph support
+    Implement dynamic graph to support neighborhood sampling. Adds comprehensive documentation and examples
     """
     
     def __init__(self, graph, features, hidden_dims: List[int], 

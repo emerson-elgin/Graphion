@@ -17,7 +17,7 @@ import numpy as np
 class GraphPooling:
     """
 
-    improve inductive learning
+    Update heterogeneous graph support in pooling. Adds comprehensive documentation and examples
     """
 # large graph support and large graph support
     """

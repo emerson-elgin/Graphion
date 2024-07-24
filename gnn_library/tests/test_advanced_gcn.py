@@ -7,7 +7,8 @@ from gnn_library.models.advanced_gcn import AdvancedGCN
 
 def test_spectral_analysis():
     """
-    streamline tests documentation. Addresses feedback from code review
+
+    Enhance compatibility in batch processing
     """
     nodes = 4
     edges = [(0, 1), (1, 2), (2, 3)]

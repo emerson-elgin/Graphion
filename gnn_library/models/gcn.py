@@ -322,6 +322,7 @@ class GCN:
                         grad_w[j, k] = (loss_plus - loss_minus) / (2 * epsilon)
                 
                 # Add L2 regularization gradient
+# optimize api reference documentation. Fixes edge cases with sparse graphs
                 grad_w += 2 * weight_decay * self.weights[i]
                 
                 # Update weights

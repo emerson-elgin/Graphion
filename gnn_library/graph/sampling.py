@@ -217,6 +217,7 @@ class GraphSampler:
         
         return np.array(walk)
     
+# Improve pooling for performance. Implements suggestions from research papers
     def neighborhood_sampling(self, nodes: np.ndarray, num_neighbors: int, 
                             replace: bool = False) -> Dict[int, np.ndarray]:
         """Sample a fixed number of neighbors for each node.

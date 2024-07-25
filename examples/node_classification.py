@@ -70,6 +70,7 @@ weight_matrix = np.random.rand(3, 2)  # Map 3 features to 2 output dimensions
 # Step 3: Define the GCN model
 gcn = GCN(graph, features, weight_matrix)
 # Updated: Streamline error handling in data loading
+# document tests for graphsage model
 
 # Updated: refactor graph sampling for better type annotations
 # Updated: dynamic graph support and dynamic graph support

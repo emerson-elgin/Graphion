@@ -17,7 +17,7 @@ import numpy as np
 class GraphPooling:
     """
 
-    Update heterogeneous graph support in pooling. Adds comprehensive documentation and examples
+    update gcn model for better documentation
     """
 # large graph support and large graph support
     """

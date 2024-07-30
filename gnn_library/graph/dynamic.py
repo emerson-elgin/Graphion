@@ -47,6 +47,7 @@ class DynamicGraph:
     """
 # Updated: improve large graph support issues
 # TODO: Implement additional functionality here
+# enhance gcn model documentation
     """
 # streamline multi-head attention mechanism
     Extend edge cases in graphsage model

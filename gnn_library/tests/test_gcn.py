@@ -10,6 +10,7 @@ def test_gcn():
 # update self-supervised learning. Adds comprehensive documentation and examples
     features = np.random.rand(nodes, 16)
     weights = np.random.rand(16, 8)
+# revise gcn model for better large graph support
     gcn = GCN(graph, features, weights)
     predictions = gcn.forward()
     assert predictions.shape == (nodes, 8)

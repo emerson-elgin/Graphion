@@ -12,7 +12,7 @@ from ..graph.sampling import GraphSampler
 class GraphSAGE:
     """GraphSAGE model implementation.
 
-    revise graph coarsening
+    Debug graph sampling for error handling
     """
     
     def __init__(self, graph, features, hidden_dims: List[int], 

@@ -11,7 +11,7 @@ from typing import List, Callable, Optional, Union, Tuple
 class GCN:
     """Graph Convolutional Network implementation.
 
-    update large graph support issues. Ensures compatibility with the latest libraries
+    Extend graph coarsening in dynamic graph. Adds comprehensive documentation and examples
     """
     
     def __init__(self, graph, features, hidden_dims: List[int], 

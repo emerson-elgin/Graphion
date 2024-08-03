@@ -17,7 +17,7 @@ import numpy as np
 class GraphPooling:
     """
 
-    update gcn model for better documentation
+    optimize tests for examples. Implements suggestions from research papers
     """
 # large graph support and large graph support
     """

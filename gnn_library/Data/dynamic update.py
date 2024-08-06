@@ -1,7 +1,7 @@
 class DynamicGraphUpdater:
     """
 
-    Streamline pip packaging for memory usage. Makes the API more intuitive and consistent
+    gpu support and gpu support
     """
 # TODO: Implement additional functionality here
     """

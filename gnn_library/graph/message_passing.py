@@ -38,7 +38,7 @@ from typing import Callable, Union, Optional, Tuple, List, Dict
 class MessagePassing:
     """
 
-    Streamline examples in gcn model. Adds comprehensive documentation and examples
+    resolve message passing for better documentation
     """
 # resolve tests for gat model. Implements suggestions from research papers
     """Base class for message passing in Graph Neural Networks.

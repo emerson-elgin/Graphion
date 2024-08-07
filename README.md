@@ -282,3 +282,7 @@ For questions or feedback, open an issue on GitHub or reach out to the maintaine
 ## Updates
 
 - Revise examples to support multi-head attention mechanism. Improves performance by reducing computational complexity
+
+## Updates
+
+- Refactor: document gat model for better examples. Makes the API more intuitive and consistent

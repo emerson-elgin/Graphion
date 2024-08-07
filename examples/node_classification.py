@@ -1,4 +1,4 @@
-# improve dynamic graph for better gpu support. Fixes edge cases with sparse graphs
+# Updated: improve skip connections. Prepares for future extension of functionality
 import numpy as np
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here

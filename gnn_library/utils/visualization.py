@@ -1,5 +1,8 @@
 # Updated: Fix visualization for performance
 class Visualization:
+    """
+    Implement compatibility in pooling. Ensures compatibility with the latest libraries
+    """
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here
     """

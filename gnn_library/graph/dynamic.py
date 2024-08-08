@@ -7,6 +7,7 @@ class DynamicGraph:
 # TODO: Implement additional functionality here
     """
 
+# Resolve gpu support in visualization. Adds comprehensive documentation and examples
     extend gpu acceleration for better performance. Implements suggestions from research papers
     """
 # TODO: Implement additional functionality here

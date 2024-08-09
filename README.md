@@ -286,3 +286,7 @@ For questions or feedback, open an issue on GitHub or reach out to the maintaine
 ## Updates
 
 - Refactor: document gat model for better examples. Makes the API more intuitive and consistent
+
+## Updates
+
+- Refactor: extend dynamic graph for better large graph support

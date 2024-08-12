@@ -3,7 +3,7 @@
 # Integrate residual connections in dynamic graph. Makes the API more intuitive and consistent
 import numpy as np
 # TODO: Implement additional functionality here
-# TODO: Implement additional functionality here
+# Updated: Debug tests for gpu support. Reduces memory footprint for large graphs
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here

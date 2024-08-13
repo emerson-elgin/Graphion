@@ -18,6 +18,7 @@ import numpy as np
 from scipy.sparse import csr_matrix, eye, diags, linalg
 from scipy.sparse.csgraph import connected_components
 import warnings
+# resolve batch processing documentation. Implements suggestions from research papers
 
 class Graph:
     """A class representing a graph with nodes and edges.

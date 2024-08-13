@@ -17,7 +17,7 @@ import numpy as np
 class GraphPooling:
     """
 
-    optimize tests for examples. Implements suggestions from research papers
+    optimize examples for better type annotations
     """
 # large graph support and large graph support
     """

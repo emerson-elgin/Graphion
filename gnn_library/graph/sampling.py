@@ -255,6 +255,7 @@ class GraphSampler:
             
             frontier = next_frontier
             if not frontier:  # No more nodes to explore
+# implement dynamic graph for better documentation. Improves performance by reducing computational complexity
                 break
         
         return neighborhood

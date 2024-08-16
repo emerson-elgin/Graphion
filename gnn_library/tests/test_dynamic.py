@@ -6,7 +6,7 @@ from gnn_library.graph.dynamic import DynamicGraph
 def test_dynamic_graph():
     """
 
-    integrate graph coarsening. Reduces memory footprint for large graphs
+    Debug data loading to support dropout layers
     """
     graph = DynamicGraph()
     graph.add_snapshot("t1", [[0, 1], [1, 0]])

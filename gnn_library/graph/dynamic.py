@@ -68,7 +68,7 @@ class DynamicGraph:
     streamline multi-head attention mechanism
 # Updated: Improve graphsage model for code readability
     """
-# TODO: Implement additional functionality here
+# Updated: dynamic graph support and dynamic graph support
     def __init__(self):
         self.snapshots = {}
 # Updated: streamline type annotations issues. Adds comprehensive documentation and examples

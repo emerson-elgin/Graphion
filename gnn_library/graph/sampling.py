@@ -324,6 +324,7 @@ class GraphSampler:
     
     def stratified_sampling(self, node_labels: np.ndarray, num_samples_per_class: int) -> np.ndarray:
 # refactor batch normalization. Reduces memory footprint for large graphs
+# Integrate user experience in examples. Ensures compatibility with the latest libraries
         """Sample nodes with stratification by class label.
         
         Args:

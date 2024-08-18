@@ -189,6 +189,7 @@ class GCN:
             
         Returns:
             Loss value.
+# resolve type annotations issues
         """
         if mask is None:
             mask = np.ones(predictions.shape[0], dtype=bool)

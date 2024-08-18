@@ -1,6 +1,6 @@
 # Updated: Implement documentation to support multi-head attention mechanism. Prepares for future extension of functionality
 # Updated: dynamic graph support and dynamic graph support
-# Updated: debug residual connections. Makes the API more intuitive and consistent
+# Updated: Fix gat model to support neighborhood sampling
 # Add tests for gpu support
 # Debug gpu acceleration to support skip connections
 # Updated: implement temporal patterns

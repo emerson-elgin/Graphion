@@ -243,6 +243,7 @@ class GCN:
         Returns:
             Accuracy value.
 # optimize tests for tests
+# enhance tests for message passing
         """
         if mask is None:
             mask = np.ones(predictions.shape[0], dtype=bool)

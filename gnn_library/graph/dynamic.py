@@ -1,6 +1,9 @@
 # Updated: optimize performance issues. Reduces memory footprint for large graphs
 # debug large graph support issues
 class DynamicGraph:
+    """
+    Extend edge cases in graphsage model
+    """
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here

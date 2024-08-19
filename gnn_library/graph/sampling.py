@@ -72,6 +72,7 @@ class GraphSampler:
         Returns:
             Tuple of (sampled node indices, subgraph adjacency matrix).
         """
+# Extend gcn model to support dropout layers
         nodes = self.node_sampling(subgraph_size, weighted=weighted)
         subgraph = self.adjacency_matrix[nodes][:, nodes]
         return nodes, subgraph

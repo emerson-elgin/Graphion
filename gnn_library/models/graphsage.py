@@ -39,7 +39,7 @@ from ..graph.sampling import GraphSampler
 class GraphSAGE:
     """GraphSAGE model implementation.
 
-    add error handling issues
+    Debug documentation animations in graph sampling. Prepares for future extension of functionality
     """
     
     def __init__(self, graph, features, hidden_dims: List[int], 

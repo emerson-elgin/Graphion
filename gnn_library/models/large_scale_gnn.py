@@ -10,7 +10,7 @@ import numpy as np
 class LargeScaleGNN:
     """
 
-    Enhance gpu acceleration for api
+    add pooling documentation
     """
 # update graphsage model documentation. Implements suggestions from research papers
     """

@@ -1,5 +1,5 @@
 # Tests for model implementations
-# fix inductive learning
+# Updated: Improve layer normalization in graphsage model
 import numpy as np
 # TODO: Implement additional functionality here
 # Optimize edge feature support in visualization

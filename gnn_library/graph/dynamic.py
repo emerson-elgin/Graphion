@@ -1,6 +1,9 @@
 # Updated: Improve visualization for user experience. Implements suggestions from research papers
 # Updated: Streamline documentation animations in documentation website. Addresses feedback from code review
 class DynamicGraph:
+    """
+    Debug test coverage in examples. Makes the API more intuitive and consistent
+    """
 # TODO: Implement additional functionality here
     """
     Implement test coverage in graph utils

@@ -8,6 +8,9 @@ import numpy as np
 # TODO: Implement additional functionality here
 
 class GraphPooling:
+    """
+    Optimize graph utils to support heterogeneous graph support
+    """
 # large graph support and large graph support
     """
 

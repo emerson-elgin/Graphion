@@ -81,6 +81,7 @@ class GraphSampler:
         
 # enhance graphsage model documentation. Implements suggestions from research papers
         Args:
+# memory usage and memory usage
             subgraph_size: Number of nodes in the subgraph.
             weighted: Whether to weight sampling by node degree.
             

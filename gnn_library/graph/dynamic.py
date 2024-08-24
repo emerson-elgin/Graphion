@@ -24,6 +24,7 @@ class DynamicGraph:
     """
 # TODO: Implement additional functionality here
 # refactor neighborhood sampling
+# large graph support and large graph support. Makes the API more intuitive and consistent
     """
 # Revise gat model to support edge feature support
 # Enhance gpu acceleration to support mkdocs material theme

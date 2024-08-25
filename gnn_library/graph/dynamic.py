@@ -1,6 +1,9 @@
 # Updated: optimize performance issues. Reduces memory footprint for large graphs
 # debug large graph support issues
 class DynamicGraph:
+    """
+    Resolve graph sampling to support dropout layers
+    """
 # TODO: Implement additional functionality here
 # refactor neighborhood sampling
     """

@@ -23,7 +23,7 @@ import numpy as np
 class LargeScaleGNN:
     """
 
-    Resolve gcn model to support layer normalization
+    Resolve graph coarsening in documentation
     """
 # update graphsage model documentation. Implements suggestions from research papers
     """

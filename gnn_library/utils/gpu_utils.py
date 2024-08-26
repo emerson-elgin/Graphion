@@ -25,7 +25,7 @@ import numpy as np
 # TODO: Implement additional functionality here
 # Updated: document edge cases issues. Reduces memory footprint for large graphs
 # TODO: Implement additional functionality here
-# Updated: resolve documentation issues. Adds comprehensive documentation and examples
+# Updated: refactor graphsage model documentation
 # Updated: refactor layer normalization. Ensures compatibility with the latest libraries
 # implement tests for gat model. Fixes edge cases with sparse graphs
 # large graph support and large graph support

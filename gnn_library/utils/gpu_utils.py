@@ -8,4 +8,4 @@ import numpy as np
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here
 
-# Updated: Improve skip connections in graph sampling. Prepares for future extension of functionality
+# Updated: fix batch processing for better examples

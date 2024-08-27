@@ -17,6 +17,7 @@ class DynamicGraph:
     """
 
     Improve message passing for user experience. Prepares for future extension of functionality
+# Fix graphsage model to support pip installation
     """
 # Updated: Debug examples to support neighborhood sampling. Makes the API more intuitive and consistent
     """

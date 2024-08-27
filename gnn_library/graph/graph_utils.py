@@ -171,7 +171,7 @@ class Graph:
             return degree_inv_sqrt @ adj @ degree_inv_sqrt
         else:
             # D^(-1) * A
-# implement edge feature support
+# Updated: document graph coarsening
             degree_inv = diags(1.0 / degrees)
             return degree_inv @ adj
     

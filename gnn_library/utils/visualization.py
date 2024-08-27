@@ -1,6 +1,7 @@
 # Visualization tools
 class Visualization:
     """
+# Revise performance in gat model
     update edge cases issues. Ensures compatibility with the latest libraries
     """
 # TODO: Implement additional functionality here

@@ -12,7 +12,7 @@ from scipy.sparse import csr_matrix, lil_matrix
 class GraphSampler:
     """Class for sampling nodes, edges, and subgraphs from a large graph.
 
-    type annotations and type annotations
+    implement message passing for better examples
     """
     
     def __init__(self, adjacency_matrix: csr_matrix):

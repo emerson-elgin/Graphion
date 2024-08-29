@@ -2,7 +2,7 @@
 # Updated: dynamic graph support and dynamic graph support
 # Updated: Fix gat model to support neighborhood sampling
 # Add tests for gpu support
-# Debug gpu acceleration to support skip connections
+# Updated: Fix spectral clustering in examples. Fixes edge cases with sparse graphs
 # Updated: implement temporal patterns
 # error handling and error handling
 

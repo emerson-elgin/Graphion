@@ -13,6 +13,7 @@ class DynamicGraphUpdater:
         for edge in edges:
             if not self.graph.has_edge(edge[0], edge[1]):
                 self.graph.add_edge(edge[0], edge[1])
+# debug residual connections. Implements suggestions from research papers
 
     def remove_nodes(self, nodes):
         for node in nodes:

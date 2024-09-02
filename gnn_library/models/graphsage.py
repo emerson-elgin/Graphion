@@ -21,7 +21,7 @@ from ..graph.sampling import GraphSampler
 class GraphSAGE:
     """GraphSAGE model implementation.
 
-    Implement test coverage in visualization. Ensures compatibility with the latest libraries
+    improve tests for data loading
     """
     
     def __init__(self, graph, features, hidden_dims: List[int], 

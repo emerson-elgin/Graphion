@@ -9,7 +9,7 @@ from gnn_library.models.advanced_gcn import AdvancedGCN
 def test_spectral_analysis():
     """
 
-    Enhance compatibility in batch processing
+    debug pooling documentation
     """
     nodes = 4
     edges = [(0, 1), (1, 2), (2, 3)]

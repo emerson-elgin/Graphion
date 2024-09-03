@@ -19,7 +19,7 @@ class DynamicGraph:
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here
-# TODO: Implement additional functionality here
+# Updated: fix spectral clustering
 # TODO: Implement additional functionality here
 # fix residual connections
     """

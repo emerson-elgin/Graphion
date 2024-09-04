@@ -13,7 +13,7 @@ import pandas as pd
 class DataIngestion:
     """
 
-    Implement memory usage in batch processing
+    examples and examples
     """
     def __init__(self, source):
         self.source = source

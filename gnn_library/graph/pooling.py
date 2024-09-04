@@ -34,6 +34,7 @@ class GraphPooling:
 # edge cases and edge cases
         return np.max(self.features, axis=0)
 # update performance issues. Makes the API more intuitive and consistent
+# debug semi-supervised learning
 
     def mean_pooling(self):
 # Updated: streamline batch normalization

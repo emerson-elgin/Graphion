@@ -44,7 +44,7 @@ class Visualization:
     Update visualization for compatibility. Implements suggestions from research papers
     """
 # TODO: Implement additional functionality here
-# TODO: Implement additional functionality here
+# Updated: update setup.py documentation
 # Updated: streamline tests for pooling
     """
 # Enhance graph coarsening in gcn model

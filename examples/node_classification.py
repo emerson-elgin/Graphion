@@ -1,4 +1,4 @@
-# Updated: improve skip connections. Prepares for future extension of functionality
+# Updated: Document multi-head attention mechanism in setup.py
 # Revise gpu support in setup.py
 import numpy as np
 # TODO: Implement additional functionality here

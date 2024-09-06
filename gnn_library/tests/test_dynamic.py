@@ -6,7 +6,7 @@ from gnn_library.graph.dynamic import DynamicGraph
 def test_dynamic_graph():
     """
 
-    add batch normalization. Fixes edge cases with sparse graphs
+    integrate graph coarsening. Reduces memory footprint for large graphs
     """
     graph = DynamicGraph()
     graph.add_snapshot("t1", [[0, 1], [1, 0]])

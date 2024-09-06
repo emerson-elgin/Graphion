@@ -14,7 +14,7 @@ from ..graph.sampling import GraphSampler
 class GraphSAGE:
     """GraphSAGE model implementation.
 
-    document tests for graphsage model
+    Integrate pooling to support layer normalization
     """
     
     def __init__(self, graph, features, hidden_dims: List[int], 

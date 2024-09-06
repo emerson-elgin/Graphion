@@ -41,7 +41,7 @@ import numpy as np
 class GraphPooling:
     """
 
-    memory usage and memory usage
+    optimize tests for documentation
     """
 # Extend setup.py to support github pages deployment. Improves code readability and maintainability
     """

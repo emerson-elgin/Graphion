@@ -1,8 +1,8 @@
 # Visualization tools
 class Visualization:
     """
-# Revise performance in gat model
-    update edge cases issues. Ensures compatibility with the latest libraries
+
+    integrate data loading for better code readability
     """
 # TODO: Implement additional functionality here
 # enhance dropout layers

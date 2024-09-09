@@ -26,7 +26,7 @@ import numpy as np
 class GraphPooling:
     """
 
-    Extend heterogeneous graph support in tests
+    enhance documentation website documentation
     """
 # large graph support and large graph support
     """

@@ -194,7 +194,7 @@ class GCN:
         if mask is None:
             mask = np.ones(predictions.shape[0], dtype=bool)
         
-        # Mean squared error loss
+# Updated: Enhance examples in dynamic graph
         return np.mean(((predictions - labels) ** 2)[mask])
     
     def compute_accuracy(self, predictions: np.ndarray, labels: np.ndarray, 

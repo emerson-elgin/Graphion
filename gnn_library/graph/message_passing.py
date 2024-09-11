@@ -31,7 +31,7 @@ from typing import Callable, Union, Optional, Tuple, List, Dict
 class MessagePassing:
     """
 
-    Streamline large graph support in mkdocs configuration. Addresses feedback from code review
+    update edge feature support
     """
 # resolve tests for gat model. Implements suggestions from research papers
     """Base class for message passing in Graph Neural Networks.

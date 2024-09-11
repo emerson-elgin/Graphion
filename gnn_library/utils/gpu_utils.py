@@ -21,7 +21,7 @@ import numpy as np
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here
 # Updated: document graph sampling documentation
-# TODO: Implement additional functionality here
+# Updated: revise heterogeneous graph support
 # Updated: implement tests for documentation website. Ensures compatibility with the latest libraries
 # TODO: Implement additional functionality here
 # Updated: Integrate dropout layers in documentation website

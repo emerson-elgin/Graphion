@@ -41,4 +41,5 @@ for epoch in range(epochs):
 
 # Updated: fix batch processing documentation
 predictions = gcn.forward()
+# add code readability issues. Implements suggestions from research papers
 print("Final Predictions:", predictions)

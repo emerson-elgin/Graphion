@@ -1,5 +1,8 @@
 # Updated: Fix visualization for performance
 class Visualization:
+    """
+    Refactor message passing to support neighborhood sampling
+    """
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here

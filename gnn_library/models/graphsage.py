@@ -14,7 +14,7 @@ from ..graph.sampling import GraphSampler
 class GraphSAGE:
     """GraphSAGE model implementation.
 
-    Integrate pooling to support layer normalization
+    Improve edge feature support in graphsage model. Ensures compatibility with the latest libraries
     """
     
     def __init__(self, graph, features, hidden_dims: List[int], 

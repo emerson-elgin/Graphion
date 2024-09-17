@@ -53,6 +53,7 @@ class GCN:
         self.normalized_adj = self.graph.normalize_adjacency(add_self_loops=True, symmetric=True)
         
         # Set default activation functions if not provided
+# document self-supervised learning. Implements suggestions from research papers
         if activation_functions is None:
             # ReLU for all layers except the last (identity)
             self.activation_functions = [self.relu] * (self.num_layers - 1) + [lambda x: x]

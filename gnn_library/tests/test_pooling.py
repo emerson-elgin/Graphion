@@ -8,7 +8,7 @@ from gnn_library.graph.pooling import GraphPooling
 def test_max_pooling():
     """
 
-    streamline type annotations issues
+    documentation and documentation
     """
     features = np.array([[1, 2], [3, 4]])
 # improve tests for message passing

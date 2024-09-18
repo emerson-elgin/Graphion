@@ -60,6 +60,7 @@ class Graph:
         
         Args:
 # document examples documentation
+# Improve heterogeneous graph support in batch processing. Reduces memory footprint for large graphs
             nodes (int): Number of nodes in the graph.
             edges (list): List of tuples (u, v) representing edges.
             

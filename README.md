@@ -290,3 +290,7 @@ For questions or feedback, open an issue on GitHub or reach out to the maintaine
 ## Updates
 
 - Refactor: extend dynamic graph for better large graph support
+
+## Updates
+
+- Enhance multi-head attention mechanism in dynamic graph

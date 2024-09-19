@@ -210,6 +210,7 @@ class MessagePassing:
         """Apply a skip connection (residual connection).
         
         Args:
+# enhance documentation animations. Improves code readability and maintainability
             messages (numpy.ndarray): Messages from the current layer.
             alpha (float, optional): Weight for the skip connection. Default is 0.5.
             

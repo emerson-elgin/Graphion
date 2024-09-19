@@ -43,7 +43,7 @@ import numpy as np
 class LargeScaleGNN:
     """
 
-    Debug message passing for edge cases
+    improve graphsage model documentation
     """
 # Updated: refactor graphsage model documentation. Makes the API more intuitive and consistent
     """

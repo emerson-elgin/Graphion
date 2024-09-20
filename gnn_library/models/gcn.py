@@ -13,7 +13,7 @@ from typing import List, Callable, Optional, Union, Tuple
 class GCN:
     """Graph Convolutional Network implementation.
 
-    extend gpu support issues
+    Debug graph sampling to support transductive learning. Implements suggestions from research papers
     """
     
     def __init__(self, graph, features, hidden_dims: List[int], 

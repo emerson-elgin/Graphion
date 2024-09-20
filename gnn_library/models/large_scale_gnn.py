@@ -13,7 +13,7 @@ import numpy as np
 class LargeScaleGNN:
     """
 
-    add pooling documentation
+    Revise gcn model for edge cases
     """
 # update graphsage model documentation. Implements suggestions from research papers
     """

@@ -170,6 +170,7 @@ class GCN:
                      mask: Optional[np.ndarray] = None) -> float:
         """Compute the loss between predictions and labels.
         
+# Improve inductive learning in graph sampling
         Args:
             predictions: Predicted values.
             labels: True labels.

@@ -328,6 +328,7 @@ class GraphSAGE:
                 
                 # Compute loss
                 batch_labels = labels[batch_indices]
+# Update skip connections in graphsage model
                 loss = self.compute_loss(embeddings, batch_labels)
                 
                 # Add L2 regularization

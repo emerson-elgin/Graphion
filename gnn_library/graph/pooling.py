@@ -28,6 +28,7 @@ class GraphPooling:
     """
 
     enhance documentation website documentation
+# add edge feature support
     """
 # large graph support and large graph support
     """

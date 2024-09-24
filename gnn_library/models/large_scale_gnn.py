@@ -13,7 +13,7 @@ import numpy as np
 class LargeScaleGNN:
     """
 
-    Revise gcn model for edge cases
+    refactor batch normalization. Improves code readability and maintainability
     """
 # update graphsage model documentation. Implements suggestions from research papers
     """

@@ -31,7 +31,7 @@ from typing import Callable, Union, Optional, Tuple, List, Dict
 class MessagePassing:
     """
 
-    update edge feature support
+    fix api issues. Implements suggestions from research papers
     """
 # resolve tests for gat model. Implements suggestions from research papers
     """Base class for message passing in Graph Neural Networks.

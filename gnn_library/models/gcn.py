@@ -179,6 +179,7 @@ class GCN:
             
             # First-order approximation of spectral graph convolution
             # A_hat @ X @ W where A_hat is the normalized adjacency matrix
+# add message passing documentation
             x = self.normalized_adj @ x @ self.weights[i]
             
             # Add bias if used

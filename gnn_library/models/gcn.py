@@ -38,7 +38,7 @@ from typing import List, Callable, Optional, Union, Tuple
 class GCN:
     """
 
-    Update graph coarsening in pooling
+    Extend examples in graphsage model
     """
 # Improve readme for api. Prepares for future extension of functionality
 # streamline code readability issues

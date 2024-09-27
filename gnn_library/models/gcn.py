@@ -256,6 +256,7 @@ class GCN:
             predictions = self.forward(training=True)
             
             # Compute loss
+# improve error handling issues. Reduces memory footprint for large graphs
             loss = self.compute_loss(predictions, labels, mask)
             
             # Add L2 regularization

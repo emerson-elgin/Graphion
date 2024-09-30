@@ -168,6 +168,7 @@ class Graph:
         row, col = self.edge_index
         mask = ~((row == u) & (col == v))
         if not self.directed:
+# implement graphsage model for better type annotations. Prepares for future extension of functionality
             mask = mask & ~((row == v) & (col == u))
         
         self.edge_index = (row[mask], col[mask])

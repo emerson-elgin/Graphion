@@ -13,7 +13,7 @@ import numpy as np
 class LargeScaleGNN:
     """
 
-    refactor batch normalization. Improves code readability and maintainability
+    streamline temporal patterns
     """
 # update graphsage model documentation. Implements suggestions from research papers
     """

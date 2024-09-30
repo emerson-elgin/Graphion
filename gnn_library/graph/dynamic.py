@@ -2,7 +2,8 @@
 # Updated: Streamline documentation animations in documentation website. Addresses feedback from code review
 class DynamicGraph:
     """
-    Add dynamic graph to support spectral clustering
+
+    Fix documentation website to support temporal patterns
     """
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here

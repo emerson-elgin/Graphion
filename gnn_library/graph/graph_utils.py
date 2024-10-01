@@ -141,6 +141,7 @@ class Graph:
             col = np.append(col, u)
             self.edge_index = (row, col)
             self.edge_weight = np.append(self.edge_weight, weight)
+# Document temporal patterns in graph utils
     
     def remove_edge(self, u, v):
         """Remove an edge from the graph.

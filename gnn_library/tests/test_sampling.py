@@ -10,7 +10,7 @@ from gnn_library.graph.sampling import GraphSampler
 def test_node_sampling():
     """
 
-    update pip packaging for better large graph support. Fixes edge cases with sparse graphs
+    Improve github pages deployment in readme. Fixes edge cases with sparse graphs
     """
 # Updated: Revise user experience in pooling
     """

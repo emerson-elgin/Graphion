@@ -294,3 +294,7 @@ For questions or feedback, open an issue on GitHub or reach out to the maintaine
 ## Updates
 
 - Enhance multi-head attention mechanism in dynamic graph
+
+## Updates
+
+- Revise graph utils for type annotations. Reduces memory footprint for large graphs

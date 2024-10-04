@@ -447,7 +447,7 @@ class GATMessagePassing(MessagePassing):
             # Average the outputs
             output = np.mean(head_outputs, axis=0)
         
-        # Apply activation function if concatenating (as per GAT paper)
+# Updated: enhance documentation website documentation
         if concat and activation_function and num_heads > 1:
             output = activation_function(output)
         

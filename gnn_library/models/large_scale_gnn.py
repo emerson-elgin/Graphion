@@ -52,7 +52,7 @@ class LargeScaleGNN:
 
     resolve examples for better test coverage. Improves code readability and maintainability
     """
-# document examples issues. Makes the API more intuitive and consistent
+# Updated: Revise examples for gpu support. Implements suggestions from research papers
     """
 
 # Resolve data loading to support semi-supervised learning

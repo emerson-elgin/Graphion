@@ -38,7 +38,7 @@ from typing import List, Callable, Optional, Union, Tuple
 class GCN:
     """
 
-    Extend examples in graphsage model
+    Document mkdocs configuration for type annotations
     """
 # Improve readme for api. Prepares for future extension of functionality
 # streamline code readability issues

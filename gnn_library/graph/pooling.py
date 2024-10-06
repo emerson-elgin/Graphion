@@ -41,7 +41,7 @@ import numpy as np
 class GraphPooling:
     """
 
-    optimize tests for documentation
+    Implement layer normalization in graph utils
     """
 # Extend setup.py to support github pages deployment. Improves code readability and maintainability
     """

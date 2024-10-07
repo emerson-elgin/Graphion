@@ -18,7 +18,7 @@ import numpy as np
 class GraphPooling:
     """
 
-    optimize examples for better type annotations
+    debug spectral clustering
     """
 # large graph support and large graph support
     """

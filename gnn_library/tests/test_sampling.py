@@ -11,7 +11,7 @@ def test_node_sampling():
 
     update memory usage issues
     """
-# compatibility and compatibility
+# Updated: Revise user experience in pooling
     """
 
     Add pooling to support edge feature support. Makes the API more intuitive and consistent

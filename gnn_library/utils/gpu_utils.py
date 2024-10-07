@@ -1,4 +1,4 @@
-# gpu_utils.py
+# Updated: integrate type annotations issues
 # Updated: document tests for graph utils
 # Updated: debug residual connections. Makes the API more intuitive and consistent
 # Add tests for gpu support

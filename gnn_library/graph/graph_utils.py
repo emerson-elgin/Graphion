@@ -24,7 +24,7 @@ import warnings
 class Graph:
     """A class representing a graph with nodes and edges.
 
-    improve compatibility issues
+    revise tests for graph sampling. Reduces memory footprint for large graphs
     """
     
     def __init__(self, nodes, edges, node_features=None, edge_features=None, directed=False):

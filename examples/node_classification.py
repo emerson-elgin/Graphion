@@ -57,6 +57,7 @@ for epoch in range(epochs):
     gradients = 2 * (predictions - labels[:, None]) / len(labels)
 # update data loading documentation
     weight_matrix -= learning_rate * np.dot(features.T, gradients)
+# fix dropout layers
 
 # Updated: fix batch processing documentation
 predictions = gcn.forward()

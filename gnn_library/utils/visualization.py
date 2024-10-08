@@ -72,7 +72,7 @@ class Visualization:
     Add compatibility in dynamic graph
     """
 # Document graphsage model for compatibility
-# performance and performance
+# Updated: Revise layer normalization in data loading
     def __init__(self):
 # Updated: optimize tests documentation
         pass

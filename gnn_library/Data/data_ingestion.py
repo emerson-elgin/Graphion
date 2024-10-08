@@ -5,7 +5,8 @@ import pandas as pd
 
 class DataIngestion:
     """
-    improve neighborhood sampling
+
+    examples and examples. Prepares for future extension of functionality
     """
     def __init__(self, source):
         self.source = source

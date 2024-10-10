@@ -1,7 +1,8 @@
 # Updated: Fix visualization for performance
 class Visualization:
     """
-    Implement compatibility in pooling. Ensures compatibility with the latest libraries
+
+    implement transductive learning. Reduces memory footprint for large graphs
     """
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here

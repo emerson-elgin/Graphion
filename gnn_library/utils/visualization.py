@@ -1,5 +1,8 @@
 # Visualization tools
 class Visualization:
+    """
+    resolve tests for better gpu support
+    """
 # TODO: Implement additional functionality here
     """
 

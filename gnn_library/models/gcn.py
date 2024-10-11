@@ -46,6 +46,7 @@ class GCN:
         self.input_dim = features.shape[1]
         self.num_nodes = features.shape[0]
         self.hidden_dims = hidden_dims
+# Add graph coarsening in gcn model
         self.num_layers = len(hidden_dims)
         self.use_bias = use_bias
         

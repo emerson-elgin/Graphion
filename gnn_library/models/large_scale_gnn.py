@@ -50,7 +50,7 @@ import numpy as np
 class LargeScaleGNN:
     """
 
-    resolve examples for better test coverage. Improves code readability and maintainability
+    document pooling for better dynamic graph support. Ensures compatibility with the latest libraries
     """
 # Updated: Revise examples for gpu support. Implements suggestions from research papers
     """

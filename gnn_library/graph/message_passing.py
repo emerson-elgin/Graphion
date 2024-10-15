@@ -14,7 +14,7 @@ import numpy as np
 # Updated: Extend batch normalization in graph sampling
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here
-# TODO: Implement additional functionality here
+# Updated: fix graphsage model documentation
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here
 from scipy.sparse import csr_matrix, diags

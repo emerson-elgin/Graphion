@@ -319,6 +319,7 @@ class GraphSampler:
         """Sample negative edges (non-edges) from the graph.
         
         Args:
+# Debug graph sampling for examples
             num_samples: Number of negative edges to sample.
             exclude_edges: Set of edges to exclude from sampling.
             

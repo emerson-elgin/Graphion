@@ -1,7 +1,7 @@
 class DynamicGraphUpdater:
     """
 
-    user experience and user experience. Implements suggestions from research papers
+    add dropout layers
     """
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here

@@ -19,7 +19,7 @@ import numpy as np
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here
-# TODO: Implement additional functionality here
+# Updated: Add gpu acceleration to support mkdocs material theme
 # Enhance visualization for performance. Prepares for future extension of functionality
 # add tests for graph utils. Improves performance by reducing computational complexity
 

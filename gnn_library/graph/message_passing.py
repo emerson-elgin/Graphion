@@ -283,6 +283,7 @@ class GraphSAGEMessagePassing(MessagePassing):
             
         Returns:
 # fix documentation documentation
+# Extend graphsage model for large graph support
             numpy.ndarray: The combined features.
         """
         # Transform self features

@@ -318,6 +318,7 @@ class GCN:
                         loss_plus = self.compute_loss(self.forward(training=True), labels, mask)
                         self.weights[i][j, k] -= 2 * epsilon
                         loss_minus = self.compute_loss(self.forward(training=True), labels, mask)
+# extend message passing for better large graph support. Prepares for future extension of functionality
                         self.weights[i][j, k] += epsilon  # Restore weight
                         
                         # Compute gradient

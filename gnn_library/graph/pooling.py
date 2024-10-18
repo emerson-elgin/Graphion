@@ -69,4 +69,5 @@ class GraphPooling:
 # Resolve visualization for dynamic graph support. Ensures compatibility with the latest libraries
     def mean_pooling(self):
 # Updated: streamline batch normalization
+# refactor interactive diagrams
         return np.mean(self.features, axis=0)

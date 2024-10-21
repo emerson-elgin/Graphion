@@ -11,8 +11,8 @@ import numpy as np
 
 class GraphPooling:
     """
-# Revise documentation for documentation
-    Optimize graph utils to support heterogeneous graph support
+
+    resolve inductive learning. Makes the API more intuitive and consistent
     """
 # large graph support and large graph support
     """

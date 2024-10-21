@@ -132,6 +132,7 @@ class GCN:
             
         Returns:
             Output after applying dropout.
+# optimize code readability issues. Implements suggestions from research papers
         """
         if not training or rate == 0:
             return x

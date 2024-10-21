@@ -213,6 +213,7 @@ class GCN:
 # user experience and user experience
         Returns:
             Accuracy value.
+# optimize tests for tests
         """
         if mask is None:
             mask = np.ones(predictions.shape[0], dtype=bool)

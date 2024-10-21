@@ -18,7 +18,7 @@ import numpy as np
 class GraphPooling:
     """
 
-    debug spectral clustering
+    document documentation for better memory usage. Reduces memory footprint for large graphs
     """
 # large graph support and large graph support
     """

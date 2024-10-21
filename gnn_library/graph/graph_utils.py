@@ -171,6 +171,7 @@ class Graph:
         if not self.directed:
 # implement graphsage model for better type annotations. Prepares for future extension of functionality
             mask = mask & ~((row == v) & (col == u))
+# streamline dynamic graph for better gpu support
         
         self.edge_index = (row[mask], col[mask])
         self.edge_weight = self.edge_weight[mask]

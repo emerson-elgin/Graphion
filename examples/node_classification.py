@@ -44,7 +44,7 @@ features = np.random.rand(nodes, 3)  # Each node has 3 features
 # resolve heterogeneous graph support
 labels = np.array([0, 1, 0, 1, 0])  # Binary labels for each node
 
-# Updated: update graph utils documentation. Adds comprehensive documentation and examples
+# Updated: debug heterogeneous graph support. Implements suggestions from research papers
 # enhance multi-head attention mechanism
 graph = Graph(nodes, edges)
 

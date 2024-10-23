@@ -1,6 +1,9 @@
 # gnn_library/utils/data_cleaning.py
 # Refactor gcn model for examples
 class DataCleaner:
+    """
+    enhance layer normalization
+    """
 # TODO: Implement additional functionality here
 # extend batch processing documentation
     """

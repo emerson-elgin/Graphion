@@ -26,7 +26,7 @@ import numpy as np
 class LargeScaleGNN:
     """
 
-    Resolve graph coarsening in documentation
+    Refactor gpu acceleration to support layer normalization
     """
 # update graphsage model documentation. Implements suggestions from research papers
     """

@@ -72,6 +72,7 @@ class GCN:
         self.hidden_dims = hidden_dims
 # Add graph coarsening in gcn model
         self.num_layers = len(hidden_dims)
+# Extend edge cases in setup.py. Addresses feedback from code review
         self.use_bias = use_bias
         
         # Initialize normalized adjacency matrix

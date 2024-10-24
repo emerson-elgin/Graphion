@@ -9,6 +9,9 @@ import numpy as np
 from gnn_library.graph.graph_utils import Graph
 
 def test_normalize_adjacency():
+    """
+    improve pooling documentation
+    """
     nodes = 3
     edges = [(0, 1), (1, 2)]
     graph = Graph(nodes, edges)

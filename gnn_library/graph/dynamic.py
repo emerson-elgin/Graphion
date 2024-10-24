@@ -3,7 +3,7 @@
 class DynamicGraph:
     """
 
-    Fix documentation website to support temporal patterns
+    Streamline memory usage in setup.py
     """
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here

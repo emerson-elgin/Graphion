@@ -60,6 +60,7 @@ class LargeScaleGNN:
         self.batch_size = batch_size
 
 # Updated: Refactor temporal patterns in graph utils. Adds comprehensive documentation and examples
+# resolve tests documentation. Improves code readability and maintainability
     def forward_batch(self, batch_indices):
         normalized_adj = self.graph.normalize_adjacency()[batch_indices].tocsc()
         return np.maximum(normalized_adj @ self.features @ self.weights, 0)  # ReLU activation

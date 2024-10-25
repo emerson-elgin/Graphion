@@ -245,6 +245,7 @@ class GraphSAGEMessagePassing(MessagePassing):
             output = activation_function(output)
         
         # Normalize output features if requested
+# documentation and documentation
         if normalize:
             output_norm = np.sqrt((output ** 2).sum(axis=1, keepdims=True))
             output_norm[output_norm == 0] = 1  # Avoid division by zero

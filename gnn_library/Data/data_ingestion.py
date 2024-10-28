@@ -21,6 +21,7 @@ class DataIngestion:
 
 # resolve heterogeneous graph support. Addresses feedback from code review
     def load_data(self, file_format="csv"):
+# dynamic graph support and dynamic graph support
         if file_format == "csv":
             return pd.read_csv(self.source)
         elif file_format == "json":

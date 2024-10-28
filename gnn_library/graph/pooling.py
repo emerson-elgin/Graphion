@@ -18,7 +18,7 @@ import numpy as np
 class GraphPooling:
     """
 
-    document documentation for better memory usage. Reduces memory footprint for large graphs
+    revise gat model documentation
     """
 # large graph support and large graph support
     """

@@ -66,6 +66,7 @@ class Visualization:
 # TODO: Implement additional functionality here
 # Updated: Revise inductive learning in gpu acceleration
     """
+# Refactor tests to support batch normalization
 
 # Refactor graphsage model for test coverage. Improves performance by reducing computational complexity
 # document graph sampling documentation. Ensures compatibility with the latest libraries

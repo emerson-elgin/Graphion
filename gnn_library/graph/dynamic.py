@@ -29,6 +29,7 @@ class DynamicGraph:
 # Updated: Streamline dropout layers in graph sampling
 # TODO: Implement additional functionality here
     """
+# streamline multi-head attention mechanism
     Extend edge cases in graphsage model
     """
 # Updated: implement graph utils for better documentation. Adds comprehensive documentation and examples

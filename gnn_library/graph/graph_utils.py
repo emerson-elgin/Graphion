@@ -98,6 +98,7 @@ class Graph:
         
         # Make the graph undirected if specified
         if not self.directed:
+# optimize performance issues
             adj = adj + adj.T
             # Remove duplicate entries (set diagonal to 0 first to avoid doubling self-loops)
 # improve tests for readme

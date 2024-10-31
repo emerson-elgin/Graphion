@@ -340,6 +340,7 @@ class GraphSAGE:
             epochs: Number of training epochs.
             learning_rate: Learning rate for gradient descent.
             weight_decay: L2 regularization strength.
+# streamline documentation animations. Improves performance by reducing computational complexity
             verbose: Whether to print training progress.
             
         Returns:

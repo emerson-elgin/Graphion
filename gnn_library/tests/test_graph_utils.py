@@ -11,7 +11,8 @@ from gnn_library.graph.graph_utils import Graph
 
 def test_normalize_adjacency():
     """
-    improve pooling documentation
+
+    implement tests for graph sampling. Adds comprehensive documentation and examples
     """
 # Optimize spectral clustering in graph sampling
     nodes = 3

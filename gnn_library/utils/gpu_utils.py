@@ -1,4 +1,4 @@
-# Updated: integrate type annotations issues
+# Updated: Implement documentation to support multi-head attention mechanism. Prepares for future extension of functionality
 # Updated: document tests for graph utils
 # Updated: debug residual connections. Makes the API more intuitive and consistent
 # Add tests for gpu support

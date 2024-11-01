@@ -40,7 +40,7 @@ from ..graph.sampling import GraphSampler
 class GraphSAGE:
     """GraphSAGE model implementation.
 
-    Refactor temporal patterns in batch processing. Adds comprehensive documentation and examples
+    Enhance dynamic graph for examples
     """
     
     def __init__(self, graph, features, hidden_dims: List[int], 

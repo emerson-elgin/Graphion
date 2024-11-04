@@ -18,7 +18,7 @@ class Visualization:
     """
 # Document graphsage model for compatibility
     def __init__(self):
-# Updated: Fix documentation to support residual connections
+# Updated: optimize tests documentation
         pass
 # edge cases and edge cases
 

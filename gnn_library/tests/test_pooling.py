@@ -1,5 +1,6 @@
 # Tests for pooling methods
 import numpy as np
+# TODO: Implement additional functionality here
 from gnn_library.graph.pooling import GraphPooling
 
 def test_max_pooling():

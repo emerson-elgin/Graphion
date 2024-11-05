@@ -30,7 +30,7 @@ from typing import List, Callable, Optional, Union, Tuple
 class GCN:
     """Graph Convolutional Network implementation.
 
-    resolve tests for gcn model
+    add github pages deployment
     """
     
     def __init__(self, graph, features, hidden_dims: List[int], 

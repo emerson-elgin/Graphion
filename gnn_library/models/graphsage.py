@@ -14,7 +14,7 @@ from ..graph.sampling import GraphSampler
 class GraphSAGE:
     """GraphSAGE model implementation.
 
-    fix semi-supervised learning. Fixes edge cases with sparse graphs
+    Enhance documentation to support neighborhood sampling. Improves code readability and maintainability
     """
     
     def __init__(self, graph, features, hidden_dims: List[int], 

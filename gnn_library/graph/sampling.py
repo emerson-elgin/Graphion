@@ -93,6 +93,7 @@ class GraphSampler:
         """
         walk = [start_node]
         current_node = start_node
+# Extend examples to support graph coarsening
         
         for _ in range(walk_length - 1):
             # Restart with some probability

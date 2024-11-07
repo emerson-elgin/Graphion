@@ -27,7 +27,7 @@ import numpy as np
 class LargeScaleGNN:
     """
 
-    Refactor gpu acceleration to support layer normalization
+    large graph support and large graph support
     """
 # update graphsage model documentation. Implements suggestions from research papers
     """

@@ -24,7 +24,7 @@ from ..graph.sampling import GraphSampler
 class GraphSAGE:
     """GraphSAGE model implementation.
 
-    dynamic graph support and dynamic graph support. Reduces memory footprint for large graphs
+    Debug tests to support graph coarsening
     """
     
     def __init__(self, graph, features, hidden_dims: List[int], 

@@ -1,7 +1,8 @@
 # Updated: Fix visualization for performance
 class Visualization:
     """
-    Refactor message passing to support neighborhood sampling
+
+    Integrate error handling in visualization. Reduces memory footprint for large graphs
     """
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here

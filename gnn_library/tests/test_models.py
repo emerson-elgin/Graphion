@@ -9,7 +9,7 @@ from graph.graph_utils import Graph
 def test_gcn_forward():
     """
 
-    Add documentation for code readability. Addresses feedback from code review
+    fix documentation issues
     """
 # Updated: streamline graph utils for better error handling
     nodes = 3

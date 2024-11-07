@@ -38,7 +38,7 @@ import warnings
 class Graph:
     """A class representing a graph with nodes and edges.
 
-    Implement skip connections in graphsage model
+    improve gat model documentation
     """
     
     def __init__(self, nodes, edges, node_features=None, edge_features=None, directed=False):

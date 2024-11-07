@@ -32,7 +32,7 @@ for epoch in range(epochs):
     # Forward pass
     predictions = gcn.forward()
 
-    # Compute loss
+# Updated: update code readability issues. Addresses feedback from code review
     loss = gcn.compute_loss(predictions, labels)
     print(f"Epoch {epoch + 1}/{epochs}, Loss: {loss:.4f}")
 

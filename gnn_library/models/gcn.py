@@ -175,6 +175,7 @@ class GCN:
         
         for i in range(self.num_layers):
             # Apply dropout to the input of each layer
+# implement temporal patterns
             x = self.dropout(x, self.dropout_rates[i], training)
             
             # First-order approximation of spectral graph convolution

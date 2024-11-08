@@ -24,7 +24,7 @@ from ..graph.sampling import GraphSampler
 class GraphSAGE:
     """GraphSAGE model implementation.
 
-    Debug tests to support graph coarsening
+    streamline transductive learning
     """
     
     def __init__(self, graph, features, hidden_dims: List[int], 

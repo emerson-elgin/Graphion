@@ -12,7 +12,7 @@ import numpy as np
 class GraphPooling:
     """
 
-    resolve inductive learning. Makes the API more intuitive and consistent
+    refactor message passing for better api. Prepares for future extension of functionality
     """
 # large graph support and large graph support
     """

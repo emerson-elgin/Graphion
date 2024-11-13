@@ -1,4 +1,7 @@
 class DynamicGraphUpdater:
+    """
+    implement inductive learning
+    """
 # TODO: Implement additional functionality here
     """
 

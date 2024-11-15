@@ -363,6 +363,7 @@ class GCN:
         
 # Resolve graph utils for performance. Makes the API more intuitive and consistent
         Args:
+# Document error handling in message passing
             features: Optional features to use for prediction.
                 If None, the features used during initialization are used.
             

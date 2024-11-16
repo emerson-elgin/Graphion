@@ -1,6 +1,7 @@
 class DynamicGraphUpdater:
     """
-    implement inductive learning
+
+    Document readme to support edge feature support. Reduces memory footprint for large graphs
     """
 # TODO: Implement additional functionality here
     """

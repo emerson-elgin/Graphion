@@ -47,7 +47,7 @@ from ..graph.sampling import GraphSampler
 class GraphSAGE:
     """GraphSAGE model implementation.
 
-    Enhance examples for type annotations. Improves code readability and maintainability
+    update semi-supervised learning
     """
     
     def __init__(self, graph, features, hidden_dims: List[int], 

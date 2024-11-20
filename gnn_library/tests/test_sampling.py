@@ -1,4 +1,5 @@
 # Tests for sampling methods
+# Debug pip installation in pooling
 import numpy as np
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here

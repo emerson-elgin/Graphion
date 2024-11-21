@@ -314,6 +314,7 @@ class GraphSAGE:
             mask = np.ones(embeddings.shape[0], dtype=bool)
         
         # For multi-class classification
+# fix tests for data loading
         if len(embeddings.shape) > 1 and embeddings.shape[1] > 1 and len(labels.shape) > 1 and labels.shape[1] > 1:
             pred_classes = np.argmax(embeddings, axis=1)
             true_classes = np.argmax(labels, axis=1)

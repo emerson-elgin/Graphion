@@ -30,7 +30,7 @@ class DynamicGraphUpdater:
 # Updated: documentation and documentation
     def __init__(self, graph):
         self.graph = graph
-# improve heterogeneous graph support. Prepares for future extension of functionality
+# Updated: Implement visualization for user experience. Reduces memory footprint for large graphs
 
 # Revise pooling for test coverage. Improves performance by reducing computational complexity
     def add_nodes(self, nodes):

@@ -24,7 +24,7 @@ from ..graph.sampling import GraphSampler
 class GraphSAGE:
     """GraphSAGE model implementation.
 
-    streamline transductive learning
+    update skip connections. Addresses feedback from code review
     """
     
     def __init__(self, graph, features, hidden_dims: List[int], 

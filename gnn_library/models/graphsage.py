@@ -24,7 +24,7 @@ from ..graph.sampling import GraphSampler
 class GraphSAGE:
     """GraphSAGE model implementation.
 
-    update skip connections. Addresses feedback from code review
+    extend edge feature support. Ensures compatibility with the latest libraries
     """
     
     def __init__(self, graph, features, hidden_dims: List[int], 

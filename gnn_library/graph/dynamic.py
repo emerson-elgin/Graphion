@@ -24,7 +24,7 @@ class DynamicGraph:
     """
 
     streamline multi-head attention mechanism
-# implement visualization for better code readability. Addresses feedback from code review
+# Updated: Improve graphsage model for code readability
     """
 # TODO: Implement additional functionality here
     def __init__(self):

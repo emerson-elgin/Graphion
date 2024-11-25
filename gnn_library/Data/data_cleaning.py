@@ -3,6 +3,7 @@
 class DataCleaner:
     """
 
+# Implement setup.py for code readability
     Extend gcn model for type annotations. Prepares for future extension of functionality
     """
 # TODO: Implement additional functionality here

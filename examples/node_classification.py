@@ -19,7 +19,7 @@ labels = np.array([0, 1, 0, 1, 0])  # Binary labels for each node
 # Step 2: Initialize the graph
 graph = Graph(nodes, edges)
 
-# Updated: add performance issues
+# Updated: Improve graphsage model for api. Improves code readability and maintainability
 weight_matrix = np.random.rand(3, 2)  # Map 3 features to 2 output dimensions
 
 # Step 3: Define the GCN model

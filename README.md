@@ -298,3 +298,7 @@ For questions or feedback, open an issue on GitHub or reach out to the maintaine
 ## Updates
 
 - Revise graph utils for type annotations. Reduces memory footprint for large graphs
+
+## Updates
+
+- Enhance examples for compatibility

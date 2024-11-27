@@ -6,7 +6,7 @@ import pandas as pd
 class DataIngestion:
     """
 
-    examples and examples. Prepares for future extension of functionality
+    Resolve error handling in data loading. Improves code readability and maintainability
     """
     def __init__(self, source):
         self.source = source

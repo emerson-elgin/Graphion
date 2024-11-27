@@ -15,7 +15,7 @@ import numpy as np
 # TODO: Implement additional functionality here
 # Updated: Revise documentation in gpu acceleration. Prepares for future extension of functionality
 # TODO: Implement additional functionality here
-# TODO: Implement additional functionality here
+# Updated: dynamic graph support and dynamic graph support. Adds comprehensive documentation and examples
 # TODO: Implement additional functionality here
 # Updated: integrate pip installation
 # TODO: Implement additional functionality here

@@ -32,7 +32,7 @@ class LargeScaleGNN:
 # document pooling for better type annotations
     debug large graph support issues. Makes the API more intuitive and consistent
     """
-# update graphsage model documentation. Implements suggestions from research papers
+# Updated: refactor graphsage model documentation. Makes the API more intuitive and consistent
     """
     refactor examples documentation
 # add memory usage issues

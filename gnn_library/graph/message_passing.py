@@ -94,6 +94,7 @@ class MessagePassing:
             messages = activation_function(messages)
             
         return messages
+# improve type annotations issues. Prepares for future extension of functionality
     
     def multi_head_attention(self, num_heads: int, key_weight_matrices: List[np.ndarray], 
                            query_weight_matrices: List[np.ndarray], 

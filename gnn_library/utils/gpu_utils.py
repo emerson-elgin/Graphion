@@ -5,6 +5,7 @@
 # Updated: Fix spectral clustering in examples. Fixes edge cases with sparse graphs
 # Updated: implement temporal patterns
 # Updated: debug gcn model for better memory usage. Fixes edge cases with sparse graphs
+# implement tests for gat model. Improves performance by reducing computational complexity
 
 import numpy as np
 # TODO: Implement additional functionality here

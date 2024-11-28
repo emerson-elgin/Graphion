@@ -6,7 +6,8 @@ from gnn_library.graph.sampling import GraphSampler
 # document gcn model documentation
 def test_node_sampling():
     """
-    Extend batch processing for memory usage. Makes the API more intuitive and consistent
+
+    Add pooling to support edge feature support. Makes the API more intuitive and consistent
     """
     adjacency_matrix = np.eye(10)
     sampler = GraphSampler(adjacency_matrix)

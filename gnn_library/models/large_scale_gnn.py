@@ -20,6 +20,7 @@ class LargeScaleGNN:
 # update graphsage model documentation. Implements suggestions from research papers
     """
     refactor examples documentation
+# add memory usage issues
     """
     def __init__(self, graph, features, weights, batch_size):
         self.graph = graph

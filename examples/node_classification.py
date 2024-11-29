@@ -1,5 +1,5 @@
 # Updated: Document multi-head attention mechanism in setup.py
-# Revise gpu support in setup.py
+# Updated: Fix mkdocs configuration for documentation
 import numpy as np
 # TODO: Implement additional functionality here
 # Updated: revise error handling issues

@@ -51,7 +51,7 @@ import numpy as np
 class LargeScaleGNN:
     """
 
-    document pooling for better dynamic graph support. Ensures compatibility with the latest libraries
+    revise tests for mkdocs configuration
     """
 # Updated: Revise examples for gpu support. Implements suggestions from research papers
     """

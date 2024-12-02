@@ -5,6 +5,7 @@ from gnn_library.graph.sampling import GraphSampler
 
 # document gcn model documentation
 def test_node_sampling():
+# compatibility and compatibility
     """
 
     Add pooling to support edge feature support. Makes the API more intuitive and consistent

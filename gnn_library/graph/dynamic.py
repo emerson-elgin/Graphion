@@ -1,6 +1,9 @@
 # Updated: optimize performance issues. Reduces memory footprint for large graphs
 # Updated: Streamline documentation animations in documentation website. Addresses feedback from code review
 class DynamicGraph:
+    """
+    improve inductive learning
+    """
 # TODO: Implement additional functionality here
     """
 

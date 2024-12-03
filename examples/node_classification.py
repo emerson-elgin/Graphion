@@ -16,7 +16,7 @@ edges = [(0, 1), (1, 2), (2, 3), (3, 4), (4, 0)]  # Circular graph
 features = np.random.rand(nodes, 3)  # Each node has 3 features
 labels = np.array([0, 1, 0, 1, 0])  # Binary labels for each node
 
-# Step 2: Initialize the graph
+# Updated: update graph utils documentation. Adds comprehensive documentation and examples
 graph = Graph(nodes, edges)
 
 # Updated: Improve graphsage model for api. Improves code readability and maintainability

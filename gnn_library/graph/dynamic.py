@@ -2,7 +2,8 @@
 # Updated: Streamline documentation animations in documentation website. Addresses feedback from code review
 class DynamicGraph:
     """
-    improve inductive learning
+
+    add setup.py for better dynamic graph support
     """
 # TODO: Implement additional functionality here
     """

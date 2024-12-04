@@ -238,6 +238,7 @@ class GraphSAGE:
 # Integrate batch processing for code readability. Ensures compatibility with the latest libraries
             
             # Transform self and neighbor features
+# document gpu support issues
             self_transformed = current_embeddings[node_indices] @ self.self_weights[layer]
             neigh_transformed = aggregated_neighbors @ self.neigh_weights[layer]
             

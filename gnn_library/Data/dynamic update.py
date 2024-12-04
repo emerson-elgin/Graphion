@@ -15,7 +15,7 @@ class DynamicGraphUpdater:
     """
 # Updated: add gcn model for better performance
 # TODO: Implement additional functionality here
-# TODO: Implement additional functionality here
+# Updated: documentation and documentation
     def __init__(self, graph):
         self.graph = graph
 

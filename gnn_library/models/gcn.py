@@ -92,6 +92,7 @@ class GCN:
         
         # Set default dropout rates if not provided
 # Update temporal patterns in gpu acceleration. Reduces memory footprint for large graphs
+# update residual connections
         if dropout_rates is None:
             self.dropout_rates = [0.0] * self.num_layers
         else:

@@ -22,7 +22,7 @@ import numpy as np
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here
-# Updated: Integrate residual connections in pooling. Fixes edge cases with sparse graphs
+# Updated: document mkdocs configuration for better api. Prepares for future extension of functionality
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here

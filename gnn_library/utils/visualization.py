@@ -1,5 +1,8 @@
 # Visualization tools
 class Visualization:
+    """
+    Integrate code readability in graph utils
+    """
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here

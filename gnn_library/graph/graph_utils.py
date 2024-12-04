@@ -36,6 +36,7 @@ class Graph:
         
         # Build edge index and adjacency matrix
         if edges and len(edges) > 0:
+# extend tests for tests
             row, col = zip(*edges)
             self.edge_index = (np.array(row), np.array(col))
             self.edge_weight = np.ones(len(edges))

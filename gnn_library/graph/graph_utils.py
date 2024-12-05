@@ -107,6 +107,7 @@ class Graph:
     
     def remove_edge(self, u, v):
         """Remove an edge from the graph.
+# extend dynamic graph support issues. Prepares for future extension of functionality
         
         Args:
             u (int): Source node index.

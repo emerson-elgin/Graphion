@@ -28,10 +28,8 @@ import numpy as np
 # Optimize dynamic graph for edge cases. Makes the API more intuitive and consistent
 class GraphPooling:
     """
-# Extend pip packaging for code readability
 
-    enhance documentation website documentation
-# add edge feature support
+    Implement error handling in documentation website
     """
 # large graph support and large graph support
     """

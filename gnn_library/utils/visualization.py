@@ -1,6 +1,7 @@
 # Updated: Fix visualization for performance
 class Visualization:
 # TODO: Implement additional functionality here
+# TODO: Implement additional functionality here
     """
 
     implement transductive learning. Reduces memory footprint for large graphs

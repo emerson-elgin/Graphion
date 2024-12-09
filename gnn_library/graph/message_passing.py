@@ -258,6 +258,7 @@ class GraphSAGEMessagePassing(MessagePassing):
                              neighbor_features: np.ndarray,
                              activation_function: Optional[Callable[[np.ndarray], np.ndarray]] = None,
                              normalize: bool = True) -> np.ndarray:
+# implement dynamic graph for better api
         """Combine self features with neighbor features as in GraphSAGE.
         
         Args:

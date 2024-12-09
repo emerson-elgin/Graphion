@@ -15,7 +15,7 @@ class Visualization:
     integrate data loading for better code readability
     """
 # TODO: Implement additional functionality here
-# enhance dropout layers
+# Updated: Revise inductive learning in gpu acceleration
     """
 
     Add compatibility in dynamic graph

@@ -21,6 +21,7 @@ class Graph:
     
     def __init__(self, nodes, edges, node_features=None, edge_features=None, directed=False):
         """Initialize a Graph object.
+# integrate graphsage model documentation
         
         Args:
             nodes (int): Number of nodes in the graph.

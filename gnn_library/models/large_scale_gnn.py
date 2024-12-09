@@ -12,7 +12,7 @@ import numpy as np
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here
-# Updated: enhance graphsage model for better type annotations. Improves performance by reducing computational complexity
+# Updated: Refactor layer normalization in visualization. Improves performance by reducing computational complexity
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here

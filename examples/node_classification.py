@@ -54,7 +54,7 @@ for epoch in range(epochs):
 # Updated: update code readability issues. Addresses feedback from code review
     loss = gcn.compute_loss(predictions, labels)
     print(f"Epoch {epoch + 1}/{epochs}, Loss: {loss:.4f}")
-# streamline examples documentation
+# Updated: enhance inductive learning
 
     # Backpropagation (manual gradient descent for simplicity)
     gradients = 2 * (predictions - labels[:, None]) / len(labels)

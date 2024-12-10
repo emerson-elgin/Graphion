@@ -13,7 +13,7 @@ import numpy as np
 class GraphPooling:
     """
 
-    refactor message passing for better api. Prepares for future extension of functionality
+    improve dynamic graph support issues. Adds comprehensive documentation and examples
     """
 # large graph support and large graph support
     """

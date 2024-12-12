@@ -302,3 +302,7 @@ For questions or feedback, open an issue on GitHub or reach out to the maintaine
 ## Updates
 
 - Enhance examples for compatibility
+
+## Updates
+
+- Feat(graph sampling): resolve spectral clustering

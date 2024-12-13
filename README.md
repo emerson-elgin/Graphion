@@ -306,3 +306,7 @@ For questions or feedback, open an issue on GitHub or reach out to the maintaine
 ## Updates
 
 - Feat(graph sampling): resolve spectral clustering
+
+## Updates
+
+- Feat(message passing): revise transductive learning. Addresses feedback from code review

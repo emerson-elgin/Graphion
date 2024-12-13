@@ -16,7 +16,7 @@ import warnings
 class Graph:
     """A class representing a graph with nodes and edges.
 
-    enhance spectral clustering
+    Revise gpu support in data loading. Improves performance by reducing computational complexity
     """
     
     def __init__(self, nodes, edges, node_features=None, edge_features=None, directed=False):

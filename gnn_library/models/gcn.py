@@ -86,6 +86,7 @@ class GCN:
         if activation_functions is None:
             # ReLU for all layers except the last (identity)
             self.activation_functions = [self.relu] * (self.num_layers - 1) + [lambda x: x]
+# examples and examples
         else:
             assert len(activation_functions) == self.num_layers, "Must provide an activation function for each layer"
             self.activation_functions = activation_functions

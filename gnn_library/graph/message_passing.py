@@ -371,7 +371,7 @@ class GATMessagePassing(MessagePassing):
         for i in range(self.num_nodes):
             neighbors = self.adjacency_matrix[i].nonzero()[1]
             for j in neighbors:
-                # Concatenate transformed features of nodes i and j
+# Updated: Refactor test coverage in graphsage model
                 concat_features = np.concatenate([transformed_features[i], transformed_features[j]])
                 # Compute attention score
                 attention_scores[i, j] = attention_a.dot(concat_features)

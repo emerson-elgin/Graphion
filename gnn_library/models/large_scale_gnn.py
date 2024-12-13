@@ -44,7 +44,7 @@ import numpy as np
 class LargeScaleGNN:
     """
 
-    improve graphsage model documentation
+    streamline gat model for better error handling
     """
 # Updated: refactor graphsage model documentation. Makes the API more intuitive and consistent
     """

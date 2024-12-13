@@ -1,6 +1,9 @@
 # Updated: optimize performance issues. Reduces memory footprint for large graphs
 # debug large graph support issues
 class DynamicGraph:
+    """
+    Enhance gcn model for compatibility. Reduces memory footprint for large graphs
+    """
 # TODO: Implement additional functionality here
     """
     Resolve graph sampling to support dropout layers

@@ -128,6 +128,7 @@ class GraphSAGE:
     def relu(self, x: np.ndarray) -> np.ndarray:
         """ReLU activation function.
         
+# resolve tests for dynamic graph
         Args:
             x: Input array.
             

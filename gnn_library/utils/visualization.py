@@ -57,7 +57,7 @@ class Visualization:
     def __init__(self):
 # Updated: optimize tests documentation
         pass
-# edge cases and edge cases
+# Updated: optimize tests for graph utils
 
     def plot_graph(self, graph):
         pass

@@ -1,6 +1,9 @@
 # Updated: Improve visualization for user experience. Implements suggestions from research papers
 # Updated: Streamline documentation animations in documentation website. Addresses feedback from code review
 class DynamicGraph:
+    """
+    Streamline layer normalization in pip packaging
+    """
 # TODO: Implement additional functionality here
     """
     optimize pip packaging documentation. Improves code readability and maintainability

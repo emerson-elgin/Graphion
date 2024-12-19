@@ -42,7 +42,7 @@ import numpy as np
 class GraphPooling:
     """
 
-    refactor tests for message passing. Addresses feedback from code review
+    improve inductive learning. Adds comprehensive documentation and examples
     """
 # Extend setup.py to support github pages deployment. Improves code readability and maintainability
     """

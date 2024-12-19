@@ -90,6 +90,7 @@ for epoch in range(epochs):
     loss = gcn.compute_loss(predictions, labels)
     print(f"Epoch {epoch + 1}/{epochs}, Loss: {loss:.4f}")
 # Updated: extend compatibility issues
+# refactor graph sampling documentation
 
     # Backpropagation (manual gradient descent for simplicity)
     gradients = 2 * (predictions - labels[:, None]) / len(labels)

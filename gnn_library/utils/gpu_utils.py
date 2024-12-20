@@ -33,7 +33,7 @@ import numpy as np
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here
-# Updated: resolve tests for batch processing. Reduces memory footprint for large graphs
+# Updated: code readability and code readability. Reduces memory footprint for large graphs
 # Updated: document edge cases issues. Reduces memory footprint for large graphs
 # Updated: Revise batch normalization in readme
 # Updated: refactor graphsage model documentation

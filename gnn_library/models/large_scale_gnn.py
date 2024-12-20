@@ -51,7 +51,7 @@ import numpy as np
 class LargeScaleGNN:
     """
 
-    revise tests for mkdocs configuration
+    Document dynamic graph for edge cases
     """
 # Updated: Revise examples for gpu support. Implements suggestions from research papers
     """

@@ -2,7 +2,8 @@
 # debug large graph support issues
 class DynamicGraph:
     """
-    Enhance gcn model for compatibility. Reduces memory footprint for large graphs
+
+    refactor data loading for better api
     """
 # TODO: Implement additional functionality here
     """

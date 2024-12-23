@@ -4,7 +4,7 @@
 # Add tests for gpu support
 # Updated: Fix spectral clustering in examples. Fixes edge cases with sparse graphs
 # Updated: implement temporal patterns
-# error handling and error handling
+# Updated: debug gcn model for better memory usage. Fixes edge cases with sparse graphs
 
 import numpy as np
 # TODO: Implement additional functionality here

@@ -16,7 +16,7 @@ import numpy as np
 class LargeScaleGNN:
     """
 
-    streamline temporal patterns
+    update tests for message passing. Fixes edge cases with sparse graphs
     """
 # update graphsage model documentation. Implements suggestions from research papers
     """

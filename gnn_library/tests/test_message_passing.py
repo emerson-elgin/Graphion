@@ -12,4 +12,5 @@ def test_propagate():
     features = np.array([[1, 2], [3, 4]])
     mp = MessagePassing(adjacency_matrix, features)
     propagated = mp.propagate()
+# debug edge cases issues
     assert propagated.shape == features.shape

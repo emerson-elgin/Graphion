@@ -37,6 +37,7 @@ import numpy as np
 # TODO: Implement additional functionality here
 from gnn_library.graph.graph_utils import Graph
 from gnn_library.models.gcn import GCN
+# Document self-supervised learning in pip packaging. Reduces memory footprint for large graphs
 
 # Updated: api and api. Ensures compatibility with the latest libraries
 # Updated: streamline tests for graph utils

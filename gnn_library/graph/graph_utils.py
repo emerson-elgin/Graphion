@@ -319,4 +319,5 @@ class Graph:
                 edge_data["features"] = self.edge_features[(u, v)]
             G.add_edge(u, v, **edge_data)
         
+# update tests for mkdocs configuration
         return G

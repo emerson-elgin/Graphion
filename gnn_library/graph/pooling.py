@@ -18,7 +18,7 @@ import numpy as np
 class GraphPooling:
     """
 
-    revise gat model documentation
+    implement examples for better type annotations
     """
 # large graph support and large graph support
     """

@@ -1,12 +1,12 @@
 import os
 
-# Define the project structure
+# Define the project structure with modern GNN features
 project_structure = {
     "gnn_library": {
         "__init__.py": "",
         "graph": {
             "__init__.py": "",
-            "graph_utils.py": """# Graph representation and utilities
+            "graph_utils.py": """# Graph representation and utility functions
 import numpy as np
 
 class Graph:
@@ -18,103 +18,146 @@ class Graph:
         adj_matrix = np.zeros((nodes, nodes))
         for edge in edges:
             adj_matrix[edge[0], edge[1]] = 1
-            adj_matrix[edge[1], edge[0]] = 1  # For undirected graphs
+            if len(edge) == 2 or not edge[2]:  # Undirected graph
+                adj_matrix[edge[1], edge[0]] = 1
         return adj_matrix
+
+    def normalize_adjacency(self, add_self_loops=True):
+        if add_self_loops:
+            self.adjacency_matrix += np.eye(len(self.adjacency_matrix))
+        degrees = np.sum(self.adjacency_matrix, axis=1)
+        degree_matrix = np.diag(degrees)
+        return np.linalg.inv(degree_matrix) @ self.adjacency_matrix
+
+    def compute_laplacian(self):
+        degrees = np.sum(self.adjacency_matrix, axis=1)
+        degree_matrix = np.diag(degrees)
+        return degree_matrix - self.adjacency_matrix
 """,
-            "message_passing.py": """# Message passing logic
+            "message_passing.py": """# Core GNN message-passing logic
+import numpy as np
+
 class MessagePassing:
     def __init__(self, adjacency_matrix, features):
         self.adjacency_matrix = adjacency_matrix
         self.features = features
 
-    def propagate(self):
-        # Simple message-passing step: Aggregate neighboring features
-        return np.dot(self.adjacency_matrix, self.features)
+    def propagate(self, activation_function=None):
+        messages = self.adjacency_matrix @ self.features
+        if activation_function:
+            messages = activation_function(messages)
+        return messages
+
+    def attention_mechanism(self, key_function, value_function):
+        keys = key_function(self.features)
+        values = value_function(self.features)
+        attention_scores = np.dot(keys, keys.T)  # Scaled dot-product
+        attention_scores = np.exp(attention_scores - np.max(attention_scores, axis=1, keepdims=True))
+        attention_weights = attention_scores / attention_scores.sum(axis=1, keepdims=True)
+        return attention_weights @ values
+
+    def aggregate(self, messages, aggregation_function=np.mean):
+        return aggregation_function(messages, axis=0)
 """
         },
         "models": {
             "__init__.py": "",
-            "gnn.py": """# Base GNN implementation
-# Placeholder for future GNN logic
-""",
-            "dt_gnn.py": """# Decision Tree + GNN integration
+            "gcn.py": """# Graph Convolutional Network Implementation
+import numpy as np
 from graph.message_passing import MessagePassing
-from decision_tree.tree import DecisionTree
 
-class DTGNN:
-    def __init__(self, graph, features, max_depth=3):
+class GCN:
+    def __init__(self, graph, features, weight_matrix):
         self.graph = graph
         self.features = features
-        self.message_passing = MessagePassing(graph.adjacency_matrix, features)
-"""
-        },
-        "decision_tree": {
-            "__init__.py": "",
-            "tree.py": """# Decision tree implementation
-class DecisionTree:
-    def __init__(self, max_depth=3):
-        self.max_depth = max_depth
-        self.tree = {}
+        self.weight_matrix = weight_matrix
 
-    def fit(self, X, y):
-        pass
+    def forward(self):
+        normalized_adj = self.graph.normalize_adjacency()
+        output = np.dot(normalized_adj, np.dot(self.features, self.weight_matrix))
+        return np.maximum(output, 0)  # ReLU activation
 
-    def predict(self, X):
-        pass
+    def compute_loss(self, predictions, labels):
+        return np.mean((predictions - labels) ** 2)
 """,
-            "pruning.py": """# Pruning algorithms
-class Pruning:
-    def __init__(self):
-        pass
+            "gat.py": """# Graph Attention Network Implementation
+from graph.message_passing import MessagePassing
+import numpy as np
 
-    def prune_tree(self, tree):
-        pass
-"""
-        },
-        "utils": {
-            "__init__.py": "",
-            "data_loader.py": """# Data loading and preprocessing
-class DataLoader:
-    def __init__(self, file_path):
-        self.file_path = file_path
+class GAT:
+    def __init__(self, graph, features, key_function, value_function):
+        self.graph = graph
+        self.features = features
+        self.key_function = key_function
+        self.value_function = value_function
 
-    def load_data(self):
-        pass
+    def forward(self):
+        mp = MessagePassing(self.graph.adjacency_matrix, self.features)
+        attention_weights = mp.attention_mechanism(self.key_function, self.value_function)
+        output = attention_weights @ self.features
+        return np.maximum(output, 0)  # ReLU activation
+
+    def compute_loss(self, predictions, labels):
+        return np.mean((predictions - labels) ** 2)
 """,
-            "visualization.py": """# Visualization tools
-class Visualization:
-    def __init__(self):
-        pass
+            "graphsage.py": """# GraphSAGE Implementation
+class GraphSAGE:
+    def __init__(self, graph, features, aggregator):
+        self.graph = graph
+        self.features = features
+        self.aggregator = aggregator
 
-    def plot_graph(self, graph):
-        pass
+    def forward(self):
+        aggregated_features = self.aggregator(self.graph.adjacency_matrix, self.features)
+        return np.maximum(aggregated_features, 0)  # ReLU activation
 
-    def plot_tree(self, tree):
-        pass
-"""
-        },
-        "examples": {
-            "train_dt_gnn.py": """# Example training script
-from gnn_library.graph.graph_utils import Graph
-from gnn_library.models.dt_gnn import DTGNN
-
-nodes = 4
-edges = [(0, 1), (1, 2), (2, 3), (3, 0)]
-graph = Graph(nodes, edges)
-
-features = [[1, 0], [0, 1], [1, 1], [0, 0]]
-dt_gnn = DTGNN(graph, features)
+    def compute_loss(self, predictions, labels):
+        return np.mean((predictions - labels) ** 2)
 """
         },
         "tests": {
-            "test_graph_utils.py": "# Tests for graph_utils",
-            "test_message_passing.py": "# Tests for message_passing",
-            "test_dt_gnn.py": "# Tests for dt_gnn"
+            "test_graph_utils.py": """# Tests for graph utilities
+import numpy as np
+from graph.graph_utils import Graph
+
+def test_adjacency_normalization():
+    nodes = 3
+    edges = [(0, 1), (1, 2)]
+    graph = Graph(nodes, edges)
+    normalized_adj = graph.normalize_adjacency()
+    assert normalized_adj.shape == (3, 3)
+""",
+            "test_message_passing.py": """# Tests for message-passing logic
+import numpy as np
+from graph.message_passing import MessagePassing
+
+def test_propagate():
+    adjacency_matrix = np.array([[0, 1], [1, 0]])
+    features = np.array([[1, 2], [3, 4]])
+    mp = MessagePassing(adjacency_matrix, features)
+    propagated = mp.propagate()
+    assert propagated.shape == features.shape
+""",
+            "test_models.py": """# Tests for model implementations
+import numpy as np
+from models.gcn import GCN
+from graph.graph_utils import Graph
+
+def test_gcn_forward():
+    nodes = 3
+    edges = [(0, 1), (1, 2)]
+    graph = Graph(nodes, edges)
+    features = np.array([[1, 2], [3, 4], [5, 6]])
+    weights = np.array([[0.1, 0.2], [0.3, 0.4]])
+    gcn = GCN(graph, features, weights)
+    output = gcn.forward()
+    assert output.shape == (3, 2)
+"""
         }
     }
 }
 
-# Function to create directories and files
+# Function to create the project structure
 def create_project_structure(base_path, structure):
     for name, content in structure.items():
         path = os.path.join(base_path, name)

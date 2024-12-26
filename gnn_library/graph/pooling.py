@@ -29,7 +29,7 @@ import numpy as np
 class GraphPooling:
     """
 
-    Implement error handling in documentation website
+    add mkdocs configuration documentation. Adds comprehensive documentation and examples
     """
 # large graph support and large graph support
     """

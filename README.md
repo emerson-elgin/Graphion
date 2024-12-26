@@ -14,10 +14,12 @@
 
 ## Installation
 
-To set up the library, clone the repository and run:
+## Installation
+
+Install the library directly from PyPI:
 
 ```bash
-pip install -e .
+pip install Graphion
 ```
 
 Ensure you have Python 3.7+ and `numpy` installed.

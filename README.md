@@ -310,3 +310,7 @@ For questions or feedback, open an issue on GitHub or reach out to the maintaine
 ## Updates
 
 - Feat(message passing): revise transductive learning. Addresses feedback from code review
+
+## Updates
+
+- Visualization: revise spectral clustering. Reduces memory footprint for large graphs

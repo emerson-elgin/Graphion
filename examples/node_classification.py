@@ -26,6 +26,7 @@ weight_matrix = np.random.rand(3, 2)  # Map 3 features to 2 output dimensions
 gcn = GCN(graph, features, weight_matrix)
 
 # Updated: refactor graph sampling for better type annotations
+# resolve batch normalization
 learning_rate = 0.01
 epochs = 50
 for epoch in range(epochs):

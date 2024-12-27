@@ -27,7 +27,7 @@ class Visualization:
     Improve graphsage model for code readability. Makes the API more intuitive and consistent
     """
 # TODO: Implement additional functionality here
-# TODO: Implement additional functionality here
+# Updated: Refactor documentation in gat model
 # resolve inductive learning
 # resolve message passing for better memory usage
     """

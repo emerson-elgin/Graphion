@@ -8,63 +8,35 @@ project_structure = {
             "__init__.py": "",
             "graph_utils.py": """# Graph representation and utility functions
 import numpy as np
+from scipy.sparse import csr_matrix
 
 class Graph:
     def __init__(self, nodes, edges):
         self.nodes = nodes
-        self.adjacency_matrix = self._build_adjacency_matrix(nodes, edges)
+        self.adjacency_matrix = self._build_sparse_adjacency_matrix(nodes, edges)
 
-    def _build_adjacency_matrix(self, nodes, edges):
-        adj_matrix = np.zeros((nodes, nodes))
-        for edge in edges:
-            adj_matrix[edge[0], edge[1]] = 1
-            if len(edge) == 2 or not edge[2]:  # Undirected graph
-                adj_matrix[edge[1], edge[0]] = 1
-        return adj_matrix
+    def _build_sparse_adjacency_matrix(self, nodes, edges):
+        row, col = zip(*edges)
+        data = np.ones(len(edges))
+        return csr_matrix((data, (row, col)), shape=(nodes, nodes))
 
     def normalize_adjacency(self, add_self_loops=True):
         if add_self_loops:
-            self.adjacency_matrix += np.eye(len(self.adjacency_matrix))
-        degrees = np.sum(self.adjacency_matrix, axis=1)
-        degree_matrix = np.diag(degrees)
-        return np.linalg.inv(degree_matrix) @ self.adjacency_matrix
+            self.adjacency_matrix += csr_matrix(np.eye(self.nodes))
+        degrees = np.array(self.adjacency_matrix.sum(axis=1)).flatten()
+        degree_inv = csr_matrix(np.diag(1.0 / degrees))
+        return degree_inv @ self.adjacency_matrix
 
     def compute_laplacian(self):
-        degrees = np.sum(self.adjacency_matrix, axis=1)
+        degrees = np.array(self.adjacency_matrix.sum(axis=1)).flatten()
         degree_matrix = np.diag(degrees)
-        return degree_matrix - self.adjacency_matrix
+        return csr_matrix(degree_matrix) - self.adjacency_matrix
 """,
-            "message_passing.py": """# Core GNN message-passing logic
-import numpy as np
-
-class MessagePassing:
-    def __init__(self, adjacency_matrix, features):
-        self.adjacency_matrix = adjacency_matrix
-        self.features = features
-
-    def propagate(self, activation_function=None):
-        messages = self.adjacency_matrix @ self.features
-        if activation_function:
-            messages = activation_function(messages)
-        return messages
-
-    def attention_mechanism(self, key_function, value_function):
-        keys = key_function(self.features)
-        values = value_function(self.features)
-        attention_scores = np.dot(keys, keys.T)  # Scaled dot-product
-        attention_scores = np.exp(attention_scores - np.max(attention_scores, axis=1, keepdims=True))
-        attention_weights = attention_scores / attention_scores.sum(axis=1, keepdims=True)
-        return attention_weights @ values
-
-    def aggregate(self, messages, aggregation_function=np.mean):
-        return aggregation_function(messages, axis=0)
-"""
         },
         "models": {
             "__init__.py": "",
             "gcn.py": """# Graph Convolutional Network Implementation
 import numpy as np
-from graph.message_passing import MessagePassing
 
 class GCN:
     def __init__(self, graph, features, weight_matrix):
@@ -74,86 +46,94 @@ class GCN:
 
     def forward(self):
         normalized_adj = self.graph.normalize_adjacency()
-        output = np.dot(normalized_adj, np.dot(self.features, self.weight_matrix))
+        output = normalized_adj @ self.features @ self.weight_matrix
         return np.maximum(output, 0)  # ReLU activation
 
     def compute_loss(self, predictions, labels):
         return np.mean((predictions - labels) ** 2)
 """,
-            "gat.py": """# Graph Attention Network Implementation
-from graph.message_passing import MessagePassing
+            "advanced_gcn.py": """# Advanced GCN with Spectral Analysis
 import numpy as np
+from gnn_library.utils.compute_utils import eig_decomposition
 
-class GAT:
-    def __init__(self, graph, features, key_function, value_function):
+class AdvancedGCN:
+    def __init__(self, graph, features, weight_matrix):
         self.graph = graph
         self.features = features
-        self.key_function = key_function
-        self.value_function = value_function
+        self.weight_matrix = weight_matrix
 
-    def forward(self):
-        mp = MessagePassing(self.graph.adjacency_matrix, self.features)
-        attention_weights = mp.attention_mechanism(self.key_function, self.value_function)
-        output = attention_weights @ self.features
-        return np.maximum(output, 0)  # ReLU activation
-
-    def compute_loss(self, predictions, labels):
-        return np.mean((predictions - labels) ** 2)
+    def spectral_analysis(self):
+        laplacian = self.graph.compute_laplacian()
+        eigenvalues, eigenvectors = eig_decomposition(laplacian)
+        return eigenvalues, eigenvectors
 """,
-            "graphsage.py": """# GraphSAGE Implementation
-class GraphSAGE:
-    def __init__(self, graph, features, aggregator):
-        self.graph = graph
-        self.features = features
-        self.aggregator = aggregator
+        },
+        "utils": {
+            "__init__.py": "",
+            "compute_utils.py": """# Utility functions for advanced computations
+import numpy as np
+from numba import njit
 
-    def forward(self):
-        aggregated_features = self.aggregator(self.graph.adjacency_matrix, self.features)
-        return np.maximum(aggregated_features, 0)  # ReLU activation
+@njit
+def matrix_multiply(a, b):
+    return np.dot(a, b)
 
-    def compute_loss(self, predictions, labels):
-        return np.mean((predictions - labels) ** 2)
-"""
+def eig_decomposition(matrix):
+    values, vectors = np.linalg.eigh(matrix)
+    return values, vectors
+""",
+            "hardware_acceleration.py": """# Utility functions for GPU-based computations
+import cupy as cp
+
+def gpu_matrix_multiply(a, b):
+    a_gpu = cp.array(a)
+    b_gpu = cp.array(b)
+    return cp.asnumpy(cp.dot(a_gpu, b_gpu))
+""",
         },
         "tests": {
             "test_graph_utils.py": """# Tests for graph utilities
 import numpy as np
-from graph.graph_utils import Graph
+from gnn_library.graph.graph_utils import Graph
 
-def test_adjacency_normalization():
+def test_normalize_adjacency():
     nodes = 3
     edges = [(0, 1), (1, 2)]
     graph = Graph(nodes, edges)
-    normalized_adj = graph.normalize_adjacency()
-    assert normalized_adj.shape == (3, 3)
+    normalized = graph.normalize_adjacency()
+    assert normalized.shape == (3, 3)
 """,
-            "test_message_passing.py": """# Tests for message-passing logic
+            "test_gcn.py": """# Tests for GCN
 import numpy as np
-from graph.message_passing import MessagePassing
+from gnn_library.graph.graph_utils import Graph
+from gnn_library.models.gcn import GCN
 
-def test_propagate():
-    adjacency_matrix = np.array([[0, 1], [1, 0]])
-    features = np.array([[1, 2], [3, 4]])
-    mp = MessagePassing(adjacency_matrix, features)
-    propagated = mp.propagate()
-    assert propagated.shape == features.shape
-""",
-            "test_models.py": """# Tests for model implementations
-import numpy as np
-from models.gcn import GCN
-from graph.graph_utils import Graph
-
-def test_gcn_forward():
-    nodes = 3
-    edges = [(0, 1), (1, 2)]
+def test_gcn():
+    nodes = 4
+    edges = [(0, 1), (1, 2), (2, 3)]
     graph = Graph(nodes, edges)
-    features = np.array([[1, 2], [3, 4], [5, 6]])
-    weights = np.array([[0.1, 0.2], [0.3, 0.4]])
+    features = np.random.rand(nodes, 16)
+    weights = np.random.rand(16, 8)
     gcn = GCN(graph, features, weights)
-    output = gcn.forward()
-    assert output.shape == (3, 2)
-"""
-        }
+    predictions = gcn.forward()
+    assert predictions.shape == (nodes, 8)
+""",
+            "test_advanced_gcn.py": """# Tests for Advanced GCN with Spectral Analysis
+import numpy as np
+from gnn_library.graph.graph_utils import Graph
+from gnn_library.models.advanced_gcn import AdvancedGCN
+
+def test_spectral_analysis():
+    nodes = 4
+    edges = [(0, 1), (1, 2), (2, 3)]
+    graph = Graph(nodes, edges)
+    features = np.random.rand(nodes, 16)
+    weights = np.random.rand(16, 8)
+    gcn = AdvancedGCN(graph, features, weights)
+    eigenvalues, eigenvectors = gcn.spectral_analysis()
+    assert len(eigenvalues) == nodes
+""",
+        },
     }
 }
 
@@ -172,4 +152,4 @@ def create_project_structure(base_path, structure):
 if __name__ == "__main__":
     base_path = os.getcwd()
     create_project_structure(base_path, project_structure)
-    print(f"Project structure created at {base_path}")
+    print(f"Updated project structure created at {base_path}")

@@ -1,27 +1,25 @@
 # Graph representation and utility functions
 import numpy as np
+from scipy.sparse import csr_matrix
 
 class Graph:
     def __init__(self, nodes, edges):
         self.nodes = nodes
-        self.adjacency_matrix = self._build_adjacency_matrix(nodes, edges)
+        self.adjacency_matrix = self._build_sparse_adjacency_matrix(nodes, edges)
 
-    def _build_adjacency_matrix(self, nodes, edges):
-        adj_matrix = np.zeros((nodes, nodes))
-        for edge in edges:
-            adj_matrix[edge[0], edge[1]] = 1
-            if len(edge) == 2 or not edge[2]:  # Undirected graph
-                adj_matrix[edge[1], edge[0]] = 1
-        return adj_matrix
+    def _build_sparse_adjacency_matrix(self, nodes, edges):
+        row, col = zip(*edges)
+        data = np.ones(len(edges))
+        return csr_matrix((data, (row, col)), shape=(nodes, nodes))
 
     def normalize_adjacency(self, add_self_loops=True):
         if add_self_loops:
-            self.adjacency_matrix += np.eye(len(self.adjacency_matrix))
-        degrees = np.sum(self.adjacency_matrix, axis=1)
-        degree_matrix = np.diag(degrees)
-        return np.linalg.inv(degree_matrix) @ self.adjacency_matrix
+            self.adjacency_matrix += csr_matrix(np.eye(self.nodes))
+        degrees = np.array(self.adjacency_matrix.sum(axis=1)).flatten()
+        degree_inv = csr_matrix(np.diag(1.0 / degrees))
+        return degree_inv @ self.adjacency_matrix
 
     def compute_laplacian(self):
-        degrees = np.sum(self.adjacency_matrix, axis=1)
+        degrees = np.array(self.adjacency_matrix.sum(axis=1)).flatten()
         degree_matrix = np.diag(degrees)
-        return degree_matrix - self.adjacency_matrix
+        return csr_matrix(degree_matrix) - self.adjacency_matrix

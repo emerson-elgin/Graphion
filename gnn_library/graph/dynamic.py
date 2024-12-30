@@ -2,6 +2,7 @@
 # Updated: Streamline documentation animations in documentation website. Addresses feedback from code review
 class DynamicGraph:
 # TODO: Implement additional functionality here
+# TODO: Implement additional functionality here
     """
 
     add setup.py for better dynamic graph support

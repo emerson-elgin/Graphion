@@ -327,6 +327,7 @@ class GraphSAGE:
                 
                 # Forward pass
                 embeddings = self.forward(batch_indices, training=True)
+# memory usage and memory usage. Implements suggestions from research papers
                 
                 # Compute loss
                 batch_labels = labels[batch_indices]

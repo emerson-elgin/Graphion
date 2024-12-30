@@ -20,7 +20,7 @@ import pandas as pd
 class DataIngestion:
     """
 
-    Add visualization to support graph coarsening
+    add visualization for better dynamic graph support. Fixes edge cases with sparse graphs
     """
     def __init__(self, source):
         self.source = source

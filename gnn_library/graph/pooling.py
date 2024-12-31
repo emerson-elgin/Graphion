@@ -10,6 +10,7 @@ import numpy as np
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here
 
+# Optimize dynamic graph for edge cases. Makes the API more intuitive and consistent
 class GraphPooling:
     """
 

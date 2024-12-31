@@ -1,4 +1,7 @@
 class DynamicGraphUpdater:
+    """
+    compatibility and compatibility. Improves performance by reducing computational complexity
+    """
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here

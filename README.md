@@ -1,126 +1,194 @@
 # Graphion: Graph Neural Network Library
 
-**Graphion** is a Python library designed for implementing Graph Neural Networks (GNNs) from scratch, without relying on external deep learning frameworks. This library is modular, extensible, and supports various GNN models such as Graph Convolutional Networks (GCN), Graph Attention Networks (GAT), and GraphSAGE.
+**Graphion** is a Python library designed for implementing Graph Neural Networks (GNNs) from scratch. It is scalable, efficient, and modular, making it ideal for handling large-scale graphs, dynamic structures, and enterprise-level applications.
+
+---
+
+## Overview
+
+Graphion provides robust tools for graph representation, message passing, pooling, sampling, and advanced GNN models. The library is designed to be:
+
+1. **Scalable**: Efficiently handles large datasets with millions of nodes and edges.
+2. **Dynamic**: Supports evolving graphs where nodes and edges change over time.
+3. **Hardware-Optimized**: Includes GPU acceleration for computationally intensive tasks.
+4. **Modular**: Offers plug-and-play components for easy customization and integration.
 
 ---
 
 ## Features
-- **Graph Representation**: Utility functions for adjacency matrix creation and normalization.
-- **GNN Models**: Built-in support for GCN, GAT, and GraphSAGE.
-- **Customizable Layers**: Message-passing and aggregation logic.
-- **Explainability**: Visualize graphs and node interactions.
+
+- **Graph Representation**:
+  - Sparse matrix-based adjacency representation for memory efficiency.
+  - Dynamic graphs with temporal snapshots.
+
+- **Sampling Techniques**:
+  - Node sampling, layer sampling, and subgraph sampling for scalable training.
+
+- **Advanced Models**:
+  - Implements Graph Convolutional Networks (GCN), Graph Attention Networks (GAT), and large-scale GNNs with batch processing.
+
+- **Pooling Methods**:
+  - Hierarchical pooling techniques like max pooling and mean pooling.
+
+- **Hardware Optimization**:
+  - GPU-accelerated matrix operations using CuPy.
+
+- **Testing Suite**:
+  - Comprehensive test coverage for all components.
 
 ---
 
 ## Installation
 
-## Installation
-
-Install the library directly from PyPI:
+To install the library, clone the repository and install the dependencies:
 
 ```bash
-pip install Graphion
+git clone https://github.com/your-repo/graphion.git
+cd graphion
+pip install -r requirements.txt
 ```
-
-Ensure you have Python 3.7+ and `numpy` installed.
 
 ---
 
-## Example: Node Classification
-
-Here is an example of how to use Graphion to perform node classification using a GCN model.
+## Usage
 
 ### 1. Create a Graph Dataset
+
 ```python
-import numpy as np
 from gnn_library.graph.graph_utils import Graph
 
 # Define nodes and edges
 nodes = 5
 edges = [(0, 1), (1, 2), (2, 3), (3, 4), (4, 0)]
-features = np.random.rand(nodes, 3)  # Node features
-labels = np.array([0, 1, 0, 1, 0])  # Node labels
 
-# Initialize graph
+# Initialize the graph
 graph = Graph(nodes, edges)
 ```
 
-### 2. Initialize the GCN Model
+### 2. Perform Node Sampling
+
+```python
+from gnn_library.graph.sampling import GraphSampler
+
+sampler = GraphSampler(graph.adjacency_matrix)
+sampled_nodes = sampler.node_sampling(num_samples=3)
+print(f"Sampled Nodes: {sampled_nodes}")
+```
+
+### 3. Train a GCN Model
+
 ```python
 from gnn_library.models.gcn import GCN
+import numpy as np
 
-# Define GCN weight matrix
-weight_matrix = np.random.rand(3, 2)
+# Define features, labels, and weights
+features = np.random.rand(nodes, 4)
+labels = np.array([0, 1, 0, 1, 0])
+weights = np.random.rand(4, 2)
 
-# Initialize GCN model
-gcn = GCN(graph, features, weight_matrix)
+# Initialize and train the GCN
+gcn = GCN(graph, features, weights)
+predictions = gcn.forward()
+loss = gcn.compute_loss(predictions, labels)
+print(f"Loss: {loss}")
 ```
 
-### 3. Train the Model
-```python
-# Training loop
-learning_rate = 0.01
-for epoch in range(50):
-    predictions = gcn.forward()
-    loss = gcn.compute_loss(predictions, labels)
-    print(f"Epoch {epoch + 1}: Loss = {loss:.4f}")
+### 4. Handle Dynamic Graphs
 
-    # Gradient descent
-    gradients = 2 * (predictions - labels[:, None]) / len(labels)
-    weight_matrix -= learning_rate * np.dot(features.T, gradients)
+```python
+from gnn_library.graph.dynamic import DynamicGraph
+
+dynamic_graph = DynamicGraph()
+dynamic_graph.add_snapshot("t1", [[0, 1], [1, 0]])
+snapshot = dynamic_graph.get_snapshot("t1")
+print(f"Graph Snapshot at t1: {snapshot}")
 ```
 
-### 4. Visualize Node Interactions
+### 5. Use Large-Scale GNN
+
 ```python
-import matplotlib.pyplot as plt
-import networkx as nx
+from gnn_library.models.large_scale_gnn import LargeScaleGNN
 
-# Visualize graph
-G = nx.Graph()
-G.add_edges_from(edges)
+batch_size = 2
+large_gnn = LargeScaleGNN(graph, features, weights, batch_size)
+large_gnn.train(labels, epochs=10, learning_rate=0.01)
+```
 
-plt.figure(figsize=(8, 6))
-nx.draw(G, with_labels=True, node_color='lightblue', edge_color='gray', font_size=10)
-plt.title("Graph Structure")
-plt.show()
+### 6. Pooling Operations
+
+```python
+from gnn_library.graph.pooling import GraphPooling
+
+pooling = GraphPooling(features)
+max_pooled = pooling.max_pooling()
+mean_pooled = pooling.mean_pooling()
+print(f"Max Pooled Features: {max_pooled}")
+print(f"Mean Pooled Features: {mean_pooled}")
 ```
 
 ---
 
-## Animation: Node Feature Propagation
+## Advanced Features
 
-Graphion supports animations to visualize node feature propagation. Here's an example:
+1. **Spectral Analysis**:
+   - Perform eigen decomposition on graph Laplacians for advanced graph learning.
 
-### 1. Add Animation Support
-```python
-import matplotlib.animation as animation
+2. **GPU Acceleration**:
+   - Use CuPy for matrix multiplications to speed up computations.
 
-fig, ax = plt.subplots()
-nx.draw(G, with_labels=True, node_color='lightblue', edge_color='gray', font_size=10, ax=ax)
+3. **Batch Processing**:
+   - Efficient training on large datasets by dividing them into manageable batches.
 
-def update(frame):
-    ax.clear()
-    colors = np.sin(features[:, 0] + frame / 10)  # Simulate feature propagation
-    nx.draw(G, with_labels=True, node_color=colors, edge_color='gray', font_size=10, ax=ax)
+4. **Dynamic Graphs**:
+   - Handle time-varying graph structures for applications like temporal networks.
 
-ani = animation.FuncAnimation(fig, update, frames=50, repeat=True)
-plt.show()
+---
+
+## Example Applications
+
+1. **Social Network Analysis**:
+   - Predict user connections and influence.
+
+2. **Recommendation Systems**:
+   - Suggest products or content based on user-item interaction graphs.
+
+3. **Fraud Detection**:
+   - Identify suspicious activities in financial or transactional graphs.
+
+4. **Molecular Property Prediction**:
+   - Analyze molecular graphs to predict chemical properties.
+
+5. **Dynamic Network Analysis**:
+   - Study changes in transportation or communication networks over time.
+
+---
+
+## Testing
+
+The library includes tests for all modules. To run the tests:
+
+```bash
+pytest tests/
 ```
 
 ---
 
 ## Contributing
+
 We welcome contributions! To add features or fix bugs:
+
 1. Fork the repository.
 2. Create a new branch for your changes.
-3. Submit a pull request with a detailed description of your work.
+3. Submit a pull request with a detailed description.
 
 ---
 
 ## License
+
 This project is licensed under the MIT License.
 
 ---
 
 ## Contact
-For questions or feedback, open an issue or reach out to the maintainers.
+
+For questions or feedback, open an issue on GitHub or reach out to the maintainers.

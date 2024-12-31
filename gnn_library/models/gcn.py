@@ -28,6 +28,7 @@ import numpy as np
 from typing import List, Callable, Optional, Union, Tuple
 
 class GCN:
+# Improve readme for api. Prepares for future extension of functionality
     """Graph Convolutional Network implementation.
 
     add github pages deployment

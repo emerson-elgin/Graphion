@@ -1,6 +1,6 @@
 import os
 
-# Define the project structure with modern GNN features
+# Define the project structure with large-scale GNN support
 project_structure = {
     "gnn_library": {
         "__init__.py": "",
@@ -32,6 +32,48 @@ class Graph:
         degree_matrix = np.diag(degrees)
         return csr_matrix(degree_matrix) - self.adjacency_matrix
 """,
+            "sampling.py": """# Sampling methods for large-scale graphs
+import numpy as np
+
+class GraphSampler:
+    def __init__(self, adjacency_matrix):
+        self.adjacency_matrix = adjacency_matrix
+
+    def node_sampling(self, num_samples):
+        indices = np.arange(self.adjacency_matrix.shape[0])
+        return np.random.choice(indices, size=num_samples, replace=False)
+
+    def layer_sampling(self, num_layers, nodes_per_layer):
+        return [self.node_sampling(nodes_per_layer) for _ in range(num_layers)]
+
+    def subgraph_sampling(self, subgraph_size):
+        nodes = self.node_sampling(subgraph_size)
+        return self.adjacency_matrix[nodes][:, nodes]
+""",
+            "dynamic.py": """# Dynamic graph support
+class DynamicGraph:
+    def __init__(self):
+        self.snapshots = {}
+
+    def add_snapshot(self, timestamp, adjacency_matrix):
+        self.snapshots[timestamp] = adjacency_matrix
+
+    def get_snapshot(self, timestamp):
+        return self.snapshots.get(timestamp, None)
+""",
+            "pooling.py": """# Pooling methods for hierarchical graphs
+import numpy as np
+
+class GraphPooling:
+    def __init__(self, features):
+        self.features = features
+
+    def max_pooling(self):
+        return np.max(self.features, axis=0)
+
+    def mean_pooling(self):
+        return np.mean(self.features, axis=0)
+""",
         },
         "models": {
             "__init__.py": "",
@@ -46,92 +88,66 @@ class GCN:
 
     def forward(self):
         normalized_adj = self.graph.normalize_adjacency()
-        output = normalized_adj @ self.features @ self.weight_matrix
-        return np.maximum(output, 0)  # ReLU activation
+        return np.maximum(normalized_adj @ self.features @ self.weight_matrix, 0)  # ReLU activation
 
     def compute_loss(self, predictions, labels):
         return np.mean((predictions - labels) ** 2)
 """,
-            "advanced_gcn.py": """# Advanced GCN with Spectral Analysis
+            "large_scale_gnn.py": """# Large-scale GNN with batch processing
 import numpy as np
-from gnn_library.utils.compute_utils import eig_decomposition
 
-class AdvancedGCN:
-    def __init__(self, graph, features, weight_matrix):
+class LargeScaleGNN:
+    def __init__(self, graph, features, weights, batch_size):
         self.graph = graph
         self.features = features
-        self.weight_matrix = weight_matrix
+        self.weights = weights
+        self.batch_size = batch_size
 
-    def spectral_analysis(self):
-        laplacian = self.graph.compute_laplacian()
-        eigenvalues, eigenvectors = eig_decomposition(laplacian)
-        return eigenvalues, eigenvectors
-""",
-        },
-        "utils": {
-            "__init__.py": "",
-            "compute_utils.py": """# Utility functions for advanced computations
-import numpy as np
-from numba import njit
+    def forward_batch(self, batch_indices):
+        normalized_adj = self.graph.normalize_adjacency()[batch_indices].tocsc()
+        return np.maximum(normalized_adj @ self.features @ self.weights, 0)  # ReLU activation
 
-@njit
-def matrix_multiply(a, b):
-    return np.dot(a, b)
-
-def eig_decomposition(matrix):
-    values, vectors = np.linalg.eigh(matrix)
-    return values, vectors
-""",
-            "hardware_acceleration.py": """# Utility functions for GPU-based computations
-import cupy as cp
-
-def gpu_matrix_multiply(a, b):
-    a_gpu = cp.array(a)
-    b_gpu = cp.array(b)
-    return cp.asnumpy(cp.dot(a_gpu, b_gpu))
+    def train(self, labels, epochs, learning_rate):
+        indices = np.arange(self.graph.nodes)
+        for epoch in range(epochs):
+            np.random.shuffle(indices)
+            for i in range(0, len(indices), self.batch_size):
+                batch = indices[i:i + self.batch_size]
+                predictions = self.forward_batch(batch)
+                loss = np.mean((predictions - labels[batch]) ** 2)
+                gradients = 2 * (predictions - labels[batch]) / len(batch)
+                self.weights -= learning_rate * gradients
+                print(f"Epoch {epoch+1}, Batch {i // self.batch_size + 1}, Loss: {loss:.4f}")
 """,
         },
         "tests": {
-            "test_graph_utils.py": """# Tests for graph utilities
+            "test_sampling.py": """# Tests for sampling methods
 import numpy as np
-from gnn_library.graph.graph_utils import Graph
+from gnn_library.graph.sampling import GraphSampler
 
-def test_normalize_adjacency():
-    nodes = 3
-    edges = [(0, 1), (1, 2)]
-    graph = Graph(nodes, edges)
-    normalized = graph.normalize_adjacency()
-    assert normalized.shape == (3, 3)
+def test_node_sampling():
+    adjacency_matrix = np.eye(10)
+    sampler = GraphSampler(adjacency_matrix)
+    sampled = sampler.node_sampling(5)
+    assert len(sampled) == 5
 """,
-            "test_gcn.py": """# Tests for GCN
-import numpy as np
-from gnn_library.graph.graph_utils import Graph
-from gnn_library.models.gcn import GCN
+            "test_dynamic.py": """# Tests for dynamic graphs
+from gnn_library.graph.dynamic import DynamicGraph
 
-def test_gcn():
-    nodes = 4
-    edges = [(0, 1), (1, 2), (2, 3)]
-    graph = Graph(nodes, edges)
-    features = np.random.rand(nodes, 16)
-    weights = np.random.rand(16, 8)
-    gcn = GCN(graph, features, weights)
-    predictions = gcn.forward()
-    assert predictions.shape == (nodes, 8)
+def test_dynamic_graph():
+    graph = DynamicGraph()
+    graph.add_snapshot("t1", [[0, 1], [1, 0]])
+    snapshot = graph.get_snapshot("t1")
+    assert snapshot == [[0, 1], [1, 0]]
 """,
-            "test_advanced_gcn.py": """# Tests for Advanced GCN with Spectral Analysis
+            "test_pooling.py": """# Tests for pooling methods
 import numpy as np
-from gnn_library.graph.graph_utils import Graph
-from gnn_library.models.advanced_gcn import AdvancedGCN
+from gnn_library.graph.pooling import GraphPooling
 
-def test_spectral_analysis():
-    nodes = 4
-    edges = [(0, 1), (1, 2), (2, 3)]
-    graph = Graph(nodes, edges)
-    features = np.random.rand(nodes, 16)
-    weights = np.random.rand(16, 8)
-    gcn = AdvancedGCN(graph, features, weights)
-    eigenvalues, eigenvectors = gcn.spectral_analysis()
-    assert len(eigenvalues) == nodes
+def test_max_pooling():
+    features = np.array([[1, 2], [3, 4]])
+    pooling = GraphPooling(features)
+    assert np.array_equal(pooling.max_pooling(), [3, 4])
 """,
         },
     }

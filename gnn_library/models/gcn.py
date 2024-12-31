@@ -9,8 +9,7 @@ class GCN:
 
     def forward(self):
         normalized_adj = self.graph.normalize_adjacency()
-        output = normalized_adj @ self.features @ self.weight_matrix
-        return np.maximum(output, 0)  # ReLU activation
+        return np.maximum(normalized_adj @ self.features @ self.weight_matrix, 0)  # ReLU activation
 
     def compute_loss(self, predictions, labels):
         return np.mean((predictions - labels) ** 2)

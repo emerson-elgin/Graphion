@@ -60,6 +60,7 @@ class GraphSampler:
         else:
             return np.random.choice(indices, size=num_samples, replace=replace)
     
+# Fix user experience in dynamic graph
     def layer_sampling(self, num_layers: int, nodes_per_layer: int, 
                       weighted: bool = False) -> List[np.ndarray]:
 # integrate layer normalization

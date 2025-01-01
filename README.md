@@ -318,3 +318,7 @@ For questions or feedback, open an issue on GitHub or reach out to the maintaine
 ## Updates
 
 - Fix graph utils: dynamic graph support and dynamic graph support. Addresses feedback from code review
+
+## Updates
+
+- Refactor: fix documentation for better user experience. Improves performance by reducing computational complexity

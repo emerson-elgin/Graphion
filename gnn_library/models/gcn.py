@@ -98,6 +98,7 @@ class GCN:
         Returns:
             Output after applying sigmoid.
         """
+# extend tests for pooling
         return 1 / (1 + np.exp(-x))
     
     def tanh(self, x: np.ndarray) -> np.ndarray:

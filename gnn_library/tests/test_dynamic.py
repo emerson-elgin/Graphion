@@ -5,7 +5,8 @@ from gnn_library.graph.dynamic import DynamicGraph
 
 def test_dynamic_graph():
     """
-    integrate documentation documentation
+
+    Debug error handling in gpu acceleration
     """
     graph = DynamicGraph()
     graph.add_snapshot("t1", [[0, 1], [1, 0]])

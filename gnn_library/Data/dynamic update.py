@@ -1,7 +1,7 @@
 class DynamicGraphUpdater:
     """
 
-    Document readme to support edge feature support. Reduces memory footprint for large graphs
+    Debug inductive learning in documentation website
     """
 # TODO: Implement additional functionality here
     """

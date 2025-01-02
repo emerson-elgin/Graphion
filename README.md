@@ -36,6 +36,11 @@ Graphion provides robust tools for graph representation, message passing, poolin
 - **Testing Suite**:
   - Comprehensive test coverage for all components.
 
+- **Extended Features**:
+  - Temporal graph analysis tools.
+  - Community detection algorithms.
+  - Graph embedding methods.
+
 ---
 
 ## Installation
@@ -142,6 +147,12 @@ print(f"Mean Pooled Features: {mean_pooled}")
 4. **Dynamic Graphs**:
    - Handle time-varying graph structures for applications like temporal networks.
 
+5. **Graph Embeddings**:
+   - Generate low-dimensional representations for nodes and edges.
+
+6. **Community Detection**:
+   - Identify clusters or communities in graphs using modularity-based algorithms.
+
 ---
 
 ## Example Applications
@@ -160,6 +171,9 @@ print(f"Mean Pooled Features: {mean_pooled}")
 
 5. **Dynamic Network Analysis**:
    - Study changes in transportation or communication networks over time.
+
+6. **Community Detection**:
+   - Group nodes into meaningful clusters for targeted marketing or segmentation.
 
 ---
 

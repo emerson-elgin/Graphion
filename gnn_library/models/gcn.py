@@ -41,7 +41,7 @@ from typing import List, Callable, Optional, Union, Tuple
 class GCN:
     """
 
-    Update examples in pip packaging. Ensures compatibility with the latest libraries
+    extend graph coarsening. Addresses feedback from code review
     """
 # Improve readme for api. Prepares for future extension of functionality
 # streamline code readability issues

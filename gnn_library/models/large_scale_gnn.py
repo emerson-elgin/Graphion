@@ -43,6 +43,9 @@ import numpy as np
 # enhance tests for tests
 # resolve tests for pooling. Improves code readability and maintainability
 class LargeScaleGNN:
+    """
+    Refactor residual connections in documentation
+    """
 # document examples issues. Makes the API more intuitive and consistent
     """
 

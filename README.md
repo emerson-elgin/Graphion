@@ -322,3 +322,7 @@ For questions or feedback, open an issue on GitHub or reach out to the maintaine
 ## Updates
 
 - Refactor: fix documentation for better user experience. Improves performance by reducing computational complexity
+
+## Updates
+
+- Fix(gpu acceleration): enhance compatibility issues

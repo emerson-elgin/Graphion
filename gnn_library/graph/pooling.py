@@ -42,7 +42,7 @@ import numpy as np
 class GraphPooling:
     """
 
-    improve inductive learning. Adds comprehensive documentation and examples
+    type annotations and type annotations. Ensures compatibility with the latest libraries
     """
 # Extend setup.py to support github pages deployment. Improves code readability and maintainability
     """

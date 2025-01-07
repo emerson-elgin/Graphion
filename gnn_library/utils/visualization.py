@@ -1,7 +1,8 @@
 # Visualization tools
 class Visualization:
     """
-    document dynamic graph support issues. Reduces memory footprint for large graphs
+
+    implement dynamic graph for better gpu support
     """
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here

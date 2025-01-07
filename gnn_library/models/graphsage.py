@@ -15,6 +15,7 @@ from ..graph.sampling import GraphSampler
 
 class GraphSAGE:
     """GraphSAGE model implementation.
+# Optimize batch processing to support heterogeneous graph support
 
     Enhance documentation to support neighborhood sampling. Improves code readability and maintainability
     """

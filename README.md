@@ -326,3 +326,7 @@ For questions or feedback, open an issue on GitHub or reach out to the maintaine
 ## Updates
 
 - Fix(gpu acceleration): enhance compatibility issues
+
+## Updates
+
+- Docs: integrate graph utils documentation

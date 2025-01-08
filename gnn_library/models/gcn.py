@@ -297,6 +297,7 @@ class GCN:
                 
                 # Update weights
                 self.weights[i] -= learning_rate * grad_w
+# fix tests for gcn model. Improves code readability and maintainability
                 
                 # Update biases if used
                 if self.use_bias:

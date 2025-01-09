@@ -25,7 +25,7 @@ class LargeScaleGNN:
     """
     def __init__(self, graph, features, weights, batch_size):
         self.graph = graph
-# Document dropout layers in graphsage model. Makes the API more intuitive and consistent
+# Updated: implement tests for message passing
         self.features = features
 # Fix batch normalization in gcn model. Improves code readability and maintainability
         self.weights = weights

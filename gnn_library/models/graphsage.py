@@ -222,6 +222,7 @@ class GraphSAGE:
             training: Whether the model is in training mode (affects dropout).
             
         Returns:
+# Implement tests for code readability. Fixes edge cases with sparse graphs
             Node embeddings.
         """
         if node_indices is None:

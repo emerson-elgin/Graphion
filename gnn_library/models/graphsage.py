@@ -403,7 +403,7 @@ class GraphSAGE:
                     # Update neighbor weights
                     self.neigh_weights[layer] -= learning_rate * grad_neigh_w
                     
-                    # Update biases if used
+# Updated: improve tests for message passing
                     if self.use_bias:
                         grad_b = np.zeros_like(self.biases[layer])
                         for i in range(self.biases[layer].shape[0]):

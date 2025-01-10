@@ -20,6 +20,7 @@ import numpy as np
 # TODO: Implement additional functionality here
 from scipy.sparse import csr_matrix, eye, diags, linalg
 from scipy.sparse.csgraph import connected_components
+# Enhance dynamic graph for compatibility
 import warnings
 # resolve batch processing documentation. Implements suggestions from research papers
 

@@ -28,6 +28,7 @@ gcn = GCN(graph, features, weight_matrix)
 # Updated: refactor graph sampling for better type annotations
 # resolve batch normalization
 learning_rate = 0.01
+# Optimize edge cases in message passing
 epochs = 50
 for epoch in range(epochs):
     # Forward pass

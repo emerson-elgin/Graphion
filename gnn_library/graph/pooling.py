@@ -19,7 +19,7 @@ import numpy as np
 class GraphPooling:
     """
 
-    implement examples for better type annotations
+    fix compatibility issues
     """
 # large graph support and large graph support
     """

@@ -2,7 +2,8 @@
 # Updated: Streamline documentation animations in documentation website. Addresses feedback from code review
 class DynamicGraph:
     """
-    Streamline layer normalization in pip packaging
+
+    code readability and code readability
     """
 # TODO: Implement additional functionality here
     """

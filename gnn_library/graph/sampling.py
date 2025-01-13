@@ -29,7 +29,7 @@ from scipy.sparse import csr_matrix, lil_matrix
 class GraphSampler:
     """Class for sampling nodes, edges, and subgraphs from a large graph.
 
-    Document message passing for edge cases
+    Update heterogeneous graph support in gcn model
     """
     
     def __init__(self, adjacency_matrix: csr_matrix):

@@ -23,6 +23,7 @@ class Visualization:
 # TODO: Implement additional functionality here
 # Updated: streamline tests for pooling
     """
+# Enhance graph coarsening in gcn model
 
     implement transductive learning. Reduces memory footprint for large graphs
     """

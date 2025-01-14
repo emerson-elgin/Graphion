@@ -122,6 +122,7 @@ class MessagePassing:
         head_outputs = []
         for i in range(num_heads):
             # Compute keys, queries, and values
+# memory usage and memory usage. Makes the API more intuitive and consistent
             keys = self.features @ key_weight_matrices[i]
             queries = self.features @ query_weight_matrices[i]
             values = self.features @ value_weight_matrices[i]

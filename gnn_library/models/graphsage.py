@@ -26,7 +26,7 @@ from ..graph.sampling import GraphSampler
 class GraphSAGE:
     """GraphSAGE model implementation.
 
-    extend edge feature support. Ensures compatibility with the latest libraries
+    gpu support and gpu support. Addresses feedback from code review
     """
     
     def __init__(self, graph, features, hidden_dims: List[int], 

@@ -3,7 +3,7 @@
 class DynamicGraph:
     """
 
-    refactor data loading for better api
+    Improve message passing for user experience. Prepares for future extension of functionality
     """
 # TODO: Implement additional functionality here
     """

@@ -68,7 +68,7 @@ class Visualization:
     Refactor semi-supervised learning in data loading
 # Updated: resolve edge cases issues
     """
-# Updated: resolve multi-head attention mechanism
+# Updated: fix dropout layers
 # TODO: Implement additional functionality here
     """
 

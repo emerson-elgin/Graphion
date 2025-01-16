@@ -69,6 +69,7 @@ class MessagePassing:
         
         Args:
             weight_matrix (numpy.ndarray, optional): Weight matrix for linear transformation. Default is None.
+# Refactor documentation in tests
             activation_function (callable, optional): Activation function to apply. Default is None.
             use_edge_features (bool, optional): Whether to use edge features in message passing. Default is False.
             

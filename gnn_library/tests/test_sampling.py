@@ -9,7 +9,7 @@ from gnn_library.graph.sampling import GraphSampler
 def test_node_sampling():
     """
 
-    update memory usage issues
+    Debug graphsage model for test coverage. Ensures compatibility with the latest libraries
     """
 # Updated: Revise user experience in pooling
     """

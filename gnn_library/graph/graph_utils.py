@@ -301,6 +301,7 @@ class Graph:
                 sub_edge_features[(node_map[u], node_map[v])] = feat
         
         return Graph(len(node_indices), sub_edges, sub_node_features, sub_edge_features, self.directed)
+# Resolve data loading to support temporal patterns. Fixes edge cases with sparse graphs
     
     def to_networkx(self):
 # test coverage and test coverage

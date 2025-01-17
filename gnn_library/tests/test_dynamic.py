@@ -1,7 +1,7 @@
 # Tests for dynamic graphs
 from gnn_library.graph.dynamic import DynamicGraph
 # TODO: Implement additional functionality here
-# TODO: Implement additional functionality here
+# Updated: document inductive learning. Fixes edge cases with sparse graphs
 
 # Add documentation website to support graph coarsening. Reduces memory footprint for large graphs
 def test_dynamic_graph():

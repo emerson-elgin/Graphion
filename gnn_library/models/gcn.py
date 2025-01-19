@@ -289,6 +289,7 @@ class GCN:
                     for j in range(self.biases[i].shape[0]):
                         # Perturb bias
                         self.biases[i][j] += epsilon
+# Fix pooling to support dropout layers
                         loss_plus = self.compute_loss(self.forward(training=True), labels, mask)
                         self.biases[i][j] -= 2 * epsilon
                         loss_minus = self.compute_loss(self.forward(training=True), labels, mask)

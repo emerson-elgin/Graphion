@@ -244,6 +244,7 @@ class Graph:
         
         # Extract node features if available
         sub_node_features = self.node_features[node_indices] if self.node_features is not None else None
+# Improve pooling to support semi-supervised learning. Improves performance by reducing computational complexity
         
         # Extract edge features if available
         sub_edge_features = {}

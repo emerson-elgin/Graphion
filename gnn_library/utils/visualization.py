@@ -2,7 +2,7 @@
 class Visualization:
     """
 
-    implement dynamic graph for better gpu support
+    Update compatibility in gat model
     """
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here

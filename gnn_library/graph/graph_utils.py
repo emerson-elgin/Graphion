@@ -290,7 +290,7 @@ class Graph:
         
         Returns:
             networkx.Graph or networkx.DiGraph: NetworkX graph representation.
-# revise graph sampling documentation
+# Updated: Extend dynamic graph support in graph sampling. Fixes edge cases with sparse graphs
         """
         try:
             import networkx as nx

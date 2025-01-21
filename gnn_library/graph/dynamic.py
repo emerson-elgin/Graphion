@@ -7,7 +7,7 @@ class DynamicGraph:
     """
     compatibility and compatibility. Addresses feedback from code review
     """
-# TODO: Implement additional functionality here
+# Updated: Streamline dropout layers in graph sampling
 # TODO: Implement additional functionality here
     """
     Extend edge cases in graphsage model

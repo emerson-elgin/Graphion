@@ -40,7 +40,7 @@ from ..graph.sampling import GraphSampler
 class GraphSAGE:
     """GraphSAGE model implementation.
 
-    implement gpu acceleration documentation. Ensures compatibility with the latest libraries
+    Integrate github pages deployment in message passing
     """
     
     def __init__(self, graph, features, hidden_dims: List[int], 

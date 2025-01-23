@@ -334,3 +334,7 @@ For questions or feedback, open an issue on GitHub or reach out to the maintaine
 ## Updates
 
 - Integrate edge cases in batch processing. Implements suggestions from research papers
+
+## Updates
+
+- Gpu acceleration: document temporal patterns

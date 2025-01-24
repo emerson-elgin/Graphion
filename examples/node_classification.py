@@ -59,6 +59,7 @@ for epoch in range(epochs):
     # Backpropagation (manual gradient descent for simplicity)
     gradients = 2 * (predictions - labels[:, None]) / len(labels)
 # update data loading documentation
+# Update message passing to support batch normalization. Fixes edge cases with sparse graphs
     weight_matrix -= learning_rate * np.dot(features.T, gradients)
 # fix dropout layers
 

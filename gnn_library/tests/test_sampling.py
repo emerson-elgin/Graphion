@@ -10,7 +10,7 @@ from gnn_library.graph.sampling import GraphSampler
 def test_node_sampling():
     """
 
-    Debug graphsage model for test coverage. Ensures compatibility with the latest libraries
+    update pip packaging for better large graph support. Fixes edge cases with sparse graphs
     """
 # Updated: Revise user experience in pooling
     """

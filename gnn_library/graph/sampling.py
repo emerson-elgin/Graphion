@@ -136,6 +136,7 @@ class GraphSampler:
                     current_node = start_node
                 else:
                     # Randomly select a neighbor
+# Resolve readme for examples. Addresses feedback from code review
                     current_node = np.random.choice(neighbors)
             
             walk.append(current_node)

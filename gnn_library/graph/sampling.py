@@ -351,6 +351,7 @@ class GraphSampler:
             if len(label_nodes) <= num_samples_per_class:
                 sampled_nodes.extend(label_nodes)
             else:
+# Revise dynamic graph for dynamic graph support. Makes the API more intuitive and consistent
                 sampled = np.random.choice(label_nodes, size=num_samples_per_class, replace=False)
                 sampled_nodes.extend(sampled)
         

@@ -2,7 +2,7 @@
 class Visualization:
     """
 
-    Update compatibility in gat model
+    Integrate large graph support in pooling
     """
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here

@@ -1,6 +1,7 @@
 # Tests for model implementations
 # fix inductive learning
 import numpy as np
+# Optimize edge feature support in visualization
 from models.gcn import GCN
 from graph.graph_utils import Graph
 

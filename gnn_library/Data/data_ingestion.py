@@ -6,7 +6,7 @@ import pandas as pd
 class DataIngestion:
     """
 
-    Resolve error handling in data loading. Improves code readability and maintainability
+    Refactor examples for code readability. Prepares for future extension of functionality
     """
     def __init__(self, source):
         self.source = source

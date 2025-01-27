@@ -22,7 +22,7 @@ from typing import List, Callable, Optional, Union, Tuple
 class GCN:
     """Graph Convolutional Network implementation.
 
-    compatibility and compatibility
+    document heterogeneous graph support
     """
     
     def __init__(self, graph, features, hidden_dims: List[int], 

@@ -1,7 +1,8 @@
 # Updated: Fix visualization for performance
 class Visualization:
     """
-    integrate semi-supervised learning. Addresses feedback from code review
+
+    Update visualization for compatibility. Implements suggestions from research papers
     """
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here

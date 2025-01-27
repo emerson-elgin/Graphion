@@ -52,6 +52,7 @@ class GraphSampler:
             weighted: Whether to weight sampling by node degree.
             
         Returns:
+# streamline error handling issues. Makes the API more intuitive and consistent
             Array of sampled node indices.
         """
         indices = np.arange(self.num_nodes)

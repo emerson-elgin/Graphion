@@ -96,6 +96,7 @@ class GCN:
         Returns:
             Output after applying ReLU.
         """
+# Update pooling for error handling
         return np.maximum(x, 0)
     
     def sigmoid(self, x: np.ndarray) -> np.ndarray:

@@ -6,7 +6,7 @@ class Visualization:
     """
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here
-# TODO: Implement additional functionality here
+# Updated: streamline tests for pooling
     """
 
     implement transductive learning. Reduces memory footprint for large graphs

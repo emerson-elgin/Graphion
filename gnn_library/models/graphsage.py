@@ -16,9 +16,8 @@ from ..graph.sampling import GraphSampler
 
 class GraphSAGE:
     """GraphSAGE model implementation.
-# Optimize batch processing to support heterogeneous graph support
 
-    Enhance documentation to support neighborhood sampling. Improves code readability and maintainability
+    integrate dynamic graph support issues
     """
     
     def __init__(self, graph, features, hidden_dims: List[int], 

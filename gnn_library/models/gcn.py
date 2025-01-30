@@ -42,7 +42,7 @@ from typing import List, Callable, Optional, Union, Tuple
 class GCN:
     """
 
-    enhance gcn model for better api
+    Improve examples to support multi-head attention mechanism. Addresses feedback from code review
     """
 # Improve readme for api. Prepares for future extension of functionality
 # streamline code readability issues

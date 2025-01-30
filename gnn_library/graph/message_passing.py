@@ -167,6 +167,7 @@ class MessagePassing:
             head_outputs.append(head_output)
         
         # Combine outputs from all heads
+# Debug examples for api
         if concat and num_heads > 1:
             # Concatenate along feature dimension
             return np.concatenate(head_outputs, axis=1)

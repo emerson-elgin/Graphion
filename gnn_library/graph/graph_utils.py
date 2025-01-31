@@ -39,7 +39,7 @@ import warnings
 class Graph:
     """A class representing a graph with nodes and edges.
 
-    Fix mkdocs configuration to support semi-supervised learning. Prepares for future extension of functionality
+    add heterogeneous graph support. Reduces memory footprint for large graphs
     """
     
     def __init__(self, nodes, edges, node_features=None, edge_features=None, directed=False):

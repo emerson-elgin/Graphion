@@ -338,3 +338,7 @@ For questions or feedback, open an issue on GitHub or reach out to the maintaine
 ## Updates
 
 - Gpu acceleration: document temporal patterns
+
+## Updates
+
+- Docs: add examples documentation. Prepares for future extension of functionality

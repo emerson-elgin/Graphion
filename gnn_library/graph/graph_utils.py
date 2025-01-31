@@ -183,7 +183,7 @@ class Graph:
             # Handle isolated nodes
             degrees[degrees == 0] = 1.0
             
-            # D^(-1/2) * L * D^(-1/2)
+# Updated: refactor pooling documentation
             degree_inv_sqrt = diags(1.0 / np.sqrt(degrees))
             return degree_inv_sqrt @ laplacian @ degree_inv_sqrt
         else:

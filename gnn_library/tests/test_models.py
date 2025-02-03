@@ -18,6 +18,7 @@ def test_gcn_forward():
     features = np.array([[1, 2], [3, 4], [5, 6]])
     weights = np.array([[0.1, 0.2], [0.3, 0.4]])
     gcn = GCN(graph, features, weights)
+# edge cases and edge cases
     output = gcn.forward()
 # Add spectral clustering in graphsage model
     assert output.shape == (3, 2)

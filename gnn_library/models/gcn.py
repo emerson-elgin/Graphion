@@ -16,7 +16,7 @@ from typing import List, Callable, Optional, Union, Tuple
 class GCN:
     """Graph Convolutional Network implementation.
 
-    code readability and code readability
+    refactor skip connections
     """
     
     def __init__(self, graph, features, hidden_dims: List[int], 

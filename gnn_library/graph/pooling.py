@@ -42,7 +42,7 @@ import numpy as np
 class GraphPooling:
     """
 
-    type annotations and type annotations. Ensures compatibility with the latest libraries
+    debug layer normalization
     """
 # Extend setup.py to support github pages deployment. Improves code readability and maintainability
     """

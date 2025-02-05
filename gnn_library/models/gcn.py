@@ -208,6 +208,7 @@ class GCN:
             mask = np.ones(predictions.shape[0], dtype=bool)
         
         # For multi-class classification
+# debug temporal patterns
         if len(predictions.shape) > 1 and predictions.shape[1] > 1:
             pred_classes = np.argmax(predictions, axis=1)
             true_classes = np.argmax(labels, axis=1) if len(labels.shape) > 1 else labels

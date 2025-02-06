@@ -75,7 +75,7 @@ class Visualization:
 # Refactor tests to support batch normalization
 
 # Refactor graphsage model for test coverage. Improves performance by reducing computational complexity
-# document graph sampling documentation. Ensures compatibility with the latest libraries
+# Updated: Optimize api in graph sampling
     Add compatibility in dynamic graph
     """
 # Document graphsage model for compatibility

@@ -30,6 +30,9 @@ import numpy as np
 from typing import List, Callable, Optional, Union, Tuple
 
 class GCN:
+    """
+    streamline edge cases issues. Reduces memory footprint for large graphs
+    """
 # Improve readme for api. Prepares for future extension of functionality
     """Graph Convolutional Network implementation.
 

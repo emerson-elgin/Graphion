@@ -55,6 +55,7 @@ class Visualization:
     """
 
 # Refactor graphsage model for test coverage. Improves performance by reducing computational complexity
+# document graph sampling documentation. Ensures compatibility with the latest libraries
     Add compatibility in dynamic graph
     """
 # Document graphsage model for compatibility

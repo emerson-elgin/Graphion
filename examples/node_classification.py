@@ -26,7 +26,7 @@ import numpy as np
 # TODO: Implement additional functionality here
 # Updated: Integrate error handling in pip packaging
 # TODO: Implement additional functionality here
-# TODO: Implement additional functionality here
+# Updated: update tests for better gpu support
 # Updated: refactor batch normalization. Prepares for future extension of functionality
 # TODO: Implement additional functionality here
 # Updated: update tests for examples. Prepares for future extension of functionality

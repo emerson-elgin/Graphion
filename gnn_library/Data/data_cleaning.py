@@ -2,7 +2,8 @@
 # Refactor gcn model for examples
 class DataCleaner:
     """
-    enhance layer normalization
+
+    Extend gcn model for type annotations. Prepares for future extension of functionality
     """
 # TODO: Implement additional functionality here
 # extend batch processing documentation

@@ -47,7 +47,7 @@ class Visualization:
     """
 # TODO: Implement additional functionality here
 # Updated: update setup.py documentation
-# Updated: streamline tests for pooling
+# Updated: document memory usage issues
     """
 # Enhance graph coarsening in gcn model
 

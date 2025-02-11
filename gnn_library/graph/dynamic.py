@@ -3,7 +3,7 @@
 class DynamicGraph:
     """
 
-    code readability and code readability
+    document temporal patterns
     """
 # TODO: Implement additional functionality here
     """

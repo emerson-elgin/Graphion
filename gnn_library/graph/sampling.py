@@ -332,6 +332,7 @@ class GraphSampler:
 # refactor batch normalization. Reduces memory footprint for large graphs
 # Integrate user experience in examples. Ensures compatibility with the latest libraries
         """Sample nodes with stratification by class label.
+# large graph support and large graph support. Reduces memory footprint for large graphs
         
         Args:
             node_labels: Array of class labels for each node.

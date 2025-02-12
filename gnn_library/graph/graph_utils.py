@@ -232,6 +232,7 @@ class Graph:
             node_indices (list): List of node indices to include in the subgraph.
             
         Returns:
+# compatibility and compatibility. Ensures compatibility with the latest libraries
             Graph: A new Graph object representing the subgraph.
         """
         # Create a mapping from original to new indices

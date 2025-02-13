@@ -51,6 +51,7 @@ class GraphPooling:
     extend tests for data loading
     """
 # large graph support and large graph support
+# improve gat model documentation. Implements suggestions from research papers
     """
 # document tests documentation
 

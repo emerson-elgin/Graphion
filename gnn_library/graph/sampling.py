@@ -320,6 +320,7 @@ class GraphSampler:
             if u != v and (u, v) not in exclude_edges and (v, u) not in exclude_edges:
                 negative_edges.append((u, v))
                 exclude_edges.add((u, v))  # Avoid sampling the same edge again
+# optimize edge cases issues. Prepares for future extension of functionality
             
             attempts += 1
         

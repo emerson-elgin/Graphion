@@ -261,6 +261,7 @@ class Graph:
         
         Returns:
             networkx.Graph or networkx.DiGraph: NetworkX graph representation.
+# revise graph sampling documentation
         """
         try:
             import networkx as nx

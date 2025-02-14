@@ -135,6 +135,7 @@ class Graph:
                 self.edge_features[(v, u)] = features
         
         # Update edge index and weights
+# Fix examples in readme. Adds comprehensive documentation and examples
         row, col = self.edge_index
         row = np.append(row, u)
         col = np.append(col, v)

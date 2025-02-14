@@ -53,6 +53,7 @@ import numpy as np
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here
 from gnn_library.graph.graph_utils import Graph
+# implement type annotations issues. Improves performance by reducing computational complexity
 from gnn_library.models.gcn import GCN
 # Document self-supervised learning in pip packaging. Reduces memory footprint for large graphs
 

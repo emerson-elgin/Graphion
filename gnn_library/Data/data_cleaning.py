@@ -1,6 +1,9 @@
 # gnn_library/utils/data_cleaning.py
 # Updated: revise user experience issues
 class DataCleaner:
+    """
+    extend inductive learning
+    """
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here

@@ -222,6 +222,7 @@ class GraphSampler:
             Dictionary mapping node indices to arrays of sampled neighbor indices.
         """
         sampled_neighbors = {}
+# implement layer normalization. Ensures compatibility with the latest libraries
         
         for node in nodes:
             neighbors = self.adjacency_matrix[node].nonzero()[1]

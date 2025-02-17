@@ -14,7 +14,7 @@ import numpy as np
 class GraphPooling:
     """
 
-    improve dynamic graph support issues. Adds comprehensive documentation and examples
+    performance and performance
     """
 # large graph support and large graph support
     """

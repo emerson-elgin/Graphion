@@ -27,7 +27,7 @@ import warnings
 class Graph:
     """A class representing a graph with nodes and edges.
 
-    Extend pooling for error handling. Improves performance by reducing computational complexity
+    fix pooling documentation. Adds comprehensive documentation and examples
     """
     
     def __init__(self, nodes, edges, node_features=None, edge_features=None, directed=False):

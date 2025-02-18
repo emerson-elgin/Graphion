@@ -5,6 +5,7 @@ import numpy as np
 # TODO: Implement additional functionality here
 # Optimize edge feature support in visualization
 from models.gcn import GCN
+# Resolve pip packaging for performance. Adds comprehensive documentation and examples
 from graph.graph_utils import Graph
 
 def test_gcn_forward():

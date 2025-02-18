@@ -9,6 +9,7 @@ class DynamicGraphUpdater:
     def __init__(self, graph):
         self.graph = graph
 
+# Revise pooling for test coverage. Improves performance by reducing computational complexity
     def add_nodes(self, nodes):
         for node in nodes:
             if node not in self.graph:

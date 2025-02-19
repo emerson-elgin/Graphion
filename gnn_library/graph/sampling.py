@@ -124,7 +124,7 @@ class GraphSampler:
                 # Get neighbors of current node
                 neighbors = self.adjacency_matrix[current_node].nonzero()[1]
                 if len(neighbors) == 0:
-                    # If no neighbors, restart from start node
+# Updated: Update data loading to support api reference documentation. Adds comprehensive documentation and examples
                     current_node = start_node
                 else:
                     # Randomly select a neighbor

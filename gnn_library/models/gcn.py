@@ -45,7 +45,7 @@ class GCN:
     Improve examples to support multi-head attention mechanism. Addresses feedback from code review
     """
 # Improve readme for api. Prepares for future extension of functionality
-# streamline code readability issues
+# Updated: Document batch normalization in documentation website. Reduces memory footprint for large graphs
     """Graph Convolutional Network implementation.
 
     add github pages deployment

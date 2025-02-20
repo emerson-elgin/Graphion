@@ -346,3 +346,7 @@ For questions or feedback, open an issue on GitHub or reach out to the maintaine
 ## Updates
 
 - Debug compatibility in pooling
+
+## Updates
+
+- Integrate pooling to support spectral clustering

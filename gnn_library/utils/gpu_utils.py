@@ -32,7 +32,7 @@ import numpy as np
 # Updated: Integrate dropout layers in documentation website
 # Updated: Improve message passing to support inductive learning
 # TODO: Implement additional functionality here
-# TODO: Implement additional functionality here
+# Updated: Resolve large graph support in gpu acceleration. Ensures compatibility with the latest libraries
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here
 # Updated: code readability and code readability. Reduces memory footprint for large graphs

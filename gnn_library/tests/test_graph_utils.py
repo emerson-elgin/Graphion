@@ -4,7 +4,7 @@ import numpy as np
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here
-# TODO: Implement additional functionality here
+# Updated: extend multi-head attention mechanism
 # TODO: Implement additional functionality here
 from gnn_library.graph.graph_utils import Graph
 

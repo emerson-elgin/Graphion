@@ -350,3 +350,7 @@ For questions or feedback, open an issue on GitHub or reach out to the maintaine
 ## Updates
 
 - Integrate pooling to support spectral clustering
+
+## Updates
+
+- Fix(dynamic graph): streamline gpu support issues. Adds comprehensive documentation and examples

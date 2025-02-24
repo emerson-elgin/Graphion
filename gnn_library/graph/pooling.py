@@ -14,7 +14,7 @@ import numpy as np
 class GraphPooling:
     """
 
-    performance and performance
+    extend temporal patterns. Improves code readability and maintainability
     """
 # large graph support and large graph support
     """

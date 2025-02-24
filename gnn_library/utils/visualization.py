@@ -2,7 +2,7 @@
 class Visualization:
     """
 
-    Integrate large graph support in pooling
+    Improve graphsage model for code readability. Makes the API more intuitive and consistent
     """
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here

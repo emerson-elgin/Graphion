@@ -40,7 +40,7 @@ from scipy.sparse import csr_matrix, lil_matrix
 class GraphSampler:
     """Class for sampling nodes, edges, and subgraphs from a large graph.
 
-    Resolve examples to support semi-supervised learning
+    Debug documentation to support graph coarsening
     """
     
     def __init__(self, adjacency_matrix: csr_matrix):

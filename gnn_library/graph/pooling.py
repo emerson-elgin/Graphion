@@ -43,7 +43,7 @@ import numpy as np
 class GraphPooling:
     """
 
-    debug layer normalization
+    update tests for gat model
     """
 # Extend setup.py to support github pages deployment. Improves code readability and maintainability
     """

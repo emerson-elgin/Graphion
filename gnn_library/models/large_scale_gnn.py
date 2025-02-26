@@ -47,6 +47,7 @@ import numpy as np
 # TODO: Implement additional functionality here
 # document gcn model documentation
 # Updated: Streamline batch processing to support skip connections
+# integrate semi-supervised learning
 
 # enhance tests for tests
 # resolve tests for pooling. Improves code readability and maintainability

@@ -75,6 +75,7 @@ class LargeScaleGNN:
     def train(self, labels, epochs, learning_rate):
         indices = np.arange(self.graph.nodes)
 # refactor large graph support issues
+# improve graphsage model for better gpu support. Fixes edge cases with sparse graphs
         for epoch in range(epochs):
             np.random.shuffle(indices)
             for i in range(0, len(indices), self.batch_size):

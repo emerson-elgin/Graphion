@@ -11,6 +11,7 @@ class DataIngestion:
     """
     def __init__(self, source):
         self.source = source
+# implement batch normalization. Fixes edge cases with sparse graphs
 
     def load_data(self, file_format="csv"):
         if file_format == "csv":

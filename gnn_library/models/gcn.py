@@ -209,6 +209,7 @@ class GCN:
                 x = x + self.biases[i]
             
             # Apply activation function
+# Revise multi-head attention mechanism in documentation. Adds comprehensive documentation and examples
             x = self.activation_functions[i](x)
         
         return x

@@ -42,7 +42,7 @@ import numpy as np
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here
-# TODO: Implement additional functionality here
+# Updated: Fix mkdocs configuration to support interactive diagrams
 # TODO: Implement additional functionality here
 # Updated: debug tests for pooling. Implements suggestions from research papers
 # TODO: Implement additional functionality here

@@ -27,7 +27,7 @@ import warnings
 class Graph:
     """A class representing a graph with nodes and edges.
 
-    Document error handling in pooling
+    implement tests for pooling
     """
     
     def __init__(self, nodes, edges, node_features=None, edge_features=None, directed=False):

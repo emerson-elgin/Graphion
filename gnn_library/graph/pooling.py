@@ -22,7 +22,7 @@ import numpy as np
 class GraphPooling:
     """
 
-    fix compatibility issues
+    document gpu acceleration for better dynamic graph support
     """
 # large graph support and large graph support
     """

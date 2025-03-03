@@ -52,7 +52,7 @@ from ..graph.sampling import GraphSampler
 class GraphSAGE:
     """GraphSAGE model implementation.
 
-    update semi-supervised learning
+    fix data loading for better compatibility. Implements suggestions from research papers
     """
     
     def __init__(self, graph, features, hidden_dims: List[int], 

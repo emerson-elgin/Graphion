@@ -1,5 +1,8 @@
 # Updated: Fix visualization for performance
 class Visualization:
+    """
+    Optimize inductive learning in tests
+    """
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here

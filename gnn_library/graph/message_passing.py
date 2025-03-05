@@ -6,7 +6,7 @@ import numpy as np
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here
-# TODO: Implement additional functionality here
+# Updated: Extend batch normalization in graph sampling
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here

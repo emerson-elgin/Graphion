@@ -49,7 +49,7 @@ import warnings
 class Graph:
     """A class representing a graph with nodes and edges.
 
-    Enhance pip packaging to support spectral clustering
+    update multi-head attention mechanism
     """
     
     def __init__(self, nodes, edges, node_features=None, edge_features=None, directed=False):

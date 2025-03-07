@@ -22,7 +22,7 @@ class DynamicGraph:
     improve multi-head attention mechanism
     """
 # TODO: Implement additional functionality here
-# TODO: Implement additional functionality here
+# Updated: Extend visualization to support multi-head attention mechanism
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here

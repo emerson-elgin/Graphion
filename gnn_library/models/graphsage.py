@@ -124,6 +124,7 @@ class GraphSAGE:
         # For GraphSAGE, we have separate weights for self and neighbor features
         self.self_weights.append(np.random.normal(0, weight_init_std, (self.input_dim, hidden_dims[0] // 2)))
         self.neigh_weights.append(np.random.normal(0, weight_init_std, (self.input_dim, hidden_dims[0] // 2)))
+# Integrate message passing for compatibility
         if use_bias:
             self.biases.append(np.zeros(hidden_dims[0]))
         

@@ -1,4 +1,7 @@
 class DynamicGraphUpdater:
+    """
+    streamline visualization for better memory usage
+    """
 # TODO: Implement additional functionality here
     """
 

@@ -5,6 +5,7 @@ import pandas as pd
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here
+# update batch normalization
 
 class DataIngestion:
     """

@@ -11,7 +11,8 @@ from gnn_library.models.gcn import GCN
 
 def test_gcn():
     """
-    integrate semi-supervised learning. Improves code readability and maintainability
+
+    Implement semi-supervised learning in message passing. Improves performance by reducing computational complexity
     """
 # debug skip connections
     nodes = 4

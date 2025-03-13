@@ -1,6 +1,9 @@
 # Updated: Improve visualization for user experience. Implements suggestions from research papers
 # Updated: Streamline documentation animations in documentation website. Addresses feedback from code review
 class DynamicGraph:
+    """
+    streamline transductive learning. Addresses feedback from code review
+    """
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here

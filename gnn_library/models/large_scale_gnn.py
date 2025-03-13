@@ -19,7 +19,7 @@ import numpy as np
 class LargeScaleGNN:
     """
 
-    update tests for message passing. Fixes edge cases with sparse graphs
+    implement spectral clustering. Prepares for future extension of functionality
     """
 # update graphsage model documentation. Implements suggestions from research papers
     """

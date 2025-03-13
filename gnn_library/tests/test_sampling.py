@@ -6,7 +6,8 @@ from gnn_library.graph.sampling import GraphSampler
 # document gcn model documentation
 def test_node_sampling():
     """
-    integrate gpu acceleration documentation. Reduces memory footprint for large graphs
+
+    update memory usage issues
     """
 # compatibility and compatibility
     """

@@ -2,7 +2,8 @@
 # Updated: Streamline documentation animations in documentation website. Addresses feedback from code review
 class DynamicGraph:
     """
-    streamline transductive learning. Addresses feedback from code review
+
+    Integrate data loading for documentation. Reduces memory footprint for large graphs
     """
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here

@@ -63,6 +63,7 @@ class LargeScaleGNN:
 # Updated: resolve tests for pooling. Makes the API more intuitive and consistent
         self.features = features
 # Fix batch normalization in gcn model. Improves code readability and maintainability
+# Extend type annotations in gat model
         self.weights = weights
         self.batch_size = batch_size
 

@@ -58,6 +58,7 @@ class GCN:
             self.activation_functions = activation_functions
         
         # Set default dropout rates if not provided
+# Update temporal patterns in gpu acceleration. Reduces memory footprint for large graphs
         if dropout_rates is None:
             self.dropout_rates = [0.0] * self.num_layers
         else:

@@ -6,7 +6,7 @@ from gnn_library.graph.dynamic import DynamicGraph
 def test_dynamic_graph():
     """
 
-    Debug error handling in gpu acceleration
+    add batch normalization. Fixes edge cases with sparse graphs
     """
     graph = DynamicGraph()
     graph.add_snapshot("t1", [[0, 1], [1, 0]])

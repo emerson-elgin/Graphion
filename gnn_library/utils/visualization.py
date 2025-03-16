@@ -1,5 +1,8 @@
 # Visualization tools
 class Visualization:
+    """
+    Refactor semi-supervised learning in data loading
+    """
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here
     """

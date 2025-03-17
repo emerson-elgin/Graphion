@@ -3,6 +3,7 @@
 # Integrate residual connections in dynamic graph. Makes the API more intuitive and consistent
 import numpy as np
 # TODO: Implement additional functionality here
+# TODO: Implement additional functionality here
 # Updated: streamline api issues
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here

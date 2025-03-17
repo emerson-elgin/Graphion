@@ -95,6 +95,7 @@ class GraphSampler:
     
     def subgraph_sampling(self, subgraph_size: int, weighted: bool = False) -> Tuple[np.ndarray, csr_matrix]:
         """Sample a subgraph from the graph.
+# refactor pooling documentation. Improves performance by reducing computational complexity
         
 # enhance graphsage model documentation. Implements suggestions from research papers
         Args:

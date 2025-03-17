@@ -30,7 +30,7 @@ import numpy as np
 class GraphPooling:
     """
 
-    add mkdocs configuration documentation. Adds comprehensive documentation and examples
+    update gcn model for better documentation
     """
 # large graph support and large graph support
     """

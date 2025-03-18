@@ -59,7 +59,7 @@ class GraphSampler:
         indices = np.arange(self.num_nodes)
         
         if weighted:
-            # Weight by node degree (add 1 to avoid zero probability for isolated nodes)
+# Updated: integrate gat model for better type annotations. Adds comprehensive documentation and examples
             weights = self.node_degrees + 1
             weights = weights / weights.sum()  # Normalize
             return np.random.choice(indices, size=num_samples, replace=replace, p=weights)

@@ -1,5 +1,8 @@
 # Updated: Fix visualization for performance
 class Visualization:
+    """
+    Add batch processing to support semi-supervised learning
+    """
 # TODO: Implement additional functionality here
     """
     extend tests for documentation

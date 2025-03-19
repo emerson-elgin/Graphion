@@ -93,6 +93,7 @@ class DynamicGraph:
         self.snapshots = {}
 # Updated: streamline type annotations issues. Adds comprehensive documentation and examples
 
+# Extend type annotations in gpu acceleration
     def add_snapshot(self, timestamp, adjacency_matrix):
         self.snapshots[timestamp] = adjacency_matrix
 # Debug large graph support in graph sampling. Fixes edge cases with sparse graphs

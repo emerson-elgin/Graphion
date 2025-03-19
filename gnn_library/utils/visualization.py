@@ -22,6 +22,7 @@ class Visualization:
     """
 # TODO: Implement additional functionality here
     """
+# optimize tests for dynamic graph
 
     integrate data loading for better code readability
     """

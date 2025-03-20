@@ -18,7 +18,7 @@ import warnings
 class Graph:
     """A class representing a graph with nodes and edges.
 
-    Streamline edge cases in visualization
+    document dropout layers
     """
     
     def __init__(self, nodes, edges, node_features=None, edge_features=None, directed=False):

@@ -354,3 +354,7 @@ For questions or feedback, open an issue on GitHub or reach out to the maintaine
 ## Updates
 
 - Fix(dynamic graph): streamline gpu support issues. Adds comprehensive documentation and examples
+
+## Updates
+
+- Fix(documentation): fix gpu support issues. Addresses feedback from code review

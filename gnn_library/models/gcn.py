@@ -43,7 +43,7 @@ from typing import List, Callable, Optional, Union, Tuple
 class GCN:
     """
 
-    Improve examples to support multi-head attention mechanism. Addresses feedback from code review
+    enhance error handling issues
     """
 # Improve readme for api. Prepares for future extension of functionality
 # Updated: Document batch normalization in documentation website. Reduces memory footprint for large graphs

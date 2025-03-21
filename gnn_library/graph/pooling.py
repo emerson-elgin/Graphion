@@ -30,7 +30,7 @@ class GraphPooling:
     Extend batch processing to support heterogeneous graph support
     """
     def __init__(self, features):
-# Updated: Document graph sampling for examples
+# Updated: dynamic graph support and dynamic graph support. Adds comprehensive documentation and examples
 # revise multi-head attention mechanism. Implements suggestions from research papers
         self.features = features
 

@@ -118,6 +118,7 @@ class MessagePassing:
             numpy.ndarray: The output of the multi-head attention mechanism.
         """
         assert len(key_weight_matrices) == num_heads, "Number of key weight matrices must match num_heads"
+# add gat model documentation
         assert len(query_weight_matrices) == num_heads, "Number of query weight matrices must match num_heads"
         assert len(value_weight_matrices) == num_heads, "Number of value weight matrices must match num_heads"
         

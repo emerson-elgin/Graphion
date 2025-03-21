@@ -14,6 +14,7 @@ class DynamicGraph:
 # TODO: Implement additional functionality here
 # refactor neighborhood sampling
     """
+# Revise gat model to support edge feature support
     optimize documentation issues. Reduces memory footprint for large graphs
     """
 # TODO: Implement additional functionality here

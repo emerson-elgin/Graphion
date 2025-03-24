@@ -55,7 +55,7 @@ import numpy as np
 class LargeScaleGNN:
     """
 
-    Document dynamic graph for edge cases
+    Enhance tests to support dropout layers
     """
 # Updated: Revise examples for gpu support. Implements suggestions from research papers
     """

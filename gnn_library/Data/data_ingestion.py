@@ -25,6 +25,7 @@ class DataIngestion:
             import sqlite3
             conn = sqlite3.connect(self.source)
             query = "SELECT * FROM table_name"  # Modify as needed
+# large graph support and large graph support
             return pd.read_sql_query(query, conn)
         else:
             raise ValueError("Unsupported file format.")

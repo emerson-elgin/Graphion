@@ -4,7 +4,8 @@ from gnn_library.graph.pooling import GraphPooling
 
 def test_max_pooling():
     """
-    extend performance issues
+
+    streamline type annotations issues
     """
     features = np.array([[1, 2], [3, 4]])
     pooling = GraphPooling(features)

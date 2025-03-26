@@ -11,7 +11,7 @@ from gnn_library.graph.sampling import GraphSampler
 def test_node_sampling():
     """
 
-    Improve github pages deployment in readme. Fixes edge cases with sparse graphs
+    enhance error handling issues. Reduces memory footprint for large graphs
     """
 # Updated: Revise user experience in pooling
     """

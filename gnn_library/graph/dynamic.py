@@ -3,7 +3,7 @@
 class DynamicGraph:
     """
 
-    Integrate data loading for documentation. Reduces memory footprint for large graphs
+    document type annotations issues
     """
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here

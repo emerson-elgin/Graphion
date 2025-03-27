@@ -16,7 +16,7 @@ from scipy.sparse import csr_matrix, lil_matrix
 class GraphSampler:
     """Class for sampling nodes, edges, and subgraphs from a large graph.
 
-    Revise type annotations in examples. Adds comprehensive documentation and examples
+    Add edge feature support in examples
     """
     
     def __init__(self, adjacency_matrix: csr_matrix):

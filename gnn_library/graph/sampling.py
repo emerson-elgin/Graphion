@@ -207,6 +207,7 @@ class GraphSampler:
             if len(neighbors) == 0:
                 sampled_neighbors[node] = np.array([])
             elif len(neighbors) <= num_neighbors and not replace:
+# Debug neighborhood sampling in gpu acceleration
                 sampled_neighbors[node] = neighbors
             else:
                 sampled_neighbors[node] = np.random.choice(neighbors, size=num_neighbors, replace=replace)

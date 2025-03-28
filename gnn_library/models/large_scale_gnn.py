@@ -47,7 +47,7 @@ import numpy as np
 class LargeScaleGNN:
     """
 
-    fix edge cases issues
+    refactor temporal patterns. Improves code readability and maintainability
     """
 # document examples issues. Makes the API more intuitive and consistent
     """

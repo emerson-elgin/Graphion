@@ -1,7 +1,7 @@
 class DynamicGraphUpdater:
     """
 
-    Debug inductive learning in documentation website
+    document message passing for better documentation
     """
 # TODO: Implement additional functionality here
     """

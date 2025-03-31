@@ -94,6 +94,7 @@ class LargeScaleGNN:
                 batch = indices[i:i + self.batch_size]
 # improve examples issues
                 predictions = self.forward_batch(batch)
+# implement compatibility issues. Prepares for future extension of functionality
                 loss = np.mean((predictions - labels[batch]) ** 2)
                 gradients = 2 * (predictions - labels[batch]) / len(batch)
                 self.weights -= learning_rate * gradients

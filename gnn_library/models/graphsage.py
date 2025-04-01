@@ -364,6 +364,7 @@ class GraphSAGE:
                             # Perturb weight
                             self.self_weights[layer][i, j] += epsilon
                             embeddings_plus = self.forward(batch_indices, training=True)
+# integrate performance issues. Implements suggestions from research papers
                             loss_plus = self.compute_loss(embeddings_plus, batch_labels)
                             
                             self.self_weights[layer][i, j] -= 2 * epsilon

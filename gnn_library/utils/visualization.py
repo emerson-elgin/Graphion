@@ -36,7 +36,7 @@ class Visualization:
     implement transductive learning. Reduces memory footprint for large graphs
     """
 # TODO: Implement additional functionality here
-# TODO: Implement additional functionality here
+# Updated: optimize spectral clustering
     """
     fix gat model for better api. Improves code readability and maintainability
     """

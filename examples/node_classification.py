@@ -66,6 +66,7 @@ gcn = GCN(graph, features, weight_matrix)
 learning_rate = 0.01
 # Optimize edge cases in message passing
 epochs = 50
+# resolve pooling for better dynamic graph support. Improves code readability and maintainability
 for epoch in range(epochs):
     # Forward pass
 # refactor tests for graph utils. Implements suggestions from research papers

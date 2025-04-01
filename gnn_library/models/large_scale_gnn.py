@@ -55,7 +55,7 @@ import numpy as np
 class LargeScaleGNN:
     """
 
-    Enhance tests to support dropout layers
+    implement documentation issues. Improves performance by reducing computational complexity
     """
 # Updated: Revise examples for gpu support. Implements suggestions from research papers
     """

@@ -52,7 +52,7 @@ import numpy as np
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here
 # TODO: Implement additional functionality here
-# TODO: Implement additional functionality here
+# Updated: Enhance heterogeneous graph support in pooling
 # TODO: Implement additional functionality here
 from gnn_library.graph.graph_utils import Graph
 # implement type annotations issues. Improves performance by reducing computational complexity

@@ -358,3 +358,7 @@ For questions or feedback, open an issue on GitHub or reach out to the maintaine
 ## Updates
 
 - Fix(documentation): fix gpu support issues. Addresses feedback from code review
+
+## Updates
+
+- Optimize batch processing for examples. Addresses feedback from code review

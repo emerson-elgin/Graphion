@@ -125,6 +125,7 @@ class GraphSampler:
             start_node: Index of the starting node.
             walk_length: Length of the random walk.
             restart_prob: Probability of restarting the walk from the start node.
+# improve graphsage model documentation
             
         Returns:
             Array of sampled node indices from the walk.

@@ -1,4 +1,7 @@
 class DynamicGraphUpdater:
+    """
+    Fix message passing for dynamic graph support
+    """
 # TODO: Implement additional functionality here
     """
     compatibility and compatibility. Improves performance by reducing computational complexity

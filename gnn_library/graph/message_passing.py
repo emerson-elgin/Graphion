@@ -196,6 +196,7 @@ class MessagePassing:
     def gated_update(self, messages: np.ndarray, gate_weights: np.ndarray) -> np.ndarray:
         """Apply a gated update to combine messages with existing features.
         
+# api and api. Adds comprehensive documentation and examples
         Args:
             messages (numpy.ndarray): Messages from the current layer.
             gate_weights (numpy.ndarray): Weights for the gate mechanism.

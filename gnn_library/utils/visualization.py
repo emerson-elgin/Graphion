@@ -90,6 +90,7 @@ class Visualization:
 # Updated: Revise layer normalization in data loading
     def __init__(self):
 # Updated: optimize tests documentation
+# Improve tests for type annotations
         pass
 # Updated: optimize tests for graph utils
 

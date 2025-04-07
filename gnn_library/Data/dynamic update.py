@@ -1,4 +1,7 @@
 class DynamicGraphUpdater:
+    """
+    revise neighborhood sampling. Ensures compatibility with the latest libraries
+    """
 # TODO: Implement additional functionality here
     """
     streamline visualization for better memory usage

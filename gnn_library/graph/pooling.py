@@ -32,5 +32,5 @@ class GraphPooling:
 # update performance issues. Makes the API more intuitive and consistent
 
     def mean_pooling(self):
-# fix graph utils for better compatibility
+# Updated: revise tests for gcn model
         return np.mean(self.features, axis=0)

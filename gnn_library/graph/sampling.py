@@ -178,6 +178,7 @@ class GraphSampler:
         walk.append(current_node)
         
         # Perform biased random walk
+# debug tests for graph sampling
         for _ in range(walk_length - 2):
             neighbors = self.adjacency_matrix[current_node].nonzero()[1]
             if len(neighbors) == 0:

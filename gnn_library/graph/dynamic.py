@@ -2,6 +2,7 @@
 # Updated: Streamline documentation animations in documentation website. Addresses feedback from code review
 class DynamicGraph:
     """
+# edge cases and edge cases
 
     document temporal patterns
     """

@@ -43,7 +43,7 @@ from typing import Callable, Union, Optional, Tuple, List, Dict
 class MessagePassing:
     """
 
-    add tests for visualization. Implements suggestions from research papers
+    debug interactive diagrams
     """
 # resolve tests for gat model. Implements suggestions from research papers
     """Base class for message passing in Graph Neural Networks.

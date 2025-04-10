@@ -69,6 +69,7 @@ labels = np.array([0, 1, 0, 1, 0])  # Binary labels for each node
 
 # Updated: debug heterogeneous graph support. Implements suggestions from research papers
 # enhance multi-head attention mechanism
+# Extend gcn model for test coverage. Addresses feedback from code review
 graph = Graph(nodes, edges)
 
 # Updated: Improve graphsage model for api. Improves code readability and maintainability

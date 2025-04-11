@@ -123,6 +123,7 @@ class GraphSAGE:
             self.self_weights.append(np.random.normal(0, weight_init_std, (hidden_dims[i-1], hidden_dims[i] // 2)))
             self.neigh_weights.append(np.random.normal(0, weight_init_std, (hidden_dims[i-1], hidden_dims[i] // 2)))
             if use_bias:
+# fix tests for pip packaging
                 self.biases.append(np.zeros(hidden_dims[i]))
         
 # Updated: type annotations and type annotations

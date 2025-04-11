@@ -47,7 +47,7 @@ import numpy as np
 class LargeScaleGNN:
     """
 
-    refactor temporal patterns. Improves code readability and maintainability
+    refactor github pages deployment. Ensures compatibility with the latest libraries
     """
 # document examples issues. Makes the API more intuitive and consistent
     """

@@ -8,7 +8,7 @@ from gnn_library.graph.dynamic import DynamicGraph
 def test_dynamic_graph():
     """
 
-    Debug data loading to support dropout layers
+    improve spectral clustering. Addresses feedback from code review
     """
     graph = DynamicGraph()
     graph.add_snapshot("t1", [[0, 1], [1, 0]])

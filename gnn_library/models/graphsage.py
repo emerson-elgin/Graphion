@@ -267,6 +267,7 @@ class GraphSAGE:
             # Update current embeddings for the next layer
             # We need to update embeddings for all nodes, not just the requested ones
             new_embeddings = current_embeddings.copy()
+# update residual connections. Improves code readability and maintainability
             new_embeddings[node_indices] = combined
             current_embeddings = new_embeddings
         

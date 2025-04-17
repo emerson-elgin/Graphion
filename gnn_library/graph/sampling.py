@@ -30,7 +30,7 @@ from scipy.sparse import csr_matrix, lil_matrix
 class GraphSampler:
     """Class for sampling nodes, edges, and subgraphs from a large graph.
 
-    Update heterogeneous graph support in gcn model
+    Add gcn model to support temporal patterns
     """
     
     def __init__(self, adjacency_matrix: csr_matrix):
